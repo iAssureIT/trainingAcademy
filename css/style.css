@@ -109,6 +109,16 @@ a:focus {
 /*---------------------
   Helper CSS
 -----------------------*/
+.info{
+	margin-top: 60px;
+}
+.info p{
+	font-family: arial;
+	color: #fff;
+	font-weight: normal;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
 
 .section-title {
 	text-align: center;
@@ -314,12 +324,13 @@ a:focus {
 ---------------------*/
 
 .hero-section {
-	height: 948px;
+	height: 666px;
+	/*background-image: url("https://youtu.be/r_tPoyJCyuE");*/
 }
 
 .hero-text {
 	text-align: center;
-	padding-top: 340px;
+	padding-top: 210px;
 	margin-bottom: 105px;
 }
 
@@ -362,7 +373,7 @@ a:focus {
 
 .categorie-item .ci-thumb {
 	background-size: cover;
-	height: 148px;
+	height: 240px;
 	-webkit-transition: all 0.2s;
 	-o-transition: all 0.2s;
 	transition: all 0.2s;
@@ -504,6 +515,10 @@ a:focus {
 
 .course-item .course-info {
 	background: #edf4f6;
+}
+
+.course-text p{
+	font-size: 15px;
 }
 
 .course-item .course-info .course-text {
@@ -725,7 +740,7 @@ a:focus {
 }
 
 .widget-item {
-	width: 20%;
+	width: 33%;
 	padding: 0 15px;
 }
 
