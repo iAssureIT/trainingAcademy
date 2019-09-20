@@ -106,6 +106,9 @@ a:focus {
 	margin: 0;
 }
 */
+.nopadd{
+	padding: 0px;
+}
 /*---------------------
   Helper CSS
 -----------------------*/
@@ -275,71 +278,101 @@ a:focus {
 /*------------------
   Header section
 ---------------------*/
-
-.header-section {
-	position: absolute;
-	width: 100%;
-	top: 0;
-	left: 0;
-	padding-top: 60px;
+.header-section{
+	padding-top: 0px !important;
 }
-
-.site-logo {
-	display: inline-block;
-	width:60%;
-}
-
-.main-menu ul {
-	list-style: none;
-}
-
-.main-menu ul li {
-	display: inline;
-}
-
-.main-menu ul li a {
-	display: inline-block;
-	font-size: 16px;
+.navAdd{
+	padding: 0px;
+	height: 35px;
+	padding-top:5px;
+	padding-bottom: 5px;
+	background-color: #010b23;
 	color: #fff;
-	margin-left: 45px;
-	font-weight: 600;
-	padding: 20px 0 5px;
+	
 }
+.navAdd ul{
+	list-style: none;
 
-.main-menu ul li a:hover {
-	color: #d82a4e;
 }
-
-.header-btn {
-	float: right;
-	margin-right: 0;
+.navm{
+	/*background-color: #fff;*/
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #333;
 }
-
-.nav-switch {
-	display: none;
+.main-menu ul li a {
+    display: inline-block;
+    font-size: 16px;
+    color: #f1f1f1;
+    margin-left: 45px;
+    font-weight: 600;
+    padding: 20px 0 5px;
 }
-
+.mr25{
+	margin-right: 25px;
+}
 /*------------------
   Hero Section
 ---------------------*/
+.col1{
+	/*border: 1px solid #333;*/
+	box-shadow: 0px 0px 10px 0px;
+	text-align: left;
+	
 
+}
+.col1 p{
+	line-height: 1.65 !important;
+}
 .hero-section {
 	height: 666px;
 	/*background-image: url("https://youtu.be/r_tPoyJCyuE");*/
 }
+.b1{
+	height: 200px;
+	background-color: #00ccff;
+	color: #fff !important;
+}
+.b1 p{
+	color: #fff !important;
+	line-height: 1.65;
+	padding: 25px;
+	text-align: left;
+}
+.b2 p{
+	color: #fff !important;
+	line-height: 1.65;
+	padding: 25px;
+	text-align: left;
+}
+.b2{
+	height: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #fff !important;
 
+	background-color: #8068ce;
+}
+.stitle{
+	margin: 25px;
+}
 .hero-text {
-	text-align: center;
-	padding-top: 210px;
+	/*text-align: center;*/
+	padding-top: 150px;
+	margin-bottom: 105px;
+}
+.hero-text1 {
+	/*text-align: center;*/
+	padding-top: 275px;
 	margin-bottom: 105px;
 }
 
 .hero-text h2 {
-	font-size: 60px;
+	font-size: 55px;
 	font-weight: 500;
+	margin-top: 15px;
 	margin-bottom: 20px;
 }
-
 .intro-newslatter input[type=text],
 .intro-newslatter input[type=email] {
 	height: 53px;
@@ -350,11 +383,9 @@ a:focus {
 	border: none;
 	font-size: 14px;
 }
-
 .intro-newslatter .site-btn {
 	min-width: 214px;
 }
-
 /*------------------
   Categories section
 ---------------------*/
@@ -402,13 +433,34 @@ a:focus {
 .categorie-item:hover .ci-text span {
 	color: #fff;
 }
-
+.wfd{
+	height: 250px;
+}
 /*------------------
   Search section
 ---------------------*/
-
+.bgfix1{
+	background-image: url("/img/bg11.jpg")!important;
+	background-attachment: fixed !important;
+	height: 310px;
+}
+.bgfix2{
+	background-image: url("/img/bg12.jpg")!important;
+	background-attachment: fixed !important;
+	background-repeat: no-repeat !important;
+	background-size: 100% 100% !important;
+}
+/*.bgfix3{
+	background-image: url("/img/bg11.jpg")!important;
+	background-attachment: fixed !important;
+}*/
+.bgfix3{
+	background-image: url("/img/bg3.jpg")!important;
+	background-attachment: fixed !important;
+}
 .search-warp {
 	background: #1b8ec8;
+
 	padding-top: 60px;
 	padding-bottom: 50px;
 }

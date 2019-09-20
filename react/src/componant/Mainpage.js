@@ -23,42 +23,62 @@ export default class Mainpage extends React.Component {
 
 	{/*<!-- Header section -->*/}
 	<header className="header-section">
-		<div className="container">
-			<div className="row">
+		<div className="container-flouid">
+			<div className="col-lg-12 col-md-12 navAdd">
+					<ul>
+						<li className="pull-left"><a>Phone: +91 90220 38960 </a></li>
+						<li className="pull-right mr25"><a>Email: iassure.academy@gmail.com</a></li>
+					</ul>
+			</div>
+			<div className="col-lg-12 navm">
 				<div className="col-lg-3 col-md-3">
 					<div className="site-logo">
-						<img src="https://iassureit-website.s3.ap-south-1.amazonaws.com/trainingAcademy/Advanced-Technologies-Training-Academy.png" alt="iAssure Advanced Technologies Academy"/>
+						<img src="/img/logowhite.png" alt="iAssure Advanced Technologies Academy"/>
 					</div>
 					<div className="nav-switch">
 						<i className="fa fa-bars"></i>
 					</div>
 				</div>
-				<div className="col-lg-6 col-md-6 pull-right">
-					{/*<!-- <a href="" className="site-btn header-btn">Login</a> -->*/}					<nav className="main-menu">
+				<div className="col-lg-3 col-md-3 pull-right">
+					<nav className="main-menu">
 						<ul>
-							<li><a href="/">		Home			</a></li>
-							
-							<li><a href="/contactus">	Contact		</a></li>
+							<li><a href="/">Home</a></li>
+							<li><a href="/contactus">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
 			</div>
 		</div>
+		{/*<div className="navbarMenu">
+		  <div className="container-fluid">
+		  	<div className="col-lg-12">
+			    <div className=" col-lg-4">
+					<img className="pull-left" src="https://iassureit-website.s3.ap-south-1.amazonaws.com/trainingAcademy/Advanced-Technologies-Training-Academy.png" alt="iAssure Advanced Technologies Academy"/>
+			    </div>
+			    <div className="col-lg-8">
+			    	<div className="col-lg-4"> aaaa </div>
+			    	<div className="col-lg-4"> bbbb </div>	
+			   
+			    </div>
+		  	</div>
+		  </div>
+		</div>*/}
 	</header>
 	{/*<!-- Header section end -->*/}
 
 
 	{/*<!-- Hero section -->*/}
-	<section className="hero-section set-bg" style={{backgroundImage:"url('https://iassureit-website.s3.ap-south-1.amazonaws.com/trainingAcademy/bg3.jpg')"}}>
+	<section className="hero-section set-bg" style={{backgroundImage:"url('/img/36.jpg')"}}>{/*https://iassureit-website.s3.ap-south-1.amazonaws.com/trainingAcademy/bg3.jpg*/}
 		<div className="container">
-			<div className="info pull-right"> 
-				<p> Phone: +91 90220 38960 </p>
-				<p> Email: iassure.academy@gmail.com </p>
+			<div className="hero-text1 text-white col-lg-6 pull-left">
+				<h1 style={{fontFamily: "'Lobster Two', cursive"}}>Super-30</h1>
+				
+				
 			</div>
-			<div className="hero-text text-white">
-				<h1>Super-30</h1>
-				<h2>Fullstack Developer Training Program</h2>
-				<p>This is India's one of the most beautifully crafted Fullstack developer training program. This course is created as per the IT Industry's current requirement & hottest Technologies. This course surely makes you a super expert in Web & Mobile App Development Technologies. </p>
+			<div className="hero-text text-white col-lg-6 pull-right">
+				
+				<h2 style={{fontFamily: "'Abril Fatface', cursive"}}>Fullstack Developer Training Program</h2>
+				<p style={{textAlign:"left"}}>This is India's one of the most beautifully crafted Fullstack developer training program. This course is created as per the IT Industry's current requirement & hottest Technologies. This course surely makes you a super expert in Web & Mobile App Development Technologies. </p>
 			</div>
 {/*<!-- 			<div className="row">
 				<div className="col-lg-10 offset-lg-1">
@@ -76,33 +96,53 @@ export default class Mainpage extends React.Component {
 
 
 	{/*<!-- categories section -->*/}
-	<section className="categories-section spad">
-		<div className="container">
-			<div className="section-title">
-				<h2>Are you looking for a Job in IT Industry?</h2>
-				<p>IT Industry is changing rapidly with the introduction of new cutting edge technologies every year. Students are not equipped with these changes as expected in IT Industry. That is one of the major reason why students remain jobless for longtime. Moreover, the supply of IT engineers is 10 times more than the demand in IT Industry. Hence IT Companies are becoming very selective in their approach during recruitment. Only highly skilled students are entering the IT Industry.</p>
-					<br/>
-				<p>Most of the students are wasting their hard-earned money and valuable time after graduation, in learning some old technologies which are no more in demand in market. Now the time has come to be very selective in what kind of training program you are joining. Invest your valuable time, money & energy in something more appropriate IT Training Course, that makes you not only expert but also to get you a fantastic job!
-				</p>
+	<section className="categories-section" >
+		<div className="container-fluid nopadd">
+			<div className="stitle">
+				<h2 className="cstitle">Are you looking for a Job in IT Industry?</h2>
+			</div>
+			<div className="col-lg-10 col-lg-offset-1 nopadd b1">
+					<div className="col-lg-3" style={{backgroundImage:"url('/img/bg1.jpg')",height:"100%",backgroundSize:"100% 100%"}}>
+					</div>
+					<div className="col-lg-9">
+						<p >IT Industry is changing rapidly with the introduction of new cutting edge technologies every year. Students are not equipped with these changes as expected in IT Industry. That is one of the major reason why students remain jobless for longtime. Moreover, the supply of IT engineers is 10 times more than the demand in IT Industry. Hence IT Companies are becoming very selective in their approach during recruitment. Only highly skilled students are entering the IT Industry.</p>	
+					</div>		
+			</div>
+			<div className="col-lg-10 col-lg-offset-1 nopadd b2">
+					<div className="col-lg-9">
+						<p>Most of the students are wasting their hard-earned money and valuable time after graduation, in learning some old technologies which are no more in demand in market. Now the time has come to be very selective in what kind of training program you are joining. Invest your valuable time, money & energy in something more appropriate IT Training Course, that makes you not only expert but also to get you a fantastic job!
+					</p>
+					</div>	
+					<div className="col-lg-3" style={{backgroundImage:"url('/img/bg21.jpg')",height:"100%",backgroundSize:"100% 100%"}}>
+					</div>	
 			</div>
 		</div>
 	</section>
-
+{/*
+<div className="col-lg-6">
+					<p>IT Industry is changing rapidly with the introduction of new cutting edge technologies every year. Students are not equipped with these changes as expected in IT Industry. That is one of the major reason why students remain jobless for longtime. Moreover, the supply of IT engineers is 10 times more than the demand in IT Industry. Hence IT Companies are becoming very selective in their approach during recruitment. Only highly skilled students are entering the IT Industry.</p>
+					<br/>
+				</div>
+				<div className="col-lg-6">
+					<p>Most of the students are wasting their hard-earned money and valuable time after graduation, in learning some old technologies which are no more in demand in market. Now the time has come to be very selective in what kind of training program you are joining. Invest your valuable time, money & energy in something more appropriate IT Training Course, that makes you not only expert but also to get you a fantastic job!
+					</p>
+				</div>
+*/}
 
 	{/*<!-- search section -->*/}
 	<section className="search-section">
-		<div className="row">
-			<div className="container-fluid">
-				<div className="search-warp">
+		<div className="wfd">
+			<div className="container-fluid nopadd">
+				<div className="search-warp bgfix1">
 			
 					<div className="section-title text-white">
 						<h2>Who is a Fullstack Developer?</h2>
-					</div>
-					<div className="row">
-						<div className="col-md-10 offset-md-1">					
+						<div className="col-md-10 col-lg-10  col-md-offset-1 col-lg-offset-1">					
 							<p><b> A FullStack Developer </b> is the one who has expertise in Web UI/UX Technologies, Frontend Frameworks, Backend Programming Languages & Database Technologies. One Fullstack developer is capable of executing the tasks of fronend developer & backend developer. Fullstack developer has tremendous demand in IT Industry.</p>
 						</div>
 					</div>
+					
+					
 			
 				</div>
 			</div>
@@ -112,7 +152,7 @@ export default class Mainpage extends React.Component {
 
 
 
-	<section className="categories-section spad">
+	<section className="categories-section spad" >
 		<div className="container">
 			<div className="section-title">
 				<h1>SUPER-30</h1>
@@ -178,7 +218,7 @@ export default class Mainpage extends React.Component {
 									your course fees would be free.After 10 students referral,
 									you will start earning 10% amount on each enrollment.</p> 
 								</li>
-								<br/>
+								{/*<br/>*/}
 								<li> 
 									<p>Heavy Discount</p> 
 									<p style={{fontSize:"16px",color:"#333"}}> of upto 40% if you enroll for all courses.</p>
@@ -197,8 +237,6 @@ export default class Mainpage extends React.Component {
 		</div>
 	</section>
 	{/*<!-- search section end -->*/}
-
-
 
 	<section className="categories-section spad">
 		<div className="row">
@@ -261,12 +299,11 @@ export default class Mainpage extends React.Component {
 	</section>
 	{/*<!-- categories section end -->*/}
 
-
 	{/*<!-- search section -->*/}
 	<section className="search-section">
 		<div className="row">
 			<div className="container-fluid">
-				<div className="search-warp">
+				<div className="search-warp bgfix2">
 					<div className="section-title text-white">
 						<h2>Learn from Highly Experienced IITian</h2>
 					</div>
@@ -285,7 +322,6 @@ export default class Mainpage extends React.Component {
 	</section>
 	{/*<!-- search section end -->*/}
 
-
 	{/*<!-- course section -->*/}
 	<section className="course-section spad">
 		<div className="container">
@@ -303,9 +339,6 @@ export default class Mainpage extends React.Component {
 				<li className="control" data-filter="mobile">Mobile App Development</li>
 			</ul>                                       
 			<div className="row course-items-area">
-
-
-
 				{/*<!-- course -->*/}
 				<div className="mix col-lg-3 col-md-4 col-sm-6 frontend">
 					<div className="course-item">
@@ -362,10 +395,6 @@ export default class Mainpage extends React.Component {
 						</div>
 					</div>
 				</div>
-
-
-
-
 				{/*<!-- course -->*/}
 				<div className="mix col-lg-3 col-md-4 col-sm-6 backend">
 					<div className="course-item">
@@ -422,9 +451,6 @@ export default class Mainpage extends React.Component {
 						</div>
 					</div>
 				</div>
-
-
-
 				{/*<!-- course -->*/}
 				<div className="mix col-lg-3 col-md-4 col-sm-6 mobile">
 					<div className="course-item">
@@ -467,11 +493,6 @@ export default class Mainpage extends React.Component {
 						</div>
 					</div>
 				</div>
-
-
-
-
-
 				{/*<!-- course -->*/}
 				<div className="mix col-lg-3 col-md-4 col-sm-6 web">
 					<div className="course-item">
@@ -647,8 +668,6 @@ export default class Mainpage extends React.Component {
 		</div>
 	</section>
 	{/*<!-- course section end -->*/}
-
-
 	{/*<!-- signup section -->*/}
 {/*<!-- 	<section className="signup-section spad">
 		<div className="signup-bg set-bg" data-setbg="https://iassureit-website.s3.ap-south-1.amazonaws.com/trainingAcademy/Super30-Fullstack-Training.jpeg"></div>
@@ -673,12 +692,10 @@ export default class Mainpage extends React.Component {
 		</div>
 	</section> -->*/}
 	{/*<!-- signup section end -->*/}
-
-
 	<section className="search-section">
 		<div className="row">
 			<div className="container-fluid">
-				<div className="search-warp">
+				<div className="search-warp bgfix3">
 					<div className="section-title text-white">
 						<h2>Visit Us Today</h2>
 					</div>
@@ -722,9 +739,6 @@ export default class Mainpage extends React.Component {
 			</div>
 		</div>
 	</section>
-
-
-
 	{/*<!-- footer section -->*/}
 	<footer className="footer-section spad pb-0">
 		<div className="footer-top">
@@ -769,10 +783,6 @@ export default class Mainpage extends React.Component {
 			</div>
 		</div>
 	</footer> 
-				
-
-
-
 			</div>
 		);
 	}
