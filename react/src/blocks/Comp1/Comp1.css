@@ -1,0 +1,137 @@
+.c1box1{
+	height: 680px;
+	padding: 50px 30px 0px 30px;
+}
+
+.part1box1{
+	height: 680px;
+	/*background-color: #efefef;*/
+}
+.nopadding{
+	padding: 0px;
+}
+
+.text1para1{
+	padding: 150px 15px 0px 30px;
+	
+
+}
+.txt1c{
+	color: #7c7c7c;
+    line-height: 1.625;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: none;
+    margin: 0 0 5px 0;
+    text-align: left;
+}
+.txt2c{
+	color: #292929;
+    line-height: 1.25;
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: none;
+    margin: 0 0 15px 0;
+
+}
+.linectxt{
+	height: 2px;
+    width: 87px;
+    background-color: #e1e1e1;
+    margin: 0 0 20px -20px;
+
+
+}
+.cmpbtn{
+	height: 50px;
+	background-color:#4e58b2;
+	width: 167px;
+	text-align: center;
+	border: 1px solid #fff;
+	/*margin-left: 50px;*/
+	margin-top: 50px;
+	border-radius: 30px;
+	line-height: 48px;
+    letter-spacing: 0px;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFF;
+    cursor: pointer;
+}
+.cmpbtn:hover{
+	background-color: #353e92;
+}
+
+.bboxc1wrap{
+	height: 290px;
+	width: 247px;
+	border-radius: 10px;
+	margin: 0px 0px 40px 30px;
+	cursor: pointer;
+	background-image: url("/img/block1.jpg");
+	background-size: 100% 100%;
+}
+.bboxc1:hover{
+	background: #4e58b2bd !important;
+	/*transition: 1.25s cubic-bezier(0.76, 0.03, 0.28, 0.98);*/
+}
+
+.bboxc1{
+	height: 290px;
+	width: 247px;
+	border-radius: 10px;
+	cursor: pointer;
+	margin: 10px 0px 10px 0px;
+	background: linear-gradient(to right, #283593, #303c9c, #3744a5, #3e4bae, #4553b7);;
+}
+.contentbboxc1{
+	color: #fff !important;
+	padding: 40px;
+	font-size: 16px;
+	text-align: justify-all;
+	padding-top: 90px;
+}
+.titlebboxc1{
+	text-align: center;
+	margin: 0px 0px 8px 0px;
+}
+
+/*==========================*/
+.mtop50{
+	/*position: relative;
+	top: 50px;*/
+	padding-top: 50px;
+}
+.bboxc2wrap{
+	height: 290px;
+	width: 247px;
+	border-radius: 10px;
+	margin: 0px 0px 40px 0px;
+	cursor: pointer;
+	background-image: url("/img/block1.jpg");
+	background-size: 100% 100%;
+}
+.bboxc2:hover{
+	background: #f6b43c73 !important;
+	/*transition: 1.25s cubic-bezier(0.76, 0.03, 0.28, 0.98);*/
+}
+
+.bboxc2{
+	height: 290px;
+	width: 247px;
+	border-radius: 10px;
+	cursor: pointer;
+	margin: 10px 0px 10px 0px;
+	background: #376bff;
+}
+.contentbboxc1{
+	color: #fff !important;
+	padding: 40px;
+	font-size: 16px;
+	text-align: justify-all;
+	padding-top: 90px;
+}
+.titlebboxc1{
+	text-align: center;
+	margin: 0px 0px 8px 0px;
+}
