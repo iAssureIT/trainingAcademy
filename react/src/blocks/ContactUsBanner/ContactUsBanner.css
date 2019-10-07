@@ -1,0 +1,16 @@
+.ContactUsBannerWrap{
+	height: 350px;
+	background-image: url("/img/test-header-image-3.jpg");
+
+}
+.ContactUsBannerBox{
+	background-color: #252424ad;
+	height: 350px;
+}
+.cusbannertxt{
+	font-size: 50px;
+    color: #fff;
+    padding-top: 15%;
+    text-align: center;
+    font-weight: 600;
+}

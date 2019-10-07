@@ -1,0 +1,28 @@
+.ContactAddressWrap{
+	/*background-color: #999;*/
+	height: 400px;
+}
+.Addheadingtxt{
+	color: #292929;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px 0px 15px 0px;
+    text-align: center !important;
+}
+.cuAddbox1{
+	padding-bottom: 20px;
+	padding-top: 80px;
+}
+.ml45{
+	margin-left: 45%;
+}
+.rightborder{
+	border-right: 1px solid #ccc;
+	height: 260px;
+}
+.cuAddbox1 p {
+    font-size: 18px;
+    color: #878787;
+    line-height: 1.6;
+    font-weight: 500;
+}
