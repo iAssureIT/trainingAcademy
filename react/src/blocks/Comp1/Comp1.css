@@ -1,6 +1,6 @@
 .c1box1{
-	height: 680px;
-	padding: 50px 30px 0px 30px;
+	height: 845px;
+    padding: 50px 15px 0px 15px;
 }
 
 .part1box1{
@@ -12,9 +12,15 @@
 }
 
 .text1para1{
-	padding: 150px 15px 0px 30px;
+	padding: 30px 15px 0px 30px;
 	
 
+}
+.text1para1 p{
+    font-size: 18px;
+    color: #878787;
+    line-height: 1.85;
+    font-weight: 500;
 }
 .txt1c{
 	color: #7c7c7c;
@@ -28,7 +34,7 @@
 .txt2c{
 	color: #292929;
     line-height: 1.25;
-    font-size: 35px;
+    font-size: 31px;
     font-weight: 400;
     text-transform: none;
     margin: 0 0 15px 0;

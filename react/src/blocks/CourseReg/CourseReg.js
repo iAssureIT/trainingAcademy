@@ -19,8 +19,9 @@ class CourseReg extends Component {
         						</div>
         					</div>
         					<div className="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-        						<div className="getSBtn col-lg-5">Get Started</div>
-        						<div className="getSBtn1 col-lg-5 col-lg-offset-1">Sign up</div>
+        						{/*<div className="getSBtn col-lg-5">Get Started</div>*/}
+                                <a href="/contactuspage">
+        						<div className="getSBtn1 col-lg-5 col-lg-offset-5">Contact Us</div></a>
         					</div>
         				</div>
         			</div>

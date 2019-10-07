@@ -37,7 +37,7 @@
     height: auto;
 }
 .sftext1para1{
-    padding: 150px 15px 0px 30px;
+    padding: 75px 15px 0px 30px;
     height: 550px;
 
 }
@@ -68,7 +68,7 @@
   cursor: pointer;
 }
 
-.text {
+.textspf {
   color: white;
   font-size: 20px;
   position: absolute;
@@ -102,7 +102,7 @@
     height: auto;
 }
 .sftext1para2{
-    padding: 150px 15px 0px 30px;
+    padding: 75px 15px 0px 30px;
     height: 550px;
     text-align: right;
 

@@ -41,11 +41,13 @@ class HomeCarousal extends Component {
 										  <div> Your Content </div>
 										  <div> Your Content </div>
 										</div>*/}
-										{/*<div className="txt2c">Start Investing in You</div>*/}
-										<p>High is a nationally recognized K-12 independent school situatedin
-												the hills of Oakland, California. Our mission is to inspire a
-												 maplifelonglove of learning with a focus on scholarship. For 
-												 23 years of existence,Ed hasmore.
+										<div className="txt2c">Learn from Highly Experienced IITian</div>
+										<p>If you learn from an average trainer, you become average developer. 
+										If you want to become an expert developer, learn the things from highly 
+										experienced and expert trainer or coach.<br/>You will learn all these 
+										20 technologies from the IT industry’s one of the most experienced 
+										Technology Guru Mr Ashish Naik, who is an expert of more than 60 
+										different technologies.<br/>
 										</p>
 									</div>
 								</div>

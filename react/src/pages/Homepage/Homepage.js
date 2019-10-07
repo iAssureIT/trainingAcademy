@@ -9,6 +9,7 @@ import HomeCarousal      	from "../../blocks/HomeCarousal/HomeCarousal.js";
 import CourseReg      		from "../../blocks/CourseReg/CourseReg.js";
 
 import Footer      			from "../../blocks/Footer/Footer.js";
+import Header      			from "../../blocks/Header/Header.js";
 
 
 
@@ -22,13 +23,14 @@ export default class Homepage extends React.Component {
 	render() {
 		return (
           	<div className="container-fluid" style={{padding:"0px"}}>
+          		<Header/>
 				<HomepageBanner/>
 				<Comp1/>
 				<Comp2/>
 				<OurCources/>
 				<SpacialFeatures/>
 				<HomeCarousal/>
-				<CourseReg/>
+				{/*<CourseReg/>*/}
 				<Footer/>
 
 

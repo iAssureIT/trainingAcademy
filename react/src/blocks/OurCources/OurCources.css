@@ -1,5 +1,5 @@
-.mtop25{
-	margin-top: 25px;
+.mtop65{
+	margin-top: 65px;
 }
 .ocTitle{
 	color: #292929;
@@ -104,7 +104,7 @@
 	background-color: #fff;
 	line-height: 1;
 	overflow: hidden;
-	box-shadow: 2px 2px 15px 10px #ccc;
+	box-shadow: 2px 2px 12px 5px #ccc;
 }
 .p10{
 	padding-left:  25px;
@@ -198,4 +198,19 @@
 }
 .occmpbtn:hover{
 	background-color: #353e92;
+}
+.octext1para1{
+	padding: 30px 15px 0px 30px;
+    /*height: 550px;*/
+    text-align: left;
+}
+.ocb1Img{
+	height: 300px;
+    margin-top: 20%;
+}
+.octext1para1 p{
+	font-size: 18px;
+    color: #878787;
+    line-height: 1.85;
+    font-weight: 500;
 }

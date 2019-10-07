@@ -772,12 +772,12 @@ export default class Mainpage extends React.Component {
 		</div>
 		<div className="footer-bottom">
 			<div className="footer-warp">
-{/*<!-- 				<ul className="footer-menu">
+				<ul className="footer-menu">
 					<li><a href="#">Terms & Conditions</a></li>
 					<li><a href="#">Register</a></li>
 					<li><a href="#">Privacy</a></li>
 				</ul>
- -->*/}				<div className="copyright">
+ 			<div className="copyright">
 					Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved.
 				</div>
 			</div>

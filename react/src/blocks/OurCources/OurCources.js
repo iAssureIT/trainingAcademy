@@ -48,12 +48,37 @@ export default class OurCources extends React.Component {
 		return (
 			<div>
 				<div className="col-lg-12">
-					<div className="mtop25">
+					<div className="mtop65">
 						<div className="col-lg-12">
 							<div className="text-center">
-								<div>ALL IVY SCHOOL, ALL THE TIME</div>
-								<div className="ocTitle">What do you want to learn <br/>today?</div>
+								<div>SUPER-30</div>
+								<div className="ocTitle">FULLSTACK DEVELOPER PROGRAM</div>
 
+								<div className="col-lg-2 col-lg-offset-5 ">
+									<div className="col-lg-offset-3  col-lg-6 ocLine"></div>
+								</div>
+								<div className="col-lg-12 ">
+									<div className="col-lg-6">
+										<div className="spimg1">
+											<div className="spimg12 pull-right">
+												<img src="/img/ocb1.png" alt="img1" className="ocb1Img"/>
+												
+											</div>
+										</div>
+									</div>
+									<div className="col-lg-6">
+										<div className="octext1para1">
+											<div className="col-lg-12">
+												{/*<div className="txt2c">Start Investing in You</div>*/}
+												<p>This training program is definitely India’s the most in-depth and the only program which covers the hottest technologies of IT industry. This program is designed to make you 100% job ready as per IT Industry’s demand. So you get a handsome job instantly.
+													This Full-Stack Developer Training Program, is divided into 4 courses.
+													In all these 4 courses, you will learn more than 20 skills, which will make a truly a great Full-Stack developer. This course will make you super expert developer, even if you have not done any programming before. It means you can be from any Engineering branch or don't have any experience in computer programming, you can still become a super great developer.
+													Note : You will learn from ULTRA-BASICS to ULTRA-ADVANCED Web & Mobile app development.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
 								<div className="col-lg-2 col-lg-offset-5 ">
 									<div className="col-lg-offset-3  col-lg-6 ocLine"></div>
 								</div>

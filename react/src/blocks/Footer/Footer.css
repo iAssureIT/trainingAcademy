@@ -1,4 +1,138 @@
 .footerWrap{
-	height: 450px;
-	background-color: #eee;
+	height: 330px;
+	/*border-top: 3px solid #2222;*/
+	padding: 30px 80px;
+}
+.f1logo{
+	/*background-color: #ccc;*/
+	height: 300px;
+}
+
+.FooterMenu ul{
+	margin-top: 20px;
+	list-style: none;
+	
+}
+.f1logoImg{
+	height: 80px;
+    margin-top: 15px;
+    margin-left: 35px;
+}
+.menuF1{
+	padding: 5px;
+	margin: 0px 20px;
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+.fs26{
+	font-size: 26px !important;
+}
+
+.menuF2{
+	padding: 5px;
+	margin: 0px 20px;
+	font-size: 18px;
+	margin-bottom: 11px;
+}
+
+.menuF2 input{
+	border-width: 0px;
+	border-bottom-width: 2px !important;	
+    border-style: inset;
+    border-color: initial
+}
+
+
+.f1cmpbtn{
+	position: relative;
+	height: 50px;
+	background-color:#4e58b2;
+	width: 167px;
+	text-align: center;
+	border: 1px solid #fff;
+	
+	margin-top: 25px;
+	border-radius: 30px !important;
+	line-height: 48px;
+    letter-spacing: 0px;
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFF;
+    cursor: pointer;
+}
+.f1cmpbtn:hover{
+	background-color: #353e92;
+}
+
+.footer-bottom {
+	overflow: hidden;
+	background: #edf4f6;
+	padding: 20px 0px;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.footer-warp {
+	max-width: 1559px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.footer-menu {
+	list-style: none;
+	float: right;
+}
+
+.footer-menu li {
+	display: inline;
+}
+
+.footer-menu li:last-child a {
+	padding-right: 0;
+	margin-right: 0;
+}
+
+.footer-menu li:last-child a:after {
+	display: none;
+}
+
+.footer-menu li a {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 600;
+	color: #474747;
+	padding-right: 10px;
+	margin-right: 10px;
+	position: relative;
+}
+
+.footer-menu li a:after {
+	position: absolute;
+	content: "|";
+	right: 0;
+	top: 0;
+}
+
+.copyright {
+	padding-top: 3px;
+	float: left;
+	font-size: 14px;
+	font-weight: 600;
+	color: #474747;
+}
+
+
+.f1CourseRegBox{
+	padding: 0px !important;
+	
+	height: 155px;
+}
+
+.f1CourseRegBoxa{
+	/*background-color: #999;*/
+	background: -webkit-linear-gradient(left, #4e58b2, #727ac1);
+	height: 155px;
+	/*border-radius: 20px;*/
+	
+
 }
