@@ -5,7 +5,10 @@ import Comp2      			from "../../blocks/Comp2/Comp2.js";
 
 import OurCources      		from "../../blocks/OurCources/OurCources.js";
 import SpacialFeatures      from "../../blocks/SpacialFeatures/SpacialFeatures.js";
+import HomeCarousal      	from "../../blocks/HomeCarousal/HomeCarousal.js";
+import CourseReg      		from "../../blocks/CourseReg/CourseReg.js";
 
+import Footer      			from "../../blocks/Footer/Footer.js";
 
 
 
@@ -24,6 +27,10 @@ export default class Homepage extends React.Component {
 				<Comp2/>
 				<OurCources/>
 				<SpacialFeatures/>
+				<HomeCarousal/>
+				<CourseReg/>
+				<Footer/>
+
 
 			</div>
 		);

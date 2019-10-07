@@ -18,9 +18,9 @@ export default class TCroute extends React.Component {
 		return (
 			   <Router>
 			    	<Switch>
-			    		<Route path = "/" exact component = {Mainpage} />
+			    		<Route path = "/oldhomepage" exact component = {Mainpage} />
 			    		<Route path = "/contactus" exact component = {contactus} />
-			    		<Route path="/homepage"    exact strict component={Homepage}  />
+			    		<Route path="/"    exact strict component={Homepage}  />
 			    		
 			    	</Switch>
 			    </Router>
