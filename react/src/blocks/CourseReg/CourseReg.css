@@ -1,0 +1,57 @@
+.courseWrap{
+	height: 225px;
+	
+}
+.CourseRegBox{
+	padding: 10px 105px !important;
+	
+	height: 200px;
+}
+
+.CourseRegBoxa{
+	/*background-color: #999;*/
+	background: -webkit-linear-gradient(left, #4e58b2, #727ac1);
+	height: 155px;
+	border-radius: 20px;
+	
+
+}
+.cboxtxt{
+	padding: 60px 60px;
+	font-size: 22px;
+	color: #fff;
+}
+.getSBtn{
+	height: 50px;
+	width: 170px;
+	border-radius: 25px;
+	padding: 15px 45px;
+	background-color: #fff;
+	margin-top: 11%;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.getSBtn:hover{
+	cursor: pointer;
+	background-color: #f8c76d;
+	color: #fff;
+}
+
+.getSBtn1{
+	height: 50px;
+	width: 170px;
+	border-radius: 25px;
+	padding: 13px 56px;
+	border: 1px solid #fff;
+	/*background-color: #fff;*/
+	margin-top: 11%;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.getSBtn1:hover{
+	cursor: pointer;
+	background-color: #f8c76d;
+	color: #fff;
+}
