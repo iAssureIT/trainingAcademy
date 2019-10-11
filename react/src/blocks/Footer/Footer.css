@@ -136,3 +136,39 @@
 	
 
 }
+
+.f1CourseRegBoxaMobile{
+		    /* background-color: #999; */
+    background: -webkit-linear-gradient(left, #4e58b2, #727ac1);
+    height: 212px;
+    /* border-radius: 20px;*/
+}
+
+.nopadd{
+	padding: 0px !important;
+}
+.cboxtxtmobile{
+	padding: 20px 10px;
+	font-size: 22px;
+    color: #fff;
+}
+
+.getSBtn1mob{
+	height: 50px;
+	width: 170px;
+	border-radius: 25px;
+	padding: 13px 40px;
+	border: 1px solid #fff;
+	color: #fff;
+	/*background-color: #fff;*/
+	margin-top: 5%;
+	margin-left: 22%;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.getSBtn1mob:hover{
+	cursor: pointer;
+	background-color: #f8c76d;
+	color: #fff;
+}

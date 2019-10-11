@@ -60,3 +60,23 @@
 .c2cmpbtn:hover{
 	background-color: #353e92;
 }
+.CBannerAH{
+    height: auto;
+    position: relative;
+}
+.CBannerAHMobile{
+    height: 1015px;
+    position: relative;
+}
+.c2part2box1Mobile{
+    text-align: justify-all;
+    /*height: 685px;*/
+    padding-top: 7%;
+    padding-bottom: 5%;
+}
+.c2text1para1mobile{
+    padding: 50px 0px 0px 0px;
+}
+.padd25{
+    padding: 25px 0px;
+}

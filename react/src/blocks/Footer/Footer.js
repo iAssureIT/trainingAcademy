@@ -10,7 +10,73 @@ class Footer extends Component {
     render() {
         return (
         	<div className="container-fluid " style={{padding:"0px"}}>
-        		{/*<div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 footerWrap">
+        		<div className="col-lg-12 col-md-12 hidden-xs hidden-sm">
+              <div className="f1CourseRegBox col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                  <div className="f1CourseRegBoxa">
+                    <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                      <div className="cboxtxt">
+                      Start mastering your courses! Try now for free
+                      </div>
+                    </div>
+                    <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                      {/*<div className="getSBtn col-lg-5">Get Started</div>*/}
+                                  <a href="/contactuspage">
+                      <div className="getSBtn1 col-lg-5 col-lg-offset-5">Contact Us</div></a>
+                    </div>
+                  </div>
+              </div>
+              <div className="footer-bottom">
+                  <div className="footer-warp">
+                     {/* <ul className="footer-menu">
+                          <li><a href="#">Terms & Conditions</a></li>
+                          <li><a href="#">Register</a></li>
+                          <li><a href="#">Privacy</a></li>
+                      </ul>*/}
+                  <div className="copyright">
+                          Copyright &copy;<script>document.write(new Date().getFullYear());</script> 2019 iAssure International Technologies Pvt. Ltd All rights reserved.
+                      </div>
+                  </div>
+              </div>
+            </div>
+          {/*qwe================*/}
+            <div className="col-sm-12 col-xs-12 hidden-lg hidden-md nopadd">
+              <div className="col-sm-12 col-xs-12 nopadd">
+                  <div className="f1CourseRegBoxaMobile">
+                    <div className="col-sm-12 col-xs-12">
+                      <div className="cboxtxtmobile">
+                      Start mastering your courses! Try now for free
+                      </div>
+                    </div>
+                    <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                      {/*<div className="getSBtn col-lg-5">Get Started</div>*/}
+                                  <a href="/contactuspage">
+                      <div className="getSBtn1mob col-lg-5 col-lg-offset-5">Contact Us</div></a>
+                    </div>
+                  </div>
+              </div>
+              <div className="footer-bottom">
+                  <div className="footer-warp">
+                     {/* <ul className="footer-menu">
+                          <li><a href="#">Terms & Conditions</a></li>
+                          <li><a href="#">Register</a></li>
+                          <li><a href="#">Privacy</a></li>
+                      </ul>*/}
+                  <div className="copyright">
+                          Copyright &copy;<script>document.write(new Date().getFullYear());</script> 2019 iAssure International Technologies Pvt. Ltd All rights reserved.
+                      </div>
+                  </div>
+              </div>
+            </div>
+        	</div>
+            
+        );
+    }
+}
+
+export default Footer;
+
+
+{/*<div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 footerWrap">
                     <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 f1logo">
                             <img src="/img/iAssureIT/Advanced-Technologies-Training-Academy.png" alt="img1" className="f1logoImg"/>
@@ -62,38 +128,4 @@ class Footer extends Component {
 
                         </div>
                     </div>
-        		</div>*/}
-            <div className="f1CourseRegBox col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div className="f1CourseRegBoxa">
-                  <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-                    <div className="cboxtxt">
-                    Start mastering your courses! Try now for free
-                    </div>
-                  </div>
-                  <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                    {/*<div className="getSBtn col-lg-5">Get Started</div>*/}
-                                <a href="/contactuspage">
-                    <div className="getSBtn1 col-lg-5 col-lg-offset-5">Contact Us</div></a>
-                  </div>
-                </div>
-              </div>
-                <div className="footer-bottom">
-                    <div className="footer-warp">
-                       {/* <ul className="footer-menu">
-                            <li><a href="#">Terms & Conditions</a></li>
-                            <li><a href="#">Register</a></li>
-                            <li><a href="#">Privacy</a></li>
-                        </ul>*/}
-                    <div className="copyright">
-                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> 2019 iAssure International Technologies Pvt. Ltd All rights reserved.
-                        </div>
-                    </div>
-                </div>
-
-        	</div>
-            
-        );
-    }
-}
-
-export default Footer;
+            </div>*/}

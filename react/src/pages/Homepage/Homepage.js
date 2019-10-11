@@ -7,7 +7,6 @@ import OurCources      		from "../../blocks/OurCources/OurCources.js";
 import SpacialFeatures      from "../../blocks/SpacialFeatures/SpacialFeatures.js";
 import HomeCarousal      	from "../../blocks/HomeCarousal/HomeCarousal.js";
 import CourseReg      		from "../../blocks/CourseReg/CourseReg.js";
-
 import Footer      			from "../../blocks/Footer/Footer.js";
 import Header      			from "../../blocks/Header/Header.js";
 
@@ -24,16 +23,16 @@ export default class Homepage extends React.Component {
 		return (
           	<div className="container-fluid" style={{padding:"0px"}}>
           		<Header/>
-				<HomepageBanner/>
+				<HomepageBanner/>	
 				<Comp1/>
 				<Comp2/>
 				<OurCources/>
 				<SpacialFeatures/>
 				<HomeCarousal/>
+				{/*
+				*/}
 				{/*<CourseReg/>*/}
 				<Footer/>
-
-
 			</div>
 		);
 	}

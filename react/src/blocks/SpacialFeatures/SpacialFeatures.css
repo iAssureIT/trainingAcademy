@@ -149,3 +149,12 @@
 .txt2r{
   text-align: right;
 }
+
+/*===============*/
+.sftext1para1Mobile{
+  text-align: left;
+}
+.SFWrapMobile{
+  height: 2180px;
+  /*background-color: #ddd;*/
+}

@@ -34,7 +34,6 @@ export default class AddressCUspage extends React.Component {
 									<p className="text-center">Mobile:
 									+91 - 9923 393 733
 									</p>
-
 								</div>
 						</div>
 					
@@ -45,7 +44,7 @@ export default class AddressCUspage extends React.Component {
 								
 								<div className="col-lg-12 col-md-12 col-xs-12 col-sm-12">
 									<div className="Addheadingtxt"><b>WRITE SOME WORDS</b> </div>
-									<p className="text-center">info@iassureit.com
+									<p className="text-center">Email: info@iassureit.com
 									</p>
 
 								</div>
