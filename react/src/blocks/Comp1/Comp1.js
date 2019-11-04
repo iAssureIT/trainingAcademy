@@ -19,7 +19,7 @@ export default class Comp1 extends React.Component {
 										<div className="bboxc1">
 											<div className="contentbboxc1">
 									            <div className="titlebboxc1"><b>BEST TEACHERS</b></div>
-									            <div className="descriptionbboxc1">From IITs &amp; other top tier collegeswith 10+ years            </div>
+									            <div className="descriptionbboxc1 text-center">From IITs &amp; other top tier collegeswith 10+ years            </div>
 									        </div>
 										</div>
 									</div>
@@ -27,7 +27,7 @@ export default class Comp1 extends React.Component {
 										<div className="bboxc2">
 											<div className="contentbboxc1">
 									            <div className="titlebboxc1"><b>BEST TEACHERS</b></div>
-									            <div className="descriptionbboxc1">From IITs &amp; other top tier collegeswith 10+ years            </div>
+									            <div className="descriptionbboxc1 text-center">From IITs &amp; other top tier collegeswith 10+ years            </div>
 									        </div>
 										</div>
 									</div>
@@ -40,7 +40,7 @@ export default class Comp1 extends React.Component {
 											<div className="bboxc2">
 												<div className="contentbboxc1">
 										            <div className="titlebboxc1"><b>BEST TEACHERS</b></div>
-										            <div className="descriptionbboxc1">From IITs &amp; other top tier collegeswith 10+ years            </div>
+										            <div className="descriptionbboxc1 text-center">From IITs &amp; other top tier collegeswith 10+ years            </div>
 										        </div>
 											</div>
 										</div>
@@ -48,7 +48,7 @@ export default class Comp1 extends React.Component {
 											<div className="bboxc1">
 												<div className="contentbboxc1">
 										            <div className="titlebboxc1"><b>BEST TEACHERS</b></div>
-										            <div className="descriptionbboxc1">From IITs &amp; other top tier collegeswith 10+ years            </div>
+										            <div className="descriptionbboxc1 text-center">From IITs &amp; other top tier collegeswith 10+ years            </div>
 										        </div>
 											</div>
 										</div>

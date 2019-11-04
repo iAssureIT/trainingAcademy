@@ -70,10 +70,13 @@ export default class OurCources extends React.Component {
 										<div className="octext1para1">
 											<div className="col-lg-12">
 												{/*<div className="txt2c">Start Investing in You</div>*/}
-												<p>This training program is definitely India’s the most in-depth and the only program which covers the hottest technologies of IT industry. This program is designed to make you 100% job ready as per IT Industry’s demand. So you get a handsome job instantly.
-													This Full-Stack Developer Training Program, is divided into 4 courses.
-													In all these 4 courses, you will learn more than 20 skills, which will make a truly a great Full-Stack developer. This course will make you super expert developer, even if you have not done any programming before. It means you can be from any Engineering branch or don't have any experience in computer programming, you can still become a super great developer.
-													Note : You will learn from ULTRA-BASICS to ULTRA-ADVANCED Web & Mobile app development.
+												<p>Full-Stack Developer means the one who is expert in Frontend Technologies,
+													Backend Technologies and Database. Today, in IT Industry, there is a huge
+													demand for Full-Stack developer.
+													This training program is definitely India’s the most in-depth and the only
+													program which covers the hottest technologies of IT industry. This program is
+													designed to make you 100% job ready as per IT Industry’s demand. So you get
+													handsome job instantly.
 												</p>
 											</div>
 										</div>
@@ -86,7 +89,7 @@ export default class OurCources extends React.Component {
 							</div>
 						</div>
 						<div className="col-lg-12">
-							<div className="col-lg-12 pad50">
+							<div className="col-lg-12">
 							{
 		                		data && data.length > 0 ?
 				      				data.map((data, index)=>{
@@ -110,6 +113,22 @@ export default class OurCources extends React.Component {
 		                		}
 		                	</div>
 
+						</div>
+						<div className="col-lg-12 paddiv text-center">
+						 <div className="col-lg-12 ">
+							<p className="Lheight ">In all these 4 courses, you will learn 18 to
+								20 skills, which will make a truly a
+								Full-Stack developer.This course can
+								make you super expert developer, even if
+								you have not done any programming
+								before.
+						   </p>
+						
+							<p className=""><b>Note : You will learn from
+												ULTRA-BASICS to ULTRA-ADVANCED
+												Web & Mobile app development.</b>
+						   </p>
+						 </div>  
 						</div>
 						<div className="col-lg-12">
 							<div className="col-lg-offset-5">
@@ -143,10 +162,13 @@ export default class OurCources extends React.Component {
 										<div className="octext1para1mobile">
 											<div className="col-xs-12 col-sm-12">
 												{/*<div className="txt2c">Start Investing in You</div>*/}
-												<p>This training program is definitely India’s the most in-depth and the only program which covers the hottest technologies of IT industry. This program is designed to make you 100% job ready as per IT Industry’s demand. So you get a handsome job instantly.
-													This Full-Stack Developer Training Program, is divided into 4 courses.
-													In all these 4 courses, you will learn more than 20 skills, which will make a truly a great Full-Stack developer. This course will make you super expert developer, even if you have not done any programming before. It means you can be from any Engineering branch or don't have any experience in computer programming, you can still become a super great developer.
-													Note : You will learn from ULTRA-BASICS to ULTRA-ADVANCED Web & Mobile app development.
+												<p>Full-Stack Developer means the one who is expert in Frontend Technologies,
+													Backend Technologies and Database. Today, in IT Industry, there is a huge
+													demand for Full-Stack developer.
+													This training program is definitely India’s the most in-depth and the only
+													program which covers the hottest technologies of IT industry. This program is
+													designed to make you 100% job ready as per IT Industry’s demand. So you get
+													handsome job instantly.
 												</p>
 											</div>
 										</div>

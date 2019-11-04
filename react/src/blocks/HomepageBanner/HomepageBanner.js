@@ -14,11 +14,12 @@ return (
 		<div className="container-fluid HomepageBanner  hidden-xs hidden-sm" style={{padding:"0px"}}>
 			<div className="bg">
 				<div className="col-lg-12 col-md-12">
-					<div className="col-lg-6 col-md-6">
+					<div className="col-lg-6 col-md-6 pd35">
 
-						<div className="whtcolr btitle1"><b>Super-30</b> <br/>Fullstack Developer<br/>Training Program </div>
-						<div className="btitle2 whtcolr">This is India's one of the most beautifully crafted Fullstack developer training program.
-						This course is created as per the IT Industry's current requirement & hottest Technologies.
+						<div className="whtcolr btitle1"><span className="super30txt">Super-30</span> <br/><span className="super30txt1">Fullstack Developer</span><br/>
+						<span className="super30txt2">Training Program</span> </div>
+						<div className="btitle2 whtcolr">
+						<span className="super30txt3 ">This course is created as per the IT Industry's current <br/> requirement & hottest Technologies.</span>
 						</div>
 						{/*<div className="bannerbtn">VIEW OUR COURSES</div>*/}
 						</div>
@@ -33,7 +34,7 @@ return (
 				<div className="col-xs-12 col-sm-12">
 					<div className="col-xs-12 col-sm-12">
 
-						<div className="whtcolr btitle1mobile"><b>Super-30</b> <br/>Fullstack Developer<br/>Training Program </div>
+						<div className="whtcolr btitle1mobile"><span className="super30txt">Super-30</span> <br/>Fullstack Developer<br/>Training Program </div>
 						<div className="btitle2mobile whtcolr">This is India's one of the most beautifully crafted Fullstack developer training program.
 						This course is created as per the IT Industry's current requirement & hottest Technologies.
 						</div>

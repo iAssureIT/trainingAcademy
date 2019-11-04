@@ -13,7 +13,7 @@ export default class Header extends React.Component {
 			  <div className="col-lg-12 col-md-12 hidden-xs hidden-sm">
 			    <div className="navbar-header col-lg-2">
 			     <a className="navbar-brand" href="/">{/*logowhite.png*/}
-                    <img src="/img/logowhite.png" alt="img1" className="logoImg"/>
+                    <img src="/img/Logo.png" alt="img1" className="logoImg"/>
                     {/*<img src="/img/iAssureIT/Advanced-Technologies-Training-Academy.png" alt="img1" className="logoImg"/>*/}
 			      </a>
 			    </div>
