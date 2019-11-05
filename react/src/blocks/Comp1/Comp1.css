@@ -1,5 +1,6 @@
+
 .c1box1{
-	height: 845px;
+	height: 710px;
     padding: 50px 15px 0px 15px;
 }
 
@@ -18,9 +19,9 @@
 }
 .text1para1 p{
     font-size: 18px;
-    color: #878787;
-    line-height: 1.85;
-    font-weight: 500;
+    color: #333;
+    line-height: 1.5;
+
 }
 .txt1c{
 	color: #7c7c7c;
@@ -32,19 +33,20 @@
     text-align: left;
 }
 .txt2c{
-	color: #292929;
+	color: #376bff;
     line-height: 1.25;
-    font-size: 31px;
-    font-weight: 400;
-    text-transform: none;
+    font-size: 36px;
+    text-transform: uppercase;
     margin: 0 0 15px 0;
+    font-weight: 700;
 
 }
 .linectxt{
 	height: 2px;
-    width: 87px;
-    background-color: #e1e1e1;
-    margin: 0 0 20px -20px;
+    width: 105px;
+    background-color: #376bff;
+    margin: 0 0 -12px -20px;
+    margin-left: 27px;
 
 
 }
@@ -77,6 +79,15 @@
 	background-image: url("/img/block1.jpg");
 	background-size: 100% 100%;
 }
+.blockicon{
+	height: 51px;
+	width: 51px;
+	background-image: url("/img/blockimg.png");
+	background-size: 100% 100%;
+	margin-top: 54px;
+
+
+}
 .bboxc1:hover{
 	background: #4e58b2bd !important;
 	/*transition: 1.25s cubic-bezier(0.76, 0.03, 0.28, 0.98);*/
@@ -88,10 +99,12 @@
 	border-radius: 10px;
 	cursor: pointer;
 	margin: 10px 0px 10px 0px;
-	background: linear-gradient(to right, #283593, #303c9c, #3744a5, #3e4bae, #4553b7);;
+	background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff);;
+	box-shadow: 4px 4px 11px 4px #d3d3d3;
+	/*background-color: #fff;*/
 }
 .contentbboxc1{
-	color: #fff !important;
+	color: #333 !important;
 	padding: 40px;
 	font-size: 16px;
 	text-align: justify-all;
@@ -99,7 +112,8 @@
 }
 .titlebboxc1{
 	text-align: center;
-	margin: 0px 0px 8px 0px;
+	color:#376bff;
+	margin: 40px 0px 8px 0px;
 }
 
 /*==========================*/
@@ -128,7 +142,8 @@
 	border-radius: 10px;
 	cursor: pointer;
 	margin: 10px 0px 10px 0px;
-	background: #376bff;
+	background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff);;
+	box-shadow: 4px 4px 11px 4px #d3d3d3;
 }
 .contentbboxc1{
 	color: #fff !important;
@@ -138,8 +153,9 @@
 	padding-top: 90px;
 }
 .titlebboxc1{
+	color: #376bff;
 	text-align: center;
-	margin: 0px 0px 8px 0px;
+	margin: 40px 0px 8px 0px;
 }
 .text1para1mobile{
 	padding: 30px 0px 0px 0px;
@@ -150,4 +166,22 @@
     height: 2000px;
     padding: 50px 5px 5px 5px;
 
+}
+.firstpara{
+	text-transform: uppercase;
+	font-weight: none ! important;
+	font-size: 20px ! important;
+}
+.secondpara{
+	font-weight:100;
+	margin-top: -15px;
+}
+.highlight{
+	font-weight: 700 ! important;
+}
+.descriptionbboxc1{
+	color: #333;
+}
+.part2box1{
+	margin-top: 65px;
 }

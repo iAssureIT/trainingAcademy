@@ -11,10 +11,12 @@
 }
 
 .ocLine{
-	margin-top: 25px;
+	/*margin-top: 25px;*/
 	height: 2px;
-    background-color: #aaa;
+	margin-bottom: 30px;
+    background-color: #376bff ! important;
 	/*margin-top: 5px;*/ 
+
 }
 
 .AllBlogsBox{
@@ -27,6 +29,8 @@
 }*/
 
 .All1blog1{
+	background-color: #f00;
+	height: 100px;
 
 }
 .ocpTitle{
@@ -93,14 +97,14 @@
 }
 .oc2Para{
 	overflow: hidden;
-	height: 100px;
+	height: 66px;
 	line-height: 1 !important;
 	text-overflow: ellipsis;
 }
 .All1blog1{
 	position: relative;
-	height: 375px;
-	margin-bottom: 50px;
+	height: 221px;
+	/*margin-bottom: 50px;*/
 	background-color: #fff;
 	line-height: 1;
 	overflow: hidden;
@@ -182,7 +186,7 @@
 	position: relative;
 	height: 50px;
 	background-color:#4e58b2;
-	width: 167px;
+	width: 214px;
 	text-align: center;
 	border: 1px solid #fff;
 	margin-left: 30px;
@@ -191,7 +195,7 @@
 	border-radius: 30px;
 	line-height: 48px;
     letter-spacing: 0px;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 15px;
     color: #FFF;
     cursor: pointer;
@@ -210,12 +214,18 @@
 }
 .octext1para1 p{
 	font-size: 18px;
-    color: #878787;
-    line-height: 1.85;
-    font-weight: 500;
+    color: #333;
+    line-height: 1.5;
+    font-weight: 100;
+}
+.super30txt12{
+	font-weight: 700;
+	font-size: 36px
 }
 
-
+.newdiv{
+	margin-top: -55px;
+}
 /*================================================================*/
 /*================================================================*/
 					/*mo*/
@@ -243,7 +253,61 @@
 .Lheight{
 	line-height: 1.5;
 	padding: 15px 30px 0px 30px;
+	color: #333;
+
 }
 .paddiv{
 	padding-bottom: 30px;
+}
+.txt2c{
+	color: #376bff !important ;
+    line-height: 1.25;
+    font-size: 36px !important ;
+    text-transform: uppercase ! important;
+    margin: 0 0 15px 0;
+    font-weight: 700! important;
+
+}
+.programtxt{
+	margin-top: 70px;
+}
+.notetext{
+	color: #333;
+}
+.courceDiv{
+	height: 86px;
+	background-color: #f4f6fd;
+	box-shadow: 2px 2px 12px 5px #ccc;
+}
+.imgDiv{
+	background-color: #fff;
+	box-shadow: 2px 2px 12px 5px #ccc;
+	height: 80px;
+	width: 80px;
+	border-radius: 100px;
+	margin-top: -20px;
+	margin-left: 90px;
+}
+.blockimg1{
+	height: 36px;
+	margin-top: 19px;
+	margin-left: 7px;
+}
+.ocDate{
+	color: #1f9cfa ! important;
+}
+.courcetitle{
+	font-weight: 700;
+	font-size: 25px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.courcepara{
+	color: #333;
+	text-align: center;
+	font-weight: 100;
+}
+.bottomline{
+	height: 10px;
+	background-color: #a4d4ed;
 }

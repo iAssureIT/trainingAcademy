@@ -19,10 +19,8 @@ export default class SpacialFeatures extends React.Component {
 						<div className="col-lg-12">
 							<div className="text-center">
 								{/*<div>ALL IVY SCHOOL, ALL THE TIME</div>*/}
-								<div className="ocTitle">Special Features of This Program</div>
-								<div className="col-lg-2 col-lg-offset-5 ">
-									<div className="col-lg-offset-3  col-lg-6 ocLine"></div>
-								</div>
+								<div className="ocTitle newocTitle">Special Features of This Program</div>
+								
 
 							</div>
 						</div>
@@ -38,22 +36,28 @@ export default class SpacialFeatures extends React.Component {
 								</div>
 							</div>
 							<div className="col-lg-6">
+							 <div className="col-lg-5 NOpadding">
+									<div className="col-lg-offset-2 col-lg-6 ocLine"></div>
+								</div>
 								<div className="sftext1para1">
 									<div className="col-lg-10">
-										<div className="txt2c">Live Projects </div>
-										<p>Working on Live Projects is a rare thing in many training institutes. Here in iAssure Advanced Technologies Academy, You will get plenty of opportunities to work on LIVE Projects from real clients in a real professional world. You will work directly with all senior members in an IT company. Moreover, you earn when you contribute on any paid project by client.
+										<div className="projecttxt">Live Projects </div>
+										<p className="firstpara1">Working on Live Projects is a rare thing in many training institutes. Here in <span className="highlight">iAssure Advanced Technologies Academy</span>, You will get plenty of opportunities to work on LIVE Projects from <span className="highlight">real clients </span>in a real<span className="highlight"> professional world.</span> You will work directly with all senior members in an IT company. Moreover, you earn when you contribute on any paid project by client.
 										</p>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div className="col-lg-12 ">
+						<div className="col-lg-12 takeup ">
 							
 							<div className="col-lg-6">
 								<div className="sftext1para2">
-									<div className="col-lg-11 col-lg-offset-1">
+								 <div className="col-lg-11 specialLine ">
+									  <div className="col-lg-offset-2 col-lg-3 ocLine pull-right"></div>
+								      </div>
+									<div className="col-lg-11 col-lg-offset-1 ">
 										<div className="txt2c">10% Cashback on each Referral</div>
-										<p>When your referred candidate enrolls for our course, you get 10% cashback.So it means, if you refer 10 students, your course fees would be free.After 10 students referral, you will start earning 10% amount on each enrollment.
+										<p className="firstpara1">When your referred candidate enrolls for our course, you get 10% cashback.So it means, if you refer 10 students, your course fees would be free.After 10 students referral, you will start earning 10% amount on each enrollment.
 										</p>
 									</div>
 								</div>
@@ -69,7 +73,7 @@ export default class SpacialFeatures extends React.Component {
 								</div>
 							</div>
 						</div>
-						<div className="col-lg-12 ">
+						<div className="col-lg-12 takeup">
 							<div className="col-lg-6">
 								<div className="spimg1">
 									<div className="spimg12 pull-right">
@@ -83,14 +87,14 @@ export default class SpacialFeatures extends React.Component {
 							<div className="col-lg-6">
 								<div className="sftext1para1">
 									<div className="col-lg-10">
-										<div className="txt2c">Job Assistance</div>
-										<p>We also provide a Job Assistance & prepare you for interview.
+										<div className="txt2c12">Job Assistance</div>
+										<p className="firstpara1">We also provide a Job Assistance & prepare you for interview.
 										</p>
-										<div className="txt2c">Heavy Discount</div>
-										<p>of upto 40% if you enroll for all courses.
+										<div className="txt2c12">Heavy Discount</div>
+										<p className="firstpara1">of upto 40% if you enroll for all courses.
 										</p>
-										<div className="txt2c">Certificate of Completion</div>
-										{/*<p>We also provide a Job Assistance & prepare you for interview.
+										{/*<div className="txt2c12">Certificate of Completion</div>
+										<p className="firstpara1">We also provide a Job Assistance & prepare you for interview.
 										</p>*/}
 									</div>
 								</div>

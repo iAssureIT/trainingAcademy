@@ -9,8 +9,8 @@ class Footer extends Component {
 
     render() {
         return (
-        	<div className="container-fluid " style={{padding:"0px"}}>
-        		<div className="col-lg-12 col-md-12 hidden-xs hidden-sm">
+        	<div className="container-fluid  " style={{padding:"0px"}}>
+        		<div className="col-lg-12 col-md-12 hidden-xs hidden-sm NOpadding">
               <div className="f1CourseRegBox col-lg-12 col-md-12 col-sm-12 col-xs-12">
                   <div className="f1CourseRegBoxa">
                     <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12">

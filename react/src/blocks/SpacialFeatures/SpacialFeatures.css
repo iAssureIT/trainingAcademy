@@ -2,16 +2,20 @@
 	margin-top: 25px;
 }
 .ocTitle{
-	color: #292929;
-    line-height: 1.25;
-    font-size: 35px;
-    font-weight: 400;
-    text-transform: none;
+	
+}
+.newocTitle{
+    color: #376bff;
+    line-height: 1.5;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
     margin:auto auto;
+
 }
 
 .ocLine{
-	margin-top: 25px;
+	margin-top: 45px;
 	height: 2px;
     background-color: #aaa;
 	/*margin-top: 5px;*/ 
@@ -157,4 +161,27 @@
 .SFWrapMobile{
   height: 2180px;
   /*background-color: #ddd;*/
+}
+.projecttxt{
+  color: #333;
+  font-weight: 500;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+.firstpara1{
+  color: #333;
+  line-height: 1.4;
+  font-weight: 100;
+}
+.specialLine{
+  margin-left: 44px;
+}
+.txt2c12{
+  font-size: 36px;
+  color: #333;
+  font-weight: 700;
+
+}
+.takeup{
+  margin-top: -80px;
 }

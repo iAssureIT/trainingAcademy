@@ -123,15 +123,18 @@
 
 
 .f1CourseRegBox{
-	padding: 0px !important;
-	
+	padding: 0 ! important;
 	height: 155px;
+}
+.NOpadding{
+	padding:0px;
 }
 
 .f1CourseRegBoxa{
 	/*background-color: #999;*/
 	background: -webkit-linear-gradient(left, #4e58b2, #727ac1);
 	height: 155px;
+	padding: 0;
 	/*border-radius: 20px;*/
 	
 
