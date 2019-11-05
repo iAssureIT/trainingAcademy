@@ -14,7 +14,7 @@ return (
 		<div className="container-fluid HomepageBanner  hidden-xs hidden-sm" style={{padding:"0px"}}>
 			<div className="bg">
 				<div className="col-lg-12 col-md-12">
-					<div className="col-lg-6 col-md-6 pd35">
+					<div className="col-lg-6 col-md-6 pd35  pd1">
 
 						<div className="whtcolr btitle1"><span className="super30txt">Super-30</span> <br/><span className="super30txt1">Fullstack Developer</span><br/>
 						<span className="super30txt2">Training Program</span> </div>
