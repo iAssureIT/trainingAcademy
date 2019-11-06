@@ -14,8 +14,11 @@ export default class SpacialFeatures extends React.Component {
 	render() {
 		return (
 			<div>
-				<div className="col-lg-12 col-md-12 hidden-xs hidden-sm">
+				<div className="col-lg-12 col-md-12 specilfDiv hidden-xs hidden-sm">
 					<div className="mtop25">
+					  <div className="col-lg-5 col-lg-offset-5 NOpadding">
+					    <div className=" col-lg-2 ocLine blockline3"></div>
+					   </div>
 						<div className="col-lg-12">
 							<div className="text-center">
 								{/*<div>ALL IVY SCHOOL, ALL THE TIME</div>*/}
@@ -36,9 +39,6 @@ export default class SpacialFeatures extends React.Component {
 								</div>
 							</div>
 							<div className="col-lg-6">
-							 <div className="col-lg-5 NOpadding">
-									<div className="col-lg-offset-2 col-lg-6 ocLine"></div>
-								</div>
 								<div className="sftext1para1">
 									<div className="col-lg-10">
 										<div className="projecttxt">Live Projects </div>
@@ -53,7 +53,7 @@ export default class SpacialFeatures extends React.Component {
 							<div className="col-lg-6">
 								<div className="sftext1para2">
 								 <div className="col-lg-11 specialLine ">
-									  <div className="col-lg-offset-2 col-lg-3 ocLine pull-right"></div>
+									  <div className="col-lg-offset-2 col-lg-2 ocLine pull-right"></div>
 								      </div>
 									<div className="col-lg-11 col-lg-offset-1 ">
 										<div className="txt2c">10% Cashback on each Referral</div>

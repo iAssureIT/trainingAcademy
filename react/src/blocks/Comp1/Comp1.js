@@ -21,7 +21,7 @@ export default class Comp1 extends React.Component {
 								          </div>
 											<div className="contentbboxc1">
 									            <div className="titlebboxc1"><b>BEST TEACHERS</b></div>
-									            <div className="descriptionbboxc1 text-center">From IITs &amp; other top tier collegeswith 10+ years            </div>
+									            <div className="descriptionbboxc1 text-center">From IITs &amp; other top tier colleagues with 10+ years            </div>
 									        </div>
 										</div>
 									</div>
@@ -31,7 +31,7 @@ export default class Comp1 extends React.Component {
 								          </div>
 											<div className="contentbboxc1">
 									            <div className="titlebboxc1"><b>BEST TEACHERS</b></div>
-									            <div className="descriptionbboxc1 text-center">From IITs &amp; other top tier collegeswith 10+ years            </div>
+									            <div className="descriptionbboxc1 text-center">From IITs &amp; other top tier colleagues with 10+ years            </div>
 									        </div>
 										</div>
 									</div>
@@ -46,7 +46,7 @@ export default class Comp1 extends React.Component {
 								              </div>
 												<div className="contentbboxc1">
 										            <div className="titlebboxc1"><b>BEST TEACHERS</b></div>
-										            <div className="descriptionbboxc1 text-center">From IITs &amp; other top tier collegeswith 10+ years            </div>
+										            <div className="descriptionbboxc1 text-center">From IITs &amp; other top tier colleagues with 10+ years            </div>
 										        </div>
 											</div>
 										</div>
@@ -56,7 +56,7 @@ export default class Comp1 extends React.Component {
 								             </div>
 												<div className="contentbboxc1">
 										            <div className="titlebboxc1"><b>BEST TEACHERS</b></div>
-										            <div className="descriptionbboxc1 text-center">From IITs &amp; other top tier collegeswith 10+ years            </div>
+										            <div className="descriptionbboxc1 text-center">From IITs &amp; other top tier colleagues with 10+ years            </div>
 										        </div>
 											</div>
 										</div>
@@ -68,7 +68,7 @@ export default class Comp1 extends React.Component {
 						
 						</div>
 						<div className="col-lg-6 part2box1 col-md-6">
-						 <div className="linectxt">
+						 <div className="col-lg-4 linectxt">
 						  </div>
 							<div className="text1para1">
 								<div>
@@ -148,7 +148,7 @@ export default class Comp1 extends React.Component {
 								<div>
 									<div className="txt1c"></div>
 									<div className="txt2c">Are you looking for a Job in IT Industry?</div>
-									<div className="linectxt">
+									<div className="col-lg-4 linectxt">
 									</div>
 									<p className="firstpara">IT Industry is changing rapidly with the introduction of new <span className="highlight"> cutting edge
 									 technologies</span> every year. Students are not equipped with these changes as expected

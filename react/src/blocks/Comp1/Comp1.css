@@ -43,7 +43,7 @@
 }
 .linectxt{
 	height: 2px;
-    width: 105px;
+    width: 82px;
     background-color: #376bff;
     margin: 0 0 -12px -20px;
     margin-left: 27px;
@@ -144,6 +144,12 @@
 	margin: 10px 0px 10px 0px;
 	background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff);;
 	box-shadow: 4px 4px 11px 4px #d3d3d3;
+}
+.contentbboxc1:hover .descriptionbboxc1 {
+ color:#fff ;
+}
+.contentbboxc1:hover .titlebboxc1 {
+ color:#fff;
 }
 .contentbboxc1{
 	color: #fff !important;

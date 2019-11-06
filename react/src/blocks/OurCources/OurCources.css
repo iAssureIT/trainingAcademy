@@ -89,6 +89,7 @@
 }
 
 .Allblog{
+
 	/*background-color: #888;*/
 	
 }
@@ -108,7 +109,7 @@
 	background-color: #fff;
 	line-height: 1;
 	overflow: hidden;
-	box-shadow: 2px 2px 12px 5px #ccc;
+	/*box-shadow: 2px 2px 12px 5px #ccc;*/
 }
 .p10{
 	padding-left:  25px;
@@ -233,6 +234,7 @@
 /*================================================================*/
 
 .ocWrap{
+	margin-top: -84px;
 
 }
 .ocWrapmobile{
@@ -268,37 +270,41 @@
     font-weight: 700! important;
 
 }
+.paradown{
+	margin-top: 19px;
+}
+.paradown1{
+	margin-top: -17px;
+}
 .programtxt{
 	margin-top: 70px;
 }
 .notetext{
 	color: #333;
+	font-weight: 500;
 }
 .courceDiv{
 	height: 86px;
-	background-color: #f4f6fd;
-	box-shadow: 2px 2px 12px 5px #ccc;
+	background-color: #376bff;
+	/*box-shadow: 2px 2px 12px 5px #ccc;*/
 }
 .imgDiv{
-	background-color: #fff;
-	box-shadow: 2px 2px 12px 5px #ccc;
-	height: 80px;
-	width: 80px;
-	border-radius: 100px;
-	margin-top: -20px;
-	margin-left: 90px;
+	
+	/*box-shadow: 2px 2px 12px 5px #ccc;*/
+	
 }
 .blockimg1{
-	height: 36px;
-	margin-top: 19px;
-	margin-left: 7px;
+	/*height: 36px;*/
+	margin-top: -34px;
+	margin-left: 64px;
+	/*box-shadow: 2px 2px 12px 5px #ccc;*/
 }
 .ocDate{
 	color: #1f9cfa ! important;
 }
 .courcetitle{
 	font-weight: 700;
-	font-size: 25px;
+	font-size: 20px;
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -309,5 +315,28 @@
 }
 .bottomline{
 	height: 10px;
-	background-color: #a4d4ed;
+	background-color: #376bff;
+}
+.courceblockDiv{
+	    box-shadow: 0px 1px 10px 2px #D3D3D3
+}
+.smallimg1{
+	/*height: 36px;*/
+    margin-top: -70px;
+    margin-left: 92px;
+}
+.offeredTitle{
+
+}
+.lineInblock{
+	padding-left: 63px;
+}
+.divLine{
+	padding-left: 30px;
+}
+.courceblockDiv1{
+	margin-top: 36px;
+}
+.maincourceblockDiv{
+	margin-top: -15px;
 }

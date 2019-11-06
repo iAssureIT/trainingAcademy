@@ -23,7 +23,7 @@ class HomeCarousal extends Component {
 								<div className="">
 									<div className="col-lg-10">
 									 <div className="col-lg-10 NOpadding">
-									  <div className=" col-lg-3 ocLine"></div>
+									  <div className=" col-lg-2 ocLine"></div>
 								      </div>
 										<div className="txt2c">Learn from Highly Experienced IITian</div>
 										<p className="firstpara1">If you learn from an average trainer, you become average developer. 
