@@ -23,12 +23,10 @@ export default class SpacialFeatures extends React.Component {
 							<div className="text-center">
 								{/*<div>ALL IVY SCHOOL, ALL THE TIME</div>*/}
 								<div className="ocTitle newocTitle">Special Features of This Program</div>
-								
-
 							</div>
 						</div>
 						<div className="col-lg-12 ">
-							<div className="col-lg-6">
+							<div className="col-lg-3">
 								<div className="spimg1">
 									<div className="spimg12 pull-right">
 										<img src="/img/spfun1.jpg" alt="img1" className="roundimg"/>
@@ -38,7 +36,7 @@ export default class SpacialFeatures extends React.Component {
 									</div>
 								</div>
 							</div>
-							<div className="col-lg-6">
+							<div className="col-lg-9">
 								<div className="sftext1para1">
 									<div className="col-lg-10">
 										<div className="projecttxt">Live Projects </div>
@@ -49,20 +47,20 @@ export default class SpacialFeatures extends React.Component {
 							</div>
 						</div>
 						<div className="col-lg-12 takeup ">
-							
-							<div className="col-lg-6">
+							<div className="col-lg-9">
 								<div className="sftext1para2">
-								 <div className="col-lg-11 specialLine ">
-									  <div className="col-lg-offset-2 col-lg-2 ocLine pull-right"></div>
-								      </div>
-									<div className="col-lg-11 col-lg-offset-1 ">
-										<div className="txt2c">10% Cashback on each Referral</div>
-										<p className="firstpara1">When your referred candidate enrolls for our course, you get 10% cashback.So it means, if you refer 10 students, your course fees would be free.After 10 students referral, you will start earning 10% amount on each enrollment.
+								 {/*<div className="col-lg-11 specialLine ">
+									  <div className="col-lg-offset-2 col-lg-2 ocLine"></div>
+								      </div>*/}
+									<div className="col-lg-11">
+										<div className="projecttxt">10% Cashback on each Referral</div>
+										<p className="firstpara1">When your referred candidate enrolls for our course, you get 10% cashback.So it means, if you refer 10 students, your course
+										 fees would be free.After 10 students referral, you will start earning 10% amount on each enrollment.
 										</p>
 									</div>
 								</div>
 							</div>
-							<div className="col-lg-6">
+							<div className="col-lg-3">
 								<div className="spimg2">
 									<div className="spimg12a">
 										<img src="/img/spfun1.jpg" alt="img2" className="roundimg2"/>
@@ -74,9 +72,9 @@ export default class SpacialFeatures extends React.Component {
 							</div>
 						</div>
 						<div className="col-lg-12 takeup">
-							<div className="col-lg-6">
+							<div className="col-lg-3">
 								<div className="spimg1">
-									<div className="spimg12 pull-right">
+									<div className="spimg12">
 										<img src="/img/spfun1.jpg" alt="img1" className="roundimg"/>
 										<div class="sfimg1overlay">
 										    <div class="textspf">Read More</div>
@@ -84,18 +82,37 @@ export default class SpacialFeatures extends React.Component {
 									</div>
 								</div>
 							</div>
-							<div className="col-lg-6">
+							<div className="col-lg-9">
 								<div className="sftext1para1">
 									<div className="col-lg-10">
 										<div className="txt2c12">Job Assistance</div>
 										<p className="firstpara1">We also provide a Job Assistance & prepare you for interview.
 										</p>
-										<div className="txt2c12">Heavy Discount</div>
-										<p className="firstpara1">of upto 40% if you enroll for all courses.
-										</p>
+										
 										{/*<div className="txt2c12">Certificate of Completion</div>
 										<p className="firstpara1">We also provide a Job Assistance & prepare you for interview.
 										</p>*/}
+									</div>
+								</div>
+							</div>
+						</div>
+						<div className="col-lg-12 takeup ">
+							<div className="col-lg-9">
+								<div className="sftext1para2">
+									<div className="col-lg-11">
+										<div className="projecttxt1">Heavy Discount</div>
+										<p className="firstpara1">of upto 40% if you enroll for all courses.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div className="col-lg-3">
+								<div className="spimg2">
+									<div className="spimg12a">
+										<img src="/img/spfun1.jpg" alt="img2" className="roundimg2"/>
+										<div class="sfimg1overlay2">
+										    <div class="text2">Read More</div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -175,9 +192,6 @@ export default class SpacialFeatures extends React.Component {
 									<div className="col-xs-12 col-sm-12">
 										<div className="txt2c">Job Assistance</div>
 										<p>We also provide a Job Assistance & prepare you for interview.
-										</p>
-										<div className="txt2c">Heavy Discount</div>
-										<p>of upto 40% if you enroll for all courses.
 										</p>
 										<div className="txt2c">Certificate of Completion</div>
 										{/*<p>We also provide a Job Assistance & prepare you for interview.

@@ -1,0 +1,91 @@
+.syllabustxt{
+	padding-left: 80px;
+}
+.syllabustxt1{
+	padding-left: 80px;
+	line-height: 1.5;
+	padding-top: 20px;
+	font-weight: 400;
+	color:#333;
+	font-size: 17px;
+}
+..rotate{
+    -moz-transition: all 0s linear;
+    -webkit-transition: all 0s linear;
+    transition: all 0.2s linear;
+}
+
+.rotate.down{
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+.useaccordian{
+    border: 1px solid rgba(0,0,0,.02);
+    padding:15px;
+   
+}
+.lidiv1{
+	height: 45px;
+	font-weight: 500;
+}
+.lidiv1:hover{
+	background-color: #414141;
+	color:#fff;
+}
+.lidiv1:hover .downsign{
+	color: #fff;
+}
+.plussignloc{
+	padding-left: 12px;
+    padding-top: 16px;
+    padding-right: 10px;
+}
+.downsign{
+	padding-right: 24px;
+    padding-top: 18px;
+}
+.overtextTxt{
+	line-height: 1.5;
+	color: #333;
+	font-size: 14px;
+	padding-top: 10px;
+	padding-top: 27px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.overtextTxt1{
+	line-height: 1.5;
+	color: #333;
+	font-size: 14px;
+	padding-top: 10px;
+	padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.catglink{
+	height: 100px;
+}

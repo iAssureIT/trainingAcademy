@@ -33,39 +33,41 @@
 }
 .roundimg{
     border-radius: 50%;
-    height: 426px;
-    width: 426px;
-    margin-top: 25px;
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 377px;
     /*position: relative;*/
     display: block;
     /*width: 100%;*/
     height: auto;
 }
 .sftext1para1{
-    padding: 75px 15px 0px 30px;
+    padding: 143px 15px 0px 30px;
     height: 550px;
 
 }
 .spimg12{
     
     border-radius: 50%;
-
-     position: relative;
-    height: 426px;
-    width: 426px;
+    position: relative;
+    /*height: 426px;
+    width: 426px;*/
+    right: 296px;
+    top:52px;
 }
 .sfimg1overlay{
   position: absolute;
-  top: 25px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  border-radius: 50%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008cba70;
+    top: 0px;
+    bottom: 0;
+    left: 378px;
+    right: 0;
+    height: 100%;
+    width: 67%;
+    border-radius: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008cba70;
 }
 
 .spimg12:hover .sfimg1overlay {
@@ -115,10 +117,12 @@
 .spimg12a{
     
     border-radius: 50%;
-
-     position: relative;
-    height: 426px;
-    width: 426px;
+    position: relative;
+    width: 200px;
+    top: 69px;
+    /*right: 37px;*/
+    /*height: 426px;*/
+    /*width: 426px;*/
 }
 .sfimg1overlay2{
   position: absolute;
@@ -170,10 +174,18 @@
   font-size: 36px;
   text-transform: uppercase;
 }
+.projecttxt1{
+  margin-bottom: 2px;
+  color: #333;
+  font-weight: 700;
+  font-size: 36px;
+  text-transform: uppercase;
+}
 .firstpara1{
   color: #333;
   line-height: 1.4;
   font-weight: 100;
+  /*text-align: justify;*/
 }
 .specialLine{
   margin-left: 44px;
@@ -185,11 +197,17 @@
 
 }
 .takeup{
-  margin-top: -80px;
+  margin-top: -180px;
 }
 .blockline3{
   margin-left: 85px;
 }
 .specilfDiv{
   margin-top: -68px;
+}
+.takedownimg{
+  margin-top: 50px;
+}
+.newline1{
+  width: 85px;
 }

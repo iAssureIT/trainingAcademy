@@ -17,7 +17,9 @@
 
 
 .h1cmpbtn{
-	    position: relative;
+   
+    z-index: 999;
+	  position: relative;
     height: 32px;
     background-color: #fff;
     width: 101px;
@@ -32,7 +34,6 @@
     font-size: 13px;
     color: #434343;
     cursor: pointer;
-    z-index: 999;
 }
 .h1cmpbtn:hover{
 	background-color: #407dfa;
@@ -60,8 +61,8 @@
 
 }
 .hombtn:hover{
+/*	background-color: #407dfa;*/
 	color: #434343;
-  width: 30px ! important;
 }
 
 .hombtnmob{
@@ -826,9 +827,123 @@ hr{
 .nav-link dropdown-toggle{
 	margin-left: 20px;
 	margin-top: 5px;
-  font-weight: 600 ! important;
+}
+.coursehead{
+  background-color: navy;
+    height: 92px;
+}
+.courseimg{
+  background-size: 100% 100%;
+}
+.bannerimgtxt{
+  position: absolute;
+    bottom: 253px;
+    left: 111px;
+    color: #fff;
+    font-size: 57px;
+    font-weight: 700;
+}
+.divideline{
+  border-bottom: 1px solid #fff;
+  position: absolute;
+  bottom: 226px;
+}
+.bannertext{
+    position: absolute;
+    left: 97px;
+    bottom: 203px;
+    color: #fff ! important;
+    font-weight: 500;
+    font-size: 15px;
+}
+.bannertext1{
+    color: #fff ! important;
+    font-weight: 500;
+    font-size: 15px;
 }
 
+.applybtn{
+    background-color: #f53941;
+    position: absolute;
+    bottom: 137px;
+    left: 114px;
+    color: #fff;
+    border-color: #f53941;
+    font-size: 15px;
+    padding: 6px 18px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font-weight: 700;
+}
+.floatingDiv{
+  border-radius: 4px 4px 4px 4px;
+   height: 120px;
+   background-color: #fff ! important;
+   box-shadow: 0px 6px 22px 0px rgba(0,0,0,0.08);
+   position: absolute;
+   bottom: -40px;
+}
+.innefloatrDiv{
+  padding-top: 30px;
+}
+.innerDivTxt{
+  font-weight: 700;
+  font-size: 24px;
+}
+.subtext{
+  font-weight: 500;
+}
+.courseh2text{
+    color :#333;
+    padding-top: 89px;
+    padding-left: 97px;
+}
+
+.courseh2text1{
+    color: #333;
+    padding-left: 97px;
+    padding-top: 20px;
+    font-weight: 400;
+}
+.courseh2text2{
+    color :#333;
+    padding-left: 97px;
+    padding-top: 40px;
+    font-weight: 700;
+}
+.keyDiv{
+  margin-top: 35px;
+  padding-left: 96px;
+}
+.keyDiv1{
+  margin-top: 35px;
+  /*margin-left: 70px;*/
+}
+.keyDiv2{
+  padding-left: 96px;
+
+}
+.takedownDiv{
+  margin-top: 5px;
+}
+.keytext{
+  color:#3f3f3f;
+  padding-left: 15px;
+  font-weight: 400;
+}
+.lastDiv{
+  padding-bottom: 20px;
+}
+.Toolimagediv{
+  padding-top: 30px;
+}
+.toolImg{
+  padding-bottom: 20px;
+}
+.toolname{
+  margin-left: 17px;
+  font-weight: 500;
+}
 
 
 
