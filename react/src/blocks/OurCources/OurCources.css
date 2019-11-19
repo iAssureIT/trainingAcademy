@@ -98,13 +98,15 @@
 }
 .oc2Para{
 	overflow: hidden;
+	font-size: 17px;
 	height: 66px;
 	line-height: 1 !important;
 	text-overflow: ellipsis;
 }
 .All1blog1{
+	margin-top: 10px;
 	position: relative;
-	height: 221px;
+	height: 153px;
 	/*margin-bottom: 50px;*/
 	background-color: #fff;
 	line-height: 1;
@@ -133,7 +135,7 @@
 }
 
 .mtop20{
-	margin-top: 20px;
+	/*margin-top: 20px;*/
 }
 .graycolor{
 	color:#777;
@@ -284,8 +286,8 @@
 	font-weight: 500;
 }
 .courceDiv{
-	height: 86px;
-	background-color: #376bff;
+	/*height: 200px;*/
+	
 	/*box-shadow: 2px 2px 12px 5px #ccc;*/
 }
 .imgDiv{
@@ -295,8 +297,8 @@
 }
 .blockimg1{
 	/*height: 36px;*/
-	margin-top: -34px;
-	margin-left: 64px;
+	/*margin-top: -34px;
+	margin-left: 64px;*/
 	/*box-shadow: 2px 2px 12px 5px #ccc;*/
 }
 .ocDate{
@@ -314,7 +316,7 @@
 	font-weight: 100;
 }
 .bottomline{
-	height: 10px;
+	height: 4px;
 	background-color: #376bff;
 }
 .courceblockDiv{
@@ -339,4 +341,25 @@
 }
 .maincourceblockDiv{
 	margin-top: -15px;
+}
+.movemasterdiv{
+	margin-left: 29px;
+}
+.courceblockDiv12{
+	margin-left: 30px;
+}
+.coursebtn{
+	background-color: #376bff;
+	border-radius:100px;
+	color: #ffffff;
+	border:none;
+	width: 121px;
+	height: 30px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 500;
+}
+.courcearrow{
+	padding: 4px;
 }

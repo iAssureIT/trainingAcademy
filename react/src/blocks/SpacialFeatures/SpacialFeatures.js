@@ -6,12 +6,59 @@ export default class SpacialFeatures extends React.Component {
 
 	constructor(props) {
 		super(props);
-	/*	this.state(){
-			"p1":"High is a nationally recognized K-12 independent school situatedin the hills of Oakland, California. Our mission is to inspire a maplifelonglove of learning with a focus on scholarship. For 23 years of existence,Ed hasmore."
-		};*/
+		this.state = {
+
+			"Ourfeatures"		: [
+
+
+
+                            {
+								featureTitle:"Certificate of Completion",
+								featureText:"You need solution providers,thinkers,and ida generators,That's what iAssureIT does.Creativity is our DNA. ",
+								
+							},	
+
+							
+							{
+								featureTitle:"Heavy Discount if you enroll for all courses",
+								featureText:"Each Course fees is Rs 20,000 courses, you pay only Rs. 80,000 Rs 50,000.",
+								
+							},
+							{
+								featureTitle:"10% Referral Cashback",
+								featureText:"When your referred candidate enrolls,you get 10% cashback. If you refer 10 students, your  fees would be free.",
+								
+							},
+						  ],
+
+			"Ourfeaturesright" : [
+							{
+								featureTitle:"Job Assistance",
+								featureText:"We also provide a Job Assistance & prepare you for interview",
+								
+							},	
+							{
+								featureTitle:"SOLUTION APP ARCHITECTURE",
+								featureText:"You need solution providers,thinkers,and ida generators,That's what iAssureIT does.Creativity is our DNA. ",
+								
+							},
+
+							{
+
+								featureTitle:"Live Projects",
+								featureText:"Working on Live Projects is a rare ,Here in iAssure Advanced Technologies Academy,You will get to work on LIVE Projects.",
+                                featureicon:"/img/laptop.png"
+							},	
+							
+
+							]		  
+	      };
 	}
 
+
 	render() {
+		var data = this.state.Ourfeatures;
+		var data1 = this.state.Ourfeaturesright;
 		return (
 			<div>
 				<div className="col-lg-12 col-md-12 specilfDiv hidden-xs hidden-sm">
@@ -25,184 +72,65 @@ export default class SpacialFeatures extends React.Component {
 								<div className="ocTitle newocTitle">Special Features of This Program</div>
 							</div>
 						</div>
-						<div className="col-lg-12 ">
-							<div className="col-lg-3">
-								<div className="spimg1">
-									<div className="spimg12 pull-right">
-										<img src="/img/spfun1.jpg" alt="img1" className="roundimg"/>
-										<div class="sfimg1overlay">
-										    <div class="textspf">Read More</div>
-										</div>
-									</div>
+						<div className="col-lg-12 col-md-12 mainfeaturediv1 ">
+						 <div className="col-lg-4 col-md-12">
+						 {
+		                	data && data.length > 0 ?
+				      		data.map((data, index)=>{
+	                	   return(
+							   <div className="col-lg-12">
+								<div className=" col-lg-10 col-md-12 eachdiv ">
+								 <div className="col-lg-12">
+								 <h3 className="featuretitle featuretitleleft text-right col-lg-9 pull-right">{data.featureTitle}</h3>
+								</div> 
+								 <div className><p className="text-right featuretext">{data.featureText}</p>
+								 </div>
 								</div>
-							</div>
-							<div className="col-lg-9">
-								<div className="sftext1para1">
-									<div className="col-lg-10">
-										<div className="projecttxt">Live Projects </div>
-										<p className="firstpara1">Working on Live Projects is a rare thing in many training institutes. Here in <span className="highlight">iAssure Advanced Technologies Academy</span>, You will get plenty of opportunities to work on LIVE Projects from <span className="highlight">real clients </span>in a real<span className="highlight"> professional world.</span> You will work directly with all senior members in an IT company. Moreover, you earn when you contribute on any paid project by client.
-										</p>
-									</div>
+								<div className="col-lg-2 iconcircle">
+								 <img src="/img/laptop.png" className="featureicon"/>
 								</div>
-							</div>
-						</div>
-						<div className="col-lg-12 takeup ">
-							<div className="col-lg-9">
-								<div className="sftext1para2">
-								 {/*<div className="col-lg-11 specialLine ">
-									  <div className="col-lg-offset-2 col-lg-2 ocLine"></div>
-								      </div>*/}
-									<div className="col-lg-11">
-										<div className="projecttxt">10% Cashback on each Referral</div>
-										<p className="firstpara1">When your referred candidate enrolls for our course, you get 10% cashback.So it means, if you refer 10 students, your course
-										 fees would be free.After 10 students referral, you will start earning 10% amount on each enrollment.
-										</p>
-									</div>
-								</div>
-							</div>
-							<div className="col-lg-3">
-								<div className="spimg2">
-									<div className="spimg12a">
-										<img src="/img/spfun1.jpg" alt="img2" className="roundimg2"/>
-										<div class="sfimg1overlay2">
-										    <div class="text2">Read More</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div className="col-lg-12 takeup">
-							<div className="col-lg-3">
-								<div className="spimg1">
-									<div className="spimg12">
-										<img src="/img/spfun1.jpg" alt="img1" className="roundimg"/>
-										<div class="sfimg1overlay">
-										    <div class="textspf">Read More</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="col-lg-9">
-								<div className="sftext1para1">
-									<div className="col-lg-10">
-										<div className="txt2c12">Job Assistance</div>
-										<p className="firstpara1">We also provide a Job Assistance & prepare you for interview.
-										</p>
-										
-										{/*<div className="txt2c12">Certificate of Completion</div>
-										<p className="firstpara1">We also provide a Job Assistance & prepare you for interview.
-										</p>*/}
-									</div>
-								</div>
-							</div>
-						</div>
-						<div className="col-lg-12 takeup ">
-							<div className="col-lg-9">
-								<div className="sftext1para2">
-									<div className="col-lg-11">
-										<div className="projecttxt1">Heavy Discount</div>
-										<p className="firstpara1">of upto 40% if you enroll for all courses.
-										</p>
-									</div>
-								</div>
-							</div>
-							<div className="col-lg-3">
-								<div className="spimg2">
-									<div className="spimg12a">
-										<img src="/img/spfun1.jpg" alt="img2" className="roundimg2"/>
-										<div class="sfimg1overlay2">
-										    <div class="text2">Read More</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			{/*====*/}
-				<div className="col-xs-12 col-sm-12 hidden-lg hidden-md SFWrapMobile">
-					<div className="mtop25">
-						<div className="col-xs-12 col-sm-12">
-							<div className="text-center">
-								{/*<div>ALL IVY SCHOOL, ALL THE TIME</div>*/}
-								<div className="ocTitle">Special Features of This Program</div>
-								<div className="col-lg-2 col-lg-offset-5 ">
-									<div className="col-lg-offset-3  col-lg-6 ocLine"></div>
-								</div>
-
-							</div>
-						</div>
-						<div className="col-xs-12 col-sm-12">
-							<div className="col-xs-12 col-sm-12">
-								<div className="">
-									<div className="">
-										<img src="/img/spfun1.jpg" alt="img1" className="roundimg"/>
-										<div class="sfimg1overlay">
-										    <div class="textspf">Read More</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="col-xs-12 col-sm-12">
-								<div className="sftext1para1Mobile">
-									<div className="col-xs-12 col-sm-12">
-										<div className="txt2c">Live Projects </div>
-										<p>Working on Live Projects is a rare thing in many training institutes. Here in iAssure Advanced Technologies Academy, You will get plenty of opportunities to work on LIVE Projects from real clients in a real professional world. You will work directly with all senior members in an IT company. Moreover, you earn when you contribute on any paid project by client.
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div className="col-xs-12 col-sm-12">
+							</div>	
 							
-							<div className="col-xs-12 col-sm-12">
-								<div className="sftext1para1Mobile">
-									<div className="col-xs-12 col-sm-12">
-										<div className="txt2c">10% Cashback on each Referral</div>
-										<p>When your referred candidate enrolls for our course, you get 10% cashback.So it means, if you refer 10 students, your course fees would be free.After 10 students referral, you will start earning 10% amount on each enrollment.
-										</p>
-									</div>
+							);
+	                   	  })
+				      		:
+				      		null
+	                     }
+	                     </div>
+	                     <div className="col-lg-4">
+	                      <img src="/img/block4.png" className="block4img"/>
+	                     </div>
+	                      <div className="col-lg-4 col-md-12">
+						 {
+		                	data1 && data1.length > 0 ?
+				      		data1.map((data1, index)=>{
+	                	   return(
+							   <div className="col-lg-12">
+							    <div className="col-lg-2 iconcircle">
+							     <img src="/img/laptop.png" className="featureicon"/>
+							    </div>
+								<div className=" col-lg-10 col-md-12 eachdiv ">
+								 <div className="col-lg-12 NOpadding">
+								 <h3 className="featuretitle text-left col-lg-9 NOpadding">{data1.featureTitle}</h3>
+								</div> 
+								 <div className><p className="text-left featuretext">{data1.featureText}</p>
+								 </div>
 								</div>
-							</div>
-							<div className="col-xs-12 col-sm-12">
-								<div className="">
-									<div className="">
-										<img src="/img/spfun1.jpg" alt="img2" className="roundimg2"/>
-										<div class="sfimg1overlay2">
-										    <div class="text2">Read More</div>
-										</div>
-									</div>
-								</div>
-							</div>
+								
+                             </div>
+							
+							);
+	                   	  })
+				      		:
+				      		null
+	                     }
+	                     </div>
 						</div>
-						<div className="col-xs-12 col-sm-12">
-							{/*<div className="col-xs-12 col-sm-12">
-								<div className="">
-									<div className=" pull-right">
-										<img src="/img/spfun1.jpg" alt="img1" className="roundimg"/>
-										<div class="sfimg1overlay">
-										    <div class="textspf">Read More</div>
-										</div>
-									</div>
-								</div>
-							</div>*/}
-							<div className="col-xs-12 col-sm-12">
-								<div className="sftext1para1Mobile">
-									<div className="col-xs-12 col-sm-12">
-										<div className="txt2c">Job Assistance</div>
-										<p>We also provide a Job Assistance & prepare you for interview.
-										</p>
-										<div className="txt2c">Certificate of Completion</div>
-										{/*<p>We also provide a Job Assistance & prepare you for interview.
-										</p>*/}
-									</div>
-								</div>
-							</div>
-						</div>
+			
 					</div>
 				</div>
-			</div>
+			</div>	
+
 		);
 	}
 }

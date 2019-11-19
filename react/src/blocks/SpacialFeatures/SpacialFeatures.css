@@ -26,6 +26,7 @@
     height: 426px;
     background-repeat: no-repeat;
     position: relative;
+    margin-top: 90px;
 
 
     /*background-image: url("/img/bg001.png");*/
@@ -211,3 +212,50 @@
 .newline1{
   width: 85px;
 }
+.featuretitle{
+  font-size: 15px;
+  margin-bottom: 15px;
+  /*margin-right: 30px;*/
+  color: #000080;
+  font-weight: 600;
+}
+.featuretext{
+    line-height: 23px;
+    font-size: 16px;
+    color: #333;
+    margin-right: 15px;
+  }
+  .textboxposition{
+    margin-top: 20px;
+  }
+  .mainFeatureDiv{
+    margin-top: 19px;
+  }
+  .imagedivfestures{
+    margin-top: 65px;
+  }
+  .innerfeaturediv{
+    margin-top: 36px;
+  }
+  .mainfeaturediv1{
+    margin-top: 50px;
+  }
+  .featuretitleleft{
+    padding-right: 0px;
+  }
+  .block4img{
+    margin-top: 50px;
+  }
+  .eachdiv{
+    margin-bottom: 20px;
+  }
+  .iconcircle{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background-color: #376bff;
+  }
+  .featureicon{
+    margin-top: 10px;
+    height: 32px;
+  }
