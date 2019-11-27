@@ -52,8 +52,7 @@ export default class Header extends React.Component {
                                             <a href="#"className="col-lg-12">FRONTEND FRAMEWORKS</a>
                                             <a href="/"className="col-lg-12">FBACKEND PROGRAMMING</a>
                                             <a href="/"className="col-lg-12">MOBILE APP DEVELOPMENT</a>
-                                              {/* <a href="https://www.arthavruddhi.com/blog" target="_blank">Arthavrudhhi Blogs</a>
-                                               <a href="">Communique</a>*/}
+                                            
                                           
                                         </ul>
                                       </li>                                      
@@ -71,10 +70,8 @@ export default class Header extends React.Component {
 					      		<div className="h1cmpbtn">Join Us</div>
 					      	</a>
 				        </div>
-
 				    </div>  
 			    </div>
-
 			  </div>
 
 			  <div className="col-sm-12 col-xs-12 hidden-lg hidden-md">
