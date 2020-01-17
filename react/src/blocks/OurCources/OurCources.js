@@ -10,7 +10,7 @@ export default class OurCources extends React.Component {
 							{
 								blogDate:"Duration - 6 Weeks",
 								blogTitle:"Web Technologies",
-								blogPara:"Develop world's greatest quality websites",
+								blogPara:"HTML5, CSS3, Bootstrap, Javascript, JQuery, Web Animation, SVG, Canvas, GeoLocation, etc",
 								bloggerImg:"/img/1stpgrm.png",
 								// smallimg:"img/icon1.png"
 								
@@ -33,7 +33,7 @@ export default class OurCources extends React.Component {
 							},{
 								blogDate:"Duration - 4 Weeks",
 								blogTitle:"Mobile App Development",
-								blogPara:"React Native & MeteorJS-Cordova Technologies",
+								blogPara:"React Native, Android & iOS Mobile apps",
 								bloggerImg:"/img/4thpgrm.png",
 								// smallimg:"img/icon4.png"
 								
@@ -44,25 +44,25 @@ export default class OurCources extends React.Component {
 
 		    "OurCourcesmaster"		: [
 							{
-								blogDate:"Duration - 6 Weeks",
+								blogDate:"Duration - 6 Months",
 								blogTitle:"Super Fullstack Course",
-								blogPara:"Develop world's greatest quality websites",
+								blogPara:"Web Technologies + Frontend Frameworks + Backend Programming + Mobile App Development",
 								bloggerImg:"/img/5thcourse.png",
 								// smallimg:"img/icon1.png"
 								
 							},
 							{
-								blogDate:"Duration - 4 Weeks",
-								blogTitle:"Web fullstack course",
-								blogPara:"REACTJS, REDUX, Javascript ES6, Amazon S3, etc",
+								blogDate:"Duration - 4.5 Months",
+								blogTitle:"Web Fullstack Course",
+								blogPara:"Web Technologies + Frontend Frameworks + Backend Programming",
 								bloggerImg:"/img/6pgrm.png",
 								// smallimg:"img/icon2.png"
 								
 							},
 							{
-								blogDate:"Duration - 4 Weeks",
+								blogDate:"Duration - 3 Months",
 								blogTitle:"FrontEnd Master Course",
-								blogPara:"NodeJS, RESTful  API and MongoDB",
+								blogPara:"Web Technologies + Frontend Frameworks",
 								bloggerImg:"/img/7thpgrm.png",
 								// smallimg:"img/icon3.png"
 								
@@ -99,12 +99,12 @@ export default class OurCources extends React.Component {
 										<div className="octext1para1">
 											<div className="col-lg-12 paradown">
 												{/*<div className="txt2c">Start Investing in You</div>*/}
-												<p>Full-Stack Developer means the one who is expert in <span className="highlight">Frontend Technologies</span>,
-													<span className="highlight">Backend Technologies</span> and <span className="highlight"> Database.</span> Today, in IT Industry, there is a huge
+												<p>Full-Stack Developer means the one who is expert in Frontend Technologies,
+													Backend Technologies and Database. Today, in IT Industry, there is a huge
 													demand for Full-Stack developer.
-													This training program is definitely <span className="highlight"> India’s the most in-depth and the only
-													program which covers the hottest technologies</span> of IT industry. This program is&nbsp;
-													 <span className="highlight">designed to make you 100% job ready</span> as per IT Industry’s demand. So you get
+													This training program is definitely India’s the most in-depth and the only
+													program which covers the hottest technologies of IT industry. This program is&nbsp;
+													 designed to make you 100% job ready as per IT Industry’s demand. So you get
 													handsome job instantly.
 												</p>
 											</div>
@@ -145,7 +145,7 @@ export default class OurCources extends React.Component {
 													<p className="oc2Para p10 courcepara">{data.blogPara}</p>
 												</div>
 												<div className="col-lg-12 coursebtndiv NOpadding">
-												 <button className="col-lg-offset-4 coursebtn "><i className="fa fa-chevron-circle-right courcearrow"></i>know more</button>
+												 {/*<button className="col-lg-offset-4 coursebtn "><i className="fa fa-chevron-circle-right courcearrow"></i>know more</button>*/}
 												</div>
 												<div className="col-lg-12 bottomline NOpadding">
 												</div>
@@ -176,7 +176,7 @@ export default class OurCources extends React.Component {
 													<p className="oc2Para p10 courcepara">{data1.blogPara}</p>
 												</div>
 												<div className="col-lg-12  NOpadding">
-												 <button className="col-lg-offset-4 coursebtn "><i className="fa fa-chevron-circle-right courcearrow"></i>know more</button>
+												 {/*<button className="col-lg-offset-4 coursebtn "><i className="fa fa-chevron-circle-right courcearrow"></i>know more</button>*/}
 												</div>
 												<div className="col-lg-12 bottomline NOpadding">
 												</div>

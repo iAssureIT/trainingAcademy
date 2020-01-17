@@ -15,7 +15,7 @@ class Footer extends Component {
                   <div className="f1CourseRegBoxa">
                     <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12">
                       <div className="cboxtxt">
-                      Start mastering your courses! Try now for free
+                      Start mastering your courses!
                       </div>
                     </div>
                     <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12">

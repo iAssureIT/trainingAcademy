@@ -19,8 +19,8 @@ export default class Comp2 extends React.Component {
 									</div>
 									{/*<div className="c2txt1c">ALL IVY SCHOOL, ALL THE TIME</div>*/}
 									<div className="c2txt2c">Who is a Fullstack Developer?</div>
-									<p className="parac2linectxt">A <span className="highlight"> FullStack Developer</span> 
-									&nbsp;is the one who has expertise in <span className="highlight"> Web UI/UX Technologies, Frontend Frameworks, Backend Programming Languages & Database Technologies.</span> One Fullstack developer is capable of executing the tasks of <span className="highlight">fronend developer</span> & <span className="highlight"> backend developer.</span> Fullstack developer has tremendous demand in IT Industry.</p>
+									<p className="parac2linectxt">A  FullStack Developer
+									&nbsp;is the one who has expertise in  Web UI/UX Technologies, Frontend Frameworks, Backend Programming Languages & Database Technologies. One Fullstack developer is capable of executing the tasks of fronend developer &  backend developer. Fullstack developer has tremendous demand in IT Industry.</p>
 									{/*<div className="c2cmpbtn pull-right">LEARN MORE</div>*/}
 								</div>
 							</div>

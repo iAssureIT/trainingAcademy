@@ -20,8 +20,8 @@ export default class Comp1 extends React.Component {
 										  <div className="col-lg offset-5 col-lg-12 blockicon">
 								          </div>
 											<div className="contentbboxc1">
-									            <div className="titlebboxc1"><b>BEST TEACHERS</b></div>
-									            <div className="descriptionbboxc1 text-center">From IITs &amp; other top tier colleagues with 10+ years            </div>
+									            <div className="titlebboxc1"><b>100% Job Guarantee</b></div>
+									            <div className="descriptionbboxc1 text-center">No other course in India can match this guarantee</div>
 									        </div>
 										</div>
 									</div>
@@ -30,8 +30,8 @@ export default class Comp1 extends React.Component {
 										 <div className="col-lg offset-5 col-lg-12 blockicon">
 								          </div>
 											<div className="contentbboxc1">
-									            <div className="titlebboxc1"><b>BEST TEACHERS</b></div>
-									            <div className="descriptionbboxc1 text-center">From IITs &amp; other top tier colleagues with 10+ years            </div>
+									            <div className="titlebboxc1"><b>Practical Oriented </b></div>
+									            <div className="descriptionbboxc1 text-center">Complete focus on Practical Assignments </div>
 									        </div>
 										</div>
 									</div>
@@ -45,8 +45,8 @@ export default class Comp1 extends React.Component {
 											 <div className="col-lg offset-5 col-lg-12 blockicon">
 								              </div>
 												<div className="contentbboxc1">
-										            <div className="titlebboxc1"><b>BEST TEACHERS</b></div>
-										            <div className="descriptionbboxc1 text-center">From IITs &amp; other top tier colleagues with 10+ years            </div>
+										            <div className="titlebboxc1"><b>Most Experienced Coach</b></div>
+										            <div className="descriptionbboxc1 text-center"> IIT Graduate & 21+ yrs experience in IT Industry</div>
 										        </div>
 											</div>
 										</div>
@@ -55,8 +55,8 @@ export default class Comp1 extends React.Component {
 											 <div className="col-lg offset-5 col-lg-12 blockicon">
 								             </div>
 												<div className="contentbboxc1">
-										            <div className="titlebboxc1"><b>BEST TEACHERS</b></div>
-										            <div className="descriptionbboxc1 text-center">From IITs &amp; other top tier colleagues with 10+ years            </div>
+										            <div className="titlebboxc1"><b>Designed for IT Industry</b></div>
+										            <div className="descriptionbboxc1 text-center">Highest demand technology stack in IT </div>
 										        </div>
 											</div>
 										</div>
@@ -74,9 +74,9 @@ export default class Comp1 extends React.Component {
 								<div>
 									<div className="txt1c"></div>
 									<div className="txt2c">Are you looking for a Job in IT Industry?</div>
-									<p className="firstpara">IT Industry is changing rapidly with the introduction of<span className="highlight"> new cutting edge
-									 technologies</span> every year. <span className="highlight"> IT Companies are becoming very selective in their approach
-									     during recruitment.</span> Only<span className="highlight"> highly skilled</span> students are entering the IT Industry.</p>
+									<p className="firstpara">IT Industry is changing rapidly with the introduction of new cutting edge
+									 technologies every year.  IT Companies are becoming very selective in their approach
+									     during recruitment. Only highly skilled students are entering the IT Industry.</p>
 									     <br/>
 									<p className="secondpara ">Most of the students are wasting their hard-earned money and valuable time after
 									 graduation, in learning some old technologies which are no more in demand in market. 

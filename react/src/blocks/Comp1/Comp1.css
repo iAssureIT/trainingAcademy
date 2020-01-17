@@ -142,7 +142,8 @@
 	border-radius: 10px;
 	cursor: pointer;
 	margin: 10px 0px 10px 0px;
-	background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff);;
+	/*background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff);;*/
+	background-color: #b5f3f3;
 	box-shadow: 4px 4px 11px 4px #d3d3d3;
 }
 .contentbboxc1:hover .descriptionbboxc1 {

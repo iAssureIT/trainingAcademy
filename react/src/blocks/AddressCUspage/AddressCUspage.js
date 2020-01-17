@@ -27,11 +27,11 @@ export default class AddressCUspage extends React.Component {
 					</div>
 					<div className="col-lg-4 cuAddbox1">
 						<div className="col-lg-12 col-md-12 col-xs-12 col-sm-12 rightborder">
-									<img src="/img/phn.png" className="ml45" height="45px"/>
+									<img src="/img/whatsapp1.png" className="ml45" height="45px"/>
 								
 								<div className="col-lg-12 col-md-12 col-xs-12 col-sm-12">
-									<div className="Addheadingtxt"><b>CONTACT US</b> </div>
-									<p className="text-center">Mobile:
+									<div className="Addheadingtxt"><b>Write us Message</b> </div>
+									<p className="text-center">
 									+91 - 9923 393 733
 									</p>
 								</div>
@@ -43,8 +43,8 @@ export default class AddressCUspage extends React.Component {
 									<img src="/img/mail.png" className="ml45" height="45px"/>
 								
 								<div className="col-lg-12 col-md-12 col-xs-12 col-sm-12">
-									<div className="Addheadingtxt"><b>WRITE SOME WORDS</b> </div>
-									<p className="text-center">Email: info@iassureit.com
+									<div className="Addheadingtxt"><b>Write us Mail</b> </div>
+									<p className="text-center"> info@iassureit.com
 									</p>
 
 								</div>
