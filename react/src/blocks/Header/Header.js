@@ -12,21 +12,26 @@ export default class Header extends React.Component {
 			<div className="headerWall">
 			  <div className="col-lg-12 col-md-12 hidden-xs hidden-sm">
 			    <div className="navbar-header col-lg-2">
-			     <a className="navbar-brand" href="/">{/*logowhite.png*/}
-                    <img src="/img/Logo.png" alt="img1" className="logoImg"/>
+			     	<a className="navbar-brand" href="/">{/*logowhite.png*/}
+                    	<img src="/img/Logo.png" alt="img1" className="logoImg"/>
                     {/*<img src="/img/iAssureIT/Advanced-Technologies-Training-Academy.png" alt="img1" className="logoImg"/>*/}
-			      </a>
+			      	</a>
 			    </div>
 			    
-			    <div className="col-lg-10">
-				    <div className="">
-				    	
-				      		<div className="col-lg-2 col-lg-offset-4 ">
-                              <a href="/">
-                               <div className="hombtn">Home</div>
-                              </a>
-				      		</div>
+			    <div className="col-lg-10  ">
+				    <div className="col-lg-3 pull-right ">
+			      		<div className="col-lg-6">
+                          	<a href="/">
+                           		<div className="Hcmpbtn">Home</div>
+                          	</a>
+			      		</div>
+			      		<div className="col-lg-6">
+					      	<a href="/contactuspage">
+					      		<div className="h2cmpbtn">Join Us</div>
+					      	</a>
+				        </div>
 	                   
+				    </div> 
 	                 {/*  <a href="/"> 
 	                   <div className="col-lg-4 ">
 	                   <nav className="navbar marginZero customNavBar navbar-default">
@@ -64,18 +69,9 @@ export default class Header extends React.Component {
                               </nav>
                               </div>
                               </a>*/}
-						        <div className="col-lg-2 pull-right">
-							      	<a href="/contactuspage">
-							      		<div className="h1cmpbtn">Join Us</div>
-							      	</a>
-						        </div>
-
-				    </div>  
 			    </div>
-
-			  </div>
-
-			  <div className="col-sm-12 col-xs-12 hidden-lg hidden-md">
+			</div>
+			<div className="col-sm-12 col-xs-12 hidden-lg hidden-md">
 			    <div className="navbar-header col-sm-6 col-xs-6">
 			     	<a className="navbar-brand" href="/">{/*logowhite.png*/}
                     	<img src="/img/logowhite.png" alt="img1" className="logoImg"/>
@@ -94,7 +90,7 @@ export default class Header extends React.Component {
 				        </div>
 				    </div>  
 			    </div>
-			  </div>
+			</div>
 			</div>
 			
 		);

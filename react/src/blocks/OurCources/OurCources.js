@@ -88,11 +88,8 @@ export default class OurCources extends React.Component {
 								<div className="ocTitle txt2c">FULLSTACK DEVELOPER PROGRAM</div>
 								 <div className="col-lg-12 newdiv">
 									<div className="col-lg-6">
-										<div className="spimg1 col-lg-offset-6">
-											<div className="spimg12 pull-right">
-												<img src="/img/ocb1.png" alt="img1" className="ocb1Img"/>
-												
-											</div>
+										<div className="spimg1">
+											<img src="/img/ocb3.png" alt="img1" className="ocb1Img"/>
 										</div>
 									</div>
 									<div className="col-lg-6 programtxt">

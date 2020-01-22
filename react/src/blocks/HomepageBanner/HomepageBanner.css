@@ -1,10 +1,11 @@
 .HomepageBanner{
 	/*height: auto;*/
-	height: 680px;
+	height: 800px;
 	
 	/*opacity: 0.5;*/
-	background-color:#283593;
-	background-image: url("/img/bg001.png");
+	/*background-color:#283593;*/
+	background-image: url("/img/Banner.png");
+	/*background-image: url("/img/Background_4.png");*/
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	
@@ -133,9 +134,9 @@
 .super30txt3{
 	text-align: center !important;
 	font-weight: 500;
+	margin-left: 84px;
 
 }
 .pd35{
-	padding-top: 40px;
-	padding-left: 33px;
+padding: 16px 36px;
 }

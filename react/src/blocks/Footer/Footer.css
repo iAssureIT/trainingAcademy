@@ -132,7 +132,8 @@
 
 .f1CourseRegBoxa{
 	/*background-color: #999;*/
-	background: -webkit-linear-gradient(left, #4e58b2, #727ac1);
+	/*background: -webkit-linear-gradient(left, #4e58b2, #727ac1);*/
+	background-color: #4e58b2;
 	height: 155px;
 	padding: 0;
 	/*border-radius: 20px;*/

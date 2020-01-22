@@ -3,7 +3,7 @@
 }
 
 .c2text1para1{
-	padding: 50px 15px 0px 30px;
+	padding: 133px 15px 0px 30px;
 	
 
 }
@@ -23,7 +23,7 @@
     /*text-align: left;*/
 }
 .c2txt2c{
-	color: #376bff;
+	color: #fff;
     line-height: 1.25;
     font-size: 36px;
     text-transform: uppercase;
@@ -43,7 +43,7 @@
     /*margin: 5px 0px;*/
     padding-top: 10px;
     font-weight: 100;
-    color: #333;
+    color: #fff;
     line-height: 1.6;
 }
 .c2cmpbtn{
@@ -66,8 +66,11 @@
 	background-color: #353e92;
 }
 .CBannerAH{
-    height: auto;
+    height: 700px;
     position: relative;
+    background-image: url("/img/Background_5.png");
+    background-size: 100% 100%;
+
 }
 .CBannerAHMobile{
     height: 1015px;
@@ -88,4 +91,8 @@
 .highlight{
     font-weight: 700 ! important;
     text-transform: uppercase;
+}
+.sideImage5_5{
+    height: 490px;
+    margin-top: 90px;
 }

@@ -28,13 +28,13 @@ export default class ContactUsForm extends React.Component {
 	constructor(props) {
 		super(props);
 		     this.state={
-      "name"      	: "",
-      "email"   	: "",
-      "Subject"   	: "",
-      "message"     : "",
-      "formerrors" :{
-          clientName  : " ",
-          clientEmail : " ",
+          "name"      	: "",
+          "email"   	: "",
+          "Subject"   	: "",
+          "message"     : "",
+          "formerrors" :{
+              clientName  : " ",
+              clientEmail : " ",
           
         
         },
@@ -77,7 +77,7 @@ handleChange(event){
 Submit(event){
     event.preventDefault();
     // var adminEmail = this.getAdminEmail();  //Get email id from company settings. Write API for that.
-    var adminEmail = "";
+    var adminEmail = "ashish.chavan@iassureit.com";
 
     const formValues1 = {
         "email"         : this.state.email ,
@@ -96,7 +96,7 @@ Submit(event){
       console.log("notification",formValues1); 
       
         axios
-        .post('/send-email',formValues1)
+        .post('http://qaiassureitapi.iassureit.com/send-email',formValues1)
         .then((res)=>{
                    if(res.status === 200){
                     Swal("Thank you for contacting us. We will get back to you shortly.")
@@ -126,7 +126,7 @@ Submit(event){
       console.log("notification",formValues2); 
       
         axios
-        .post('/send-email',formValues2)
+        .post('http://qaiassureitapi.iassureit.com/send-email',formValues2)
         .then((res)=>{
                   if(res.status === 200){
                     console.log("Mail Sent TO ADMIN successfully!")
@@ -145,23 +145,17 @@ Submit(event){
 	render() {
 		const {formerrors} = this.state;
 		return (
-			<div className="container-fluid" style={{padding:"0px"}}>
-				<div className="col-lg-12 col-md-12">
-					<hr/>
-					<div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<div className="text-center lamsge">Leave A Message</div>
-					</div>
-					<div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">	
-						<div className="col-lg-8 col-lg-offset-2 ">
+			<div className="container-fluid nopadding" >
+				<div className="col-lg-12 col-md-12 p49">
 							<form className="">
-								<div className="col-lg-12 col-md-12 col-xs-12 col-sm-12 bt30">
+								<div className="col-lg-12 col-md-12 col-xs-12 col-sm-12 bt30 nopadding">
 									{/*<div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">*/}
 										{/*<label class="col-md-4 col-lg-4 col-xs-4 col-sm-4 nopadding">Your Name</label>*/}
 										<input className="form-control" name="from" type="text" ref="name" placeholder="Your name" value={this.state.name} onChange={this.handleChange.bind(this)}/>
 									{/*</div>*/}
 								</div>
 								{/*<div className="col-lg-8 col-md-8 col-xs-12 col-sm-12  row">*/}
-									<div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 bt30">
+									<div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 bt30 nopadding">
 										{/*<label class="col-md-12 col-lg-12 col-xs-12 col-sm-12 nopadding">Your Email address</label>*/}
 										<input className="form-control" name="from" type="email" data-text="clientEmail" placeholder="Your@email.com" ref="email" value={this.state.email} onChange={this.handleChange.bind(this)}/>
 										{
@@ -170,25 +164,24 @@ Submit(event){
 				              )
                     }
 									</div>
-									<div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 bt30">
+									<div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 bt30 nopadding">
 										{/*<label class="col-md-12 col-lg-12 col-xs-12 col-sm-12 nopadding">Phone No</label>*/}
 										<input className="form-control" name="from" type="text" placeholder="Subject" ref="Subject" value={this.state.Subject} onChange={this.handleChange.bind(this)} />
 									</div>
-								<div className="col-lg-12 col-md-12 col-xs-12 col-sm-12  bt30">
+								<div className="col-lg-12 col-md-12 col-xs-12 col-sm-12  bt30 nopadding">
 									{/*<div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">*/}
 										{/*<label class="col-md-12 col-lg-12 col-xs-12 col-sm-12 nopadding">Message</label>*/}
 								          <textarea className="form-control" name="message" placeholder="How can we help?" rows="6"ref="message" value={this.state.message} onChange={this.handleChange.bind(this)} ></textarea>      
 									{/*</div>*/}
 								</div>
-								<div className="col-lg-12 col-md-12 col-xs-12 col-sm-12  bt40">
-									<div className="col-lg-11 col-md-12 col-sm-12 col-xs-12 ">
+								<div className="col-lg-12 col-md-12 col-xs-12 col-sm-12 nopadding bt40">
+								
 										{/*<button  className="sbtn col-lg-3 col-lg-offset-5" >Send Request</button>*/}
-                    <button type="button" className="cusfcmpbtn col-lg-3 col-lg-offset-5" onClick={this.Submit.bind(this)}>Send Message</button>
-									</div>
+                    <button type="button" className="col-lg-3 cusfcmpbtn" onClick={this.Submit.bind(this)}>Send Message</button>
+									
 								</div>
 							</form>
-						</div>
-					</div>		
+								
 				</div>				
 			</div>
 		);

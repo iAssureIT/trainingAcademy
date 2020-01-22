@@ -19,7 +19,7 @@ return (
 						<div className="whtcolr btitle1"><span className="super30txt">Super-30</span> <br/><span className="super30txt1">Fullstack Developer</span><br/>
 						<span className="super30txt2">Training Program</span> </div>
 						<div className="btitle2 whtcolr">
-						<span className="super30txt3 ">This course is created as per the IT Industry's current <br/> requirement & hottest Technologies.</span>
+						<span className="super30txt3">This course is created as per the IT Industry's current</span> <br/> <span className="super30txt3">requirement & hottest Technologies.</span>
 						</div>
 						{/*<div className="bannerbtn">VIEW OUR COURSES</div>*/}
 						</div>

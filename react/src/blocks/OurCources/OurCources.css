@@ -1,5 +1,5 @@
 .mtop65{
-	margin-top: 65px;
+	/*margin-top: 65px;*/
 }
 .ocTitle{
 	color: #292929;
@@ -208,13 +208,13 @@
 	background-color: #353e92;
 }
 .octext1para1{
-	padding: 30px 15px 0px 30px;
+	padding: 45px 15px 0px 30px;
     /*height: 550px;*/
     text-align: left;
 }
 .ocb1Img{
-	height: 300px;
-    margin-top: 20%;
+	height: 450px;
+    /*margin-top: 14%;*/
 }
 .octext1para1 p{
 	font-size: 18px;
@@ -237,7 +237,7 @@
 /*================================================================*/
 
 .ocWrap{
-	margin-top: -84px;
+	
 
 }
 .ocWrapmobile{
@@ -277,7 +277,9 @@
 	margin-top: 19px;
 }
 .paradown1{
-	margin-top: -17px;
+	/*background-image: url("/img/Background_5.png");
+    background-size: 100% 100%;*/
+    padding: 0px;
 }
 .programtxt{
 	margin-top: 70px;

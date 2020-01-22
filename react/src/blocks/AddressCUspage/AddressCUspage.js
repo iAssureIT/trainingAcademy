@@ -30,7 +30,7 @@ export default class AddressCUspage extends React.Component {
 									<img src="/img/whatsapp1.png" className="ml45" height="45px"/>
 								
 								<div className="col-lg-12 col-md-12 col-xs-12 col-sm-12">
-									<div className="Addheadingtxt"><b>Write us Message</b> </div>
+									<div className="Addheadingtxt"><b>Whatsapp Message Only</b> </div>
 									<p className="text-center">
 									+91 - 9923 393 733
 									</p>

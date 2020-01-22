@@ -19,6 +19,7 @@ export default class AddressOnGoogleMap extends React.Component {
 
 	render() {
 		return (
+			<div className="mapWrap">
 			<div className="gmapwrapper">
 				<div class="demogmap_canvas  hidden-xs hidden-sm">
 					
@@ -52,7 +53,7 @@ export default class AddressOnGoogleMap extends React.Component {
 					
 				</div>
 				
-				
+			</div>
 			</div>
 		);
 	}

@@ -17,45 +17,48 @@ export default class Comp1 extends React.Component {
 								<div className="col-lg-6 col-md-6">
 									<div className="bboxc1wrap">
 										<div className="bboxc1">
-										  <div className="col-lg offset-5 col-lg-12 blockicon">
-								          </div>
 											<div className="contentbboxc1">
-									            <div className="titlebboxc1"><b>100% Job Guarantee</b></div>
+									            <div className="titlebboxc1">
+													<img src="/img/100JobGuarantee.png" hight="100" width="100" className="" alt="side1img"/><br/>
+										            <b className="fs18px">100%<br/> Job Guarantee</b>
+										        </div>
 									            <div className="descriptionbboxc1 text-center">No other course in India can match this guarantee</div>
 									        </div>
 										</div>
 									</div>
 									<div className="bboxc1wrap">
 										<div className="bboxc2">
-										 <div className="col-lg offset-5 col-lg-12 blockicon">
-								          </div>
 											<div className="contentbboxc1">
-									            <div className="titlebboxc1"><b>Practical Oriented </b></div>
+									            <div className="titlebboxc1">
+													<img src="/img/Practical Oriented.png" hight="100" width="100" className="" alt="side1img"/><br/><br/>
+									            	<b className="fs18px">Practical Oriented </b>
+									            </div>
 									            <div className="descriptionbboxc1 text-center">Complete focus on Practical Assignments </div>
 									        </div>
 										</div>
 									</div>
-
-									
 								</div>
 								<div className="col-lg-6 col-md-6">
 									<div className="mtop50">
 										<div className="bboxc2wrap">
-											<div className="bboxc2">
-											 <div className="col-lg offset-5 col-lg-12 blockicon">
-								              </div>
+											<div className="bboxc3">
 												<div className="contentbboxc1">
-										            <div className="titlebboxc1"><b>Most Experienced Coach</b></div>
+										            <div className="titlebboxc1">
+														<img src="/img/Most-Experienced-Coach.png" hight="100" width="100" className="" alt="side1img"/><br/><br/>
+										            	<b className="fs18px">Most <br/>Experienced Coach</b>
+										            </div>
 										            <div className="descriptionbboxc1 text-center"> IIT Graduate & 21+ yrs experience in IT Industry</div>
 										        </div>
 											</div>
 										</div>
 										<div className="bboxc2wrap">
-											<div className="bboxc1">
-											 <div className="col-lg offset-5 col-lg-12 blockicon">
-								             </div>
+											<div className="bboxc4">
+											
 												<div className="contentbboxc1">
-										            <div className="titlebboxc1"><b>Designed for IT Industry</b></div>
+										            <div className="titlebboxc1">
+														<img src="/img/Designed-for-IT-Industry.png" hight="100" width="100" className="" alt="side1img"/><br/><br/>
+										            	<b className="fs18px">Designed for<br/> IT Industry</b>
+										            </div>
 										            <div className="descriptionbboxc1 text-center">Highest demand technology stack in IT </div>
 										        </div>
 											</div>
@@ -74,7 +77,8 @@ export default class Comp1 extends React.Component {
 								<div>
 									<div className="txt1c"></div>
 									<div className="txt2c">Are you looking for a Job in IT Industry?</div>
-									<p className="firstpara">IT Industry is changing rapidly with the introduction of new cutting edge
+									<br/>
+									<p className="secondpara">IT Industry is changing rapidly with the introduction of new cutting edge
 									 technologies every year.  IT Companies are becoming very selective in their approach
 									     during recruitment. Only highly skilled students are entering the IT Industry.</p>
 									     <br/>

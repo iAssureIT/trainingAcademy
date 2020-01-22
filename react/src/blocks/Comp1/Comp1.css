@@ -1,7 +1,7 @@
 
 .c1box1{
 	height: 710px;
-    padding: 50px 15px 0px 15px;
+    padding: 0px 15px 0px 15px;
 }
 
 .part1box1{
@@ -13,7 +13,7 @@
 }
 
 .text1para1{
-	padding: 30px 15px 0px 30px;
+	padding: 16px 15px 0px 30px;
 	
 
 }
@@ -85,8 +85,19 @@
 	background-image: url("/img/blockimg.png");
 	background-size: 100% 100%;
 	margin-top: 54px;
-
-
+}
+.blockicon:hover{
+	color: #fff;
+}
+.blockicon1{
+	height: 51px;
+	width: 51px;
+	background-image: url("/img/100JobGuarantee.png");
+	background-size: 100% 100%;
+	margin-top: 54px;
+}
+.blockicon1:hover{
+	color: #fff;
 }
 .bboxc1:hover{
 	background: #4e58b2bd !important;
@@ -99,20 +110,59 @@
 	border-radius: 10px;
 	cursor: pointer;
 	margin: 10px 0px 10px 0px;
-	background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff);;
-	box-shadow: 4px 4px 11px 4px #d3d3d3;
+	background: linear-gradient(44deg, rgb(99, 0, 140) 1%, rgb(96, 108, 254) 100%);
+	/*background: linear-gradient(30deg, rgba(51,78,160,1) 0%, rgba(86,234,164,1) 93%);*/
+	/*background-color: #33b5e5;*/
+	/*background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff);;*/
+	/*box-shadow: 4px 4px 11px 4px #d3d3d3;*/
+	/*background-color: #fff;*/
+}
+.bboxc3:hover{
+	background: #4e58b2bd !important;
+	/*transition: 1.25s cubic-bezier(0.76, 0.03, 0.28, 0.98);*/
+}
+
+.bboxc3{
+	height: 290px;
+	width: 247px;
+	border-radius: 10px;
+	cursor: pointer;
+	margin: 10px 0px 10px 0px;
+	/*background-color: #ffbb33;*/
+	background: linear-gradient(45deg,#ff4200  0%,#ffc600 100%);
+	/*background: linear-gradient(55deg,  rgba(249,97,97,1)0%,  rgba(251,132,102,1) 27%, rgba(253,164,106,1) 51%, rgba(253,185,107,1) 74%, rgba(254,215,111,1) 100%);*/
+	
+	/*background: linear-gradient(to right, #f1f, #1ff, #ff1, #fff, #fff);*/
+	/*box-shadow: 4px 4px 11px 4px #d3d3d3;*/
+	/*background-color: #fff;*/
+}
+.bboxc4:hover{
+	background: #4e58b2bd !important;
+	/*transition: 1.25s cubic-bezier(0.76, 0.03, 0.28, 0.98);*/
+}
+
+.bboxc4{
+	height: 290px;
+	width: 247px;
+	border-radius: 10px;
+	cursor: pointer;
+	margin: 10px 0px 10px 0px;
+	/*background-color: #ff4444;*/
+	background: linear-gradient(55deg, rgba(70,201,250,1) 0%, rgba(54,161,231,1) 27%, rgba(47,130,215,1) 51%, rgba(46,97,190,1) 74%, rgba(51,78,160,1) 100%);
+	/*background: linear-gradient(to right, #f1f, #1ff, #ff1, #fff, #fff);*/
+	/*box-shadow: 4px 4px 11px 4px #d3d3d3;*/
 	/*background-color: #fff;*/
 }
 .contentbboxc1{
 	color: #333 !important;
-	padding: 40px;
+	padding: 30px;
 	font-size: 16px;
 	text-align: justify-all;
-	padding-top: 90px;
+	padding-top: 20px;
 }
 .titlebboxc1{
 	text-align: center;
-	color:#376bff;
+	color:#fff;
 	margin: 40px 0px 8px 0px;
 }
 
@@ -132,7 +182,9 @@
 	background-size: 100% 100%;
 }
 .bboxc2:hover{
-	background: #f6b43c73 !important;
+	/*background: #f6b43c73 !important;*/
+	background: #4e58b2bd !important;
+	color: #fff !important;
 	/*transition: 1.25s cubic-bezier(0.76, 0.03, 0.28, 0.98);*/
 }
 
@@ -143,8 +195,9 @@
 	cursor: pointer;
 	margin: 10px 0px 10px 0px;
 	/*background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff);;*/
-	background-color: #b5f3f3;
-	box-shadow: 4px 4px 11px 4px #d3d3d3;
+	/*background-color: #00C851;*/
+	background: linear-gradient(55deg, rgba(245,111,195,1) 0%, rgba(225,113,207,1) 27%, rgba(199,115,217,1) 51%, rgba(176,116,224,1) 74%, rgba(130,131,249,1) 98%);
+	/*box-shadow: 4px 4px 11px 4px #d3d3d3;*/
 }
 .contentbboxc1:hover .descriptionbboxc1 {
  color:#fff ;
@@ -154,15 +207,15 @@
 }
 .contentbboxc1{
 	color: #fff !important;
-	padding: 40px;
+	padding: 20px;
 	font-size: 16px;
 	text-align: justify-all;
-	padding-top: 90px;
+	padding-top: 20px;
 }
 .titlebboxc1{
-	color: #376bff;
+	color: #fff;
 	text-align: center;
-	margin: 40px 0px 8px 0px;
+	margin: 5px 0px 8px 0px;
 }
 .text1para1mobile{
 	padding: 30px 0px 0px 0px;
@@ -175,7 +228,7 @@
 
 }
 .firstpara{
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	font-weight: none ! important;
 	font-size: 20px ! important;
 }
@@ -187,8 +240,15 @@
 	font-weight: 700 ! important;
 }
 .descriptionbboxc1{
-	color: #333;
+	color: #fff;
+	line-height: 1.25;
+	font-weight: 500;
 }
 .part2box1{
-	margin-top: 65px;
+	margin-top: 116px;
+}
+.fs18px{
+	font-size: 20px;
+	font-weight: 500px;
+	line-height: 1px;
 }

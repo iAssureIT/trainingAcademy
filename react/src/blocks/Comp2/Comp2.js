@@ -26,7 +26,7 @@ export default class Comp2 extends React.Component {
 							</div>
 						</div>
 						<div className="col-lg-6 col-md-6 col-xs-12 col-sm-12">
-							<img src="/img/bg-18.jpg" className="" alt="side1img"/>
+							<img src="/img/5_5a.png" className="sideImage5_5" alt="side1img"/>
 						</div>
 					</div>
 				</div>
