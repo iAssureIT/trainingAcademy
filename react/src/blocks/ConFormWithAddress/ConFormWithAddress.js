@@ -26,6 +26,8 @@ export default class ConFormWithAddress extends React.Component {
 	               				<div className="col-lg-12 h133">
 	               					<div className="row">
 	               						<div className="col-lg-3">
+	               							<div className="squre1">
+	               							</div>
 	               							<img src="/img/location.png" className="ml45" height="45px"/>
 	               						</div>
 	               						<div className="col-lg-9 m5">
