@@ -27,10 +27,7 @@ export default class ConFormWithAddress extends React.Component {
 	                <div className="padd50">
 	                    <div className="col-md-12 col-lg-12">
 	                        <div className="section-title">
-	                            <h2 className="title">Contact Us</h2>
-	                            <p>Expenses as material breeding insisted building to in. Continual so distrusts pronounce by
-	                                unwilling listening. Thing do taste on we manor.
-	                            </p>
+	                           
 	                        </div>
 	                    </div>
 	               		<div className="col-lg-12 col-md-12 formwrap">
