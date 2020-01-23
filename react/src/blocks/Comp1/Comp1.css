@@ -110,7 +110,9 @@
 	border-radius: 10px;
 	cursor: pointer;
 	margin: 10px 0px 10px 0px;
-	background: linear-gradient(44deg, rgb(99, 0, 140) 1%, rgb(96, 108, 254) 100%);
+	background-image: url("/img/D.png");
+	background-size: 100% 100%;
+	/*background: linear-gradient(44deg, rgb(99, 0, 140) 1%, rgb(96, 108, 254) 100%);*/
 	/*background: linear-gradient(30deg, rgba(51,78,160,1) 0%, rgba(86,234,164,1) 93%);*/
 	/*background-color: #33b5e5;*/
 	/*background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff);;*/
@@ -129,7 +131,9 @@
 	cursor: pointer;
 	margin: 10px 0px 10px 0px;
 	/*background-color: #ffbb33;*/
-	background: linear-gradient(45deg,#ff4200  0%,#ffc600 100%);
+	/*background: linear-gradient(45deg,#ff4200  0%,#ffc600 100%);*/
+	background-image: url("/img/C.png");
+
 	/*background: linear-gradient(55deg,  rgba(249,97,97,1)0%,  rgba(251,132,102,1) 27%, rgba(253,164,106,1) 51%, rgba(253,185,107,1) 74%, rgba(254,215,111,1) 100%);*/
 	
 	/*background: linear-gradient(to right, #f1f, #1ff, #ff1, #fff, #fff);*/
@@ -148,7 +152,9 @@
 	cursor: pointer;
 	margin: 10px 0px 10px 0px;
 	/*background-color: #ff4444;*/
-	background: linear-gradient(55deg, rgba(70,201,250,1) 0%, rgba(54,161,231,1) 27%, rgba(47,130,215,1) 51%, rgba(46,97,190,1) 74%, rgba(51,78,160,1) 100%);
+	background-image: url("/img/B.png");
+
+	/*background: linear-gradient(55deg, rgba(70,201,250,1) 0%, rgba(54,161,231,1) 27%, rgba(47,130,215,1) 51%, rgba(46,97,190,1) 74%, rgba(51,78,160,1) 100%);*/
 	/*background: linear-gradient(to right, #f1f, #1ff, #ff1, #fff, #fff);*/
 	/*box-shadow: 4px 4px 11px 4px #d3d3d3;*/
 	/*background-color: #fff;*/
@@ -195,7 +201,9 @@
 	cursor: pointer;
 	margin: 10px 0px 10px 0px;
 	/*background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff);;*/
-	background: linear-gradient(55deg, #ff5b94, #8441a1);;
+	background-image: url("/img/A.png");
+
+	/*background: linear-gradient(55deg, #ff5b94, #8441a1);;*/
 	/*background-color: #00C851;*/
 	/*background: linear-gradient(55deg, rgba(245,111,195,1) 0%, rgba(225,113,207,1) 27%, rgba(199,115,217,1) 51%, rgba(176,116,224,1) 74%, rgba(130,131,249,1) 98%);*/
 	/*box-shadow: 4px 4px 11px 4px #d3d3d3;*/

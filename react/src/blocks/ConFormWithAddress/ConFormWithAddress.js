@@ -1,4 +1,6 @@
 import React from 'react';
+import $ from "jquery";
+
 import './ConFormWithAddress.css';
 
 import ContactUsForm from '../ContactUsForm/ContactUsForm.js';
@@ -7,7 +9,17 @@ export default class ConFormWithAddress extends React.Component {
 	constructor(props) {
 		super(props);
 	}
-
+	componentDidMount(){
+		$("#LocationBox").hover(function(){
+			$("#Location").toggleClass("tran90");
+		});
+		$("#WhatsAppBox").hover(function(){
+			$("#WhatsApp").toggleClass("tran90");
+		});
+		$("#MailBox").hover(function(){
+			$("#mail").toggleClass("tran90");
+		});
+	}
 	render() {
 		return (
 			<div className="cfwa-Wrapper">
@@ -23,12 +35,14 @@ export default class ConFormWithAddress extends React.Component {
 	                    </div>
 	               		<div className="col-lg-12 col-md-12 formwrap">
 	               			<div className="col-lg-4 lg4">
-	               				<div className="col-lg-12 h133">
+	               				<div className="col-lg-12 h133" id="LocationBox">
 	               					<div className="row">
 	               						<div className="col-lg-3">
 	               							<div className="squre1">
+	               								<img src="/img/cu1.png" className="ml45" id="Location" height="55px" width="55px"/>
+	               								<img src="/img/Location.png" className="middleIcon" height="30px"/>
 	               							</div>
-	               							<img src="/img/location.png" className="ml45" height="45px"/>
+	               							{/*<img src="/img/location.png" className="ml45" height="45px"/>*/}
 	               						</div>
 	               						<div className="col-lg-9 m5">
 	               							<div className="text-center"><b>Our Location</b> </div>
@@ -40,9 +54,14 @@ export default class ConFormWithAddress extends React.Component {
 	               					</div>
 
 	               				</div>
-	               				<div className="col-lg-12 h133">
-	               					<div className="col-lg-3">
-											<img src="/img/whatsapp1.png" className="ml45" height="45px"/>
+	               				<div className="col-lg-12 h133" id="WhatsAppBox">
+	               					<div className="row">
+	               						<div className="col-lg-3">
+											{/*<img src="/img/whatsapp1.png" className="ml45" height="45px"/>*/}
+											<div className="squre1">
+	               								<img src="/img/cu1.png" className="ml45 " id="WhatsApp" height="55px" width="55px"/>
+	               								<img src="/img/WhatsApp.png" className="middleIcon" height="30px"/>
+	               							</div>
 	               							
 	               						</div>
 	               						<div className="col-lg-9 m13">
@@ -51,16 +70,23 @@ export default class ConFormWithAddress extends React.Component {
 											+91 - 9923 393 733
 											</p>
 	               						</div>
+	               					</div>
 	               				</div>
-	               				<div className="col-lg-12 h133">
-	               					<div className="col-lg-3 ">
-	               							<img src="/img/mail.png" className="ml45" height="45px"/>
+	               				<div className="col-lg-12 h133" id="MailBox">
+	               					<div className="row">
+		               					<div className="col-lg-3 ">
+	               							{/*<img src="/img/mail.png" className="ml45" height="45px"/>*/}
+	               							<div className="squre1">
+	               								<img src="/img/cu1.png" className="ml45" id="mail" height="55px" width="55px"/>
+	               								<img src="/img/Mail.png" className="middleIcon" height="30px"/>
+	               							</div>
 	               						</div>
 	               						<div className="col-lg-9 m13">
 	               							<div className="text-center"><b>Write us Mail</b> </div>
 											<p className="text-center"> info@iassureit.com
 											</p>
 	               						</div>
+	               					</div>
 	               				</div>
 	               			</div>
 	               			<div className="col-lg-8 lg8">
