@@ -98,10 +98,10 @@ export default class OurCources extends React.Component {
 												{/*<div className="txt2c">Start Investing in You</div>*/}
 												<p>Full-Stack Developer means the one who is expert in Frontend Technologies,
 													Backend Technologies and Database. Today, in IT Industry, there is a huge
-													demand for Full-Stack developer.
+													demand for Full-Stack developer.<br/><br/>
 													This training program is definitely India’s the most in-depth and the only
-													program which covers the hottest technologies of IT industry. This program is&nbsp;
-													 designed to make you 100% job ready as per IT Industry’s demand. So you get
+													program which covers the hottest technologies of IT industry.<br/><br/> This program is&nbsp;
+													designed to make you 100% job ready as per IT Industry’s demand. So you get
 													handsome job instantly.
 												</p>
 											</div>

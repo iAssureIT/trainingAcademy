@@ -20,6 +20,7 @@ export default class AddressOnGoogleMap extends React.Component {
 	render() {
 		return (
 			<div className="mapWrap">
+			<h2 className="text-center">Our Loction</h2>
 			<div className="gmapwrapper">
 				<div class="demogmap_canvas  hidden-xs hidden-sm">
 					

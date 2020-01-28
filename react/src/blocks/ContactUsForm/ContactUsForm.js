@@ -2,7 +2,7 @@ import React from 'react';
 import './ContactUsForm.css';
 
 import axios 				from 'axios';
-import Swal from 'sweetalert2';
+import Swal from 'sweetalert';
 
 axios.defaults.baseURL = '';
 axios.defaults.headers.post['Content-Type'] = 'application/json';
@@ -98,6 +98,7 @@ Submit(event){
         axios
         .post('http://qaiassureitapi.iassureit.com/send-email',formValues1)
         .then((res)=>{
+          console.log("re==",res);
                    if(res.status === 200){
                     Swal("Thank you for contacting us. We will get back to you shortly.")
                     }
@@ -128,6 +129,8 @@ Submit(event){
         axios
         .post('http://qaiassureitapi.iassureit.com/send-email',formValues2)
         .then((res)=>{
+          console.log("re==",res);
+            
                   if(res.status === 200){
                     console.log("Mail Sent TO ADMIN successfully!")
                   }
@@ -177,7 +180,7 @@ Submit(event){
 								<div className="col-lg-12 col-md-12 col-xs-12 col-sm-12 nopadding bt40">
 								
 										{/*<button  className="sbtn col-lg-3 col-lg-offset-5" >Send Request</button>*/}
-                    <button type="button" className="col-lg-3 cusfcmpbtn" onClick={this.Submit.bind(this)}>Send Message</button>
+                    <button type="button" className="col-lg-3 cusfcmpbtn col-lg-offset-9" onClick={this.Submit.bind(this)}>Send Message</button>
 									
 								</div>
 							</form>

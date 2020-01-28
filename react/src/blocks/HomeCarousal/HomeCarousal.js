@@ -26,11 +26,11 @@ class HomeCarousal extends Component {
 									  <div className=" col-lg-2 ocLine"></div>
 								      </div>
 										<div className="txt2c">Learn from Highly Experienced IITian</div>
-										<p className="firstpara1">If you learn from an average trainer, you become average developer. 
+										<p className="firstpara1">If you learn from an average trainer, you become average developer. <br/>
 										If you want to become an expert developer, learn the things from highly 
 										experienced and expert trainer or coach.You will learn all these 
 										&nbsp;20 technologies from the IT industry’s one of the most experienced 
-										Technology Guru Mr Ashish Naik, who is an expert of more than 60 
+										Technology Guru Mr <b>Ashish Naik</b>, who is an expert of more than 60 
 										different technologies.<br/>
 										</p>
 									</div>

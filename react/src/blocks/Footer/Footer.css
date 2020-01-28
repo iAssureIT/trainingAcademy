@@ -67,7 +67,7 @@
 .footer-bottom {
 	overflow: hidden;
 	background: #edf4f6;
-	padding: 20px 0px;
+	padding: 5px 0px;
 	margin-top: 20px;
 	width: 100%;
 }
@@ -115,7 +115,6 @@
 
 .copyright {
 	padding-top: 3px;
-	float: left;
 	font-size: 14px;
 	font-weight: 600;
 	color: #474747;

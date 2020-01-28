@@ -20,8 +20,8 @@ export default class SpacialFeatures extends React.Component {
 
 							
 							{
-								featureTitle:"Heavy Discount if you enroll for all courses",
-								featureText:"Each Course fees is Rs 20,000 courses, you pay only Rs. 80,000.",
+								featureTitle:"Best Training Coach from IITs",
+								featureText:"Learn from highly experienced coach having multi-skills expertise.",
 								
 							},
 							{
@@ -33,13 +33,13 @@ export default class SpacialFeatures extends React.Component {
 
 			"Ourfeaturesright" : [
 							{
-								featureTitle:"Job Assistance",
-								featureText:"We also provide a Job Assistance & prepare you for interview",
+								featureTitle:"100% Job Guarantee",
+								featureText:"We provide job to every single student, with a decent salary as MNCs are providing you.",
 								
 							},	
 							{
-								featureTitle:"SOLUTION APP ARCHITECTURE",
-								featureText:"You need solution providers,thinkers,and idea generators,That's what iAssureIT does.Creativity is our DNA. ",
+								featureTitle:"Fully Practical Oriented Training",
+								featureText:"We make you expert developer with lots of assignments & practical exposure.",
 								
 							},
 
@@ -89,6 +89,7 @@ export default class SpacialFeatures extends React.Component {
 										</div>
 										<div className="col-lg-2 iconcircle">
 											<img src="/img/laptop.png" className="featureicon"/>
+											{/*<i className="fa fa-certificate featureicon" aria-hidden="true"></i>*/}
 										</div>
 									</div>	
 								
