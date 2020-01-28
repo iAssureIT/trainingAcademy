@@ -39,6 +39,14 @@
     margin-left: 463px;
     margin-bottom: 28px;
 }
+.c2linectxtmobile{
+    height: 2px;
+    width: 82px;
+    background-color: #fff;
+    margin: 0 1px 0px 0px;
+    
+    margin-bottom: 28px;
+}
 .parac2linectxt{
     /*margin: 5px 0px;*/
     padding-top: 10px;
@@ -73,7 +81,9 @@
 
 }
 .CBannerAHMobile{
-    height: 1015px;
+    height: 1085px;
+    background-image: url(/img/Background_5.png);
+    background-size: 100% 100%;
     position: relative;
 }
 .c2part2box1Mobile{
@@ -83,7 +93,7 @@
     padding-bottom: 5%;
 }
 .c2text1para1mobile{
-    padding: 50px 0px 0px 0px;
+    padding: 140px 0px 0px 0px;
 }
 .padd25{
     padding: 25px 0px;

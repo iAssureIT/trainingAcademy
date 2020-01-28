@@ -8,6 +8,10 @@
 	height: 680px;
 	/*background-color: #efefef;*/
 }
+.part1box1mobile{
+	height: 1360px;
+	/*background-color: #efefef;*/
+}
 .nopadding{
 	padding: 0px;
 }
@@ -232,7 +236,7 @@
 }
 .c1box1Mobile{
     position: relative;
-    height: 2000px;
+        height: 2545px;
     padding: 50px 5px 5px 5px;
 
 }

@@ -5,16 +5,40 @@
 	position: relative;
 	float: right;
 }
+
 .navbar{
 	margin-bottom: 0px !important;
     border: 0px solid transparent !important;
 }
-
+.nopadding{
+  padding: 0px;
+}
 .logoImg{
 	height: 75px;
 	margin-left: 15px;
 }
-
+.Hcmpbtnmobile{
+    position: relative;
+    height: 32px;
+    background-color: transparent;
+    width: 75px;
+    text-align: center;
+    border: 2px solid #fff;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-radius: 30px !important;
+    line-height: 29px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-size: 13px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 999;
+}
+.Hcmpbtnmobile:hover{
+  background-color: #407dfa;
+  color: #fff;
+}
 
 .Hcmpbtn{
 	  position: relative;
@@ -37,6 +61,29 @@
 .Hcmpbtn:hover{
 	background-color: #407dfa;
 	color: #fff;
+}
+.h2cmpbtnmobile{
+    position: relative;
+    height: 32px;
+    background-color: #fff;
+    width: 75px;
+    margin-left: 10px;
+    text-align: center;
+    border: 2px solid #fff;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-radius: 30px !important;
+    line-height: 29px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-size: 13px;
+    color: #434343;
+    cursor: pointer;
+    z-index: 999;
+}
+.h2cmpbtnmobile:hover{
+  background-color: #407dfa;
+  color: #fff;
 }
 .h2cmpbtn{
     position: relative;

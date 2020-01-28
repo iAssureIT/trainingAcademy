@@ -72,23 +72,25 @@ export default class Header extends React.Component {
 			    </div>
 			</div>
 			<div className="col-sm-12 col-xs-12 hidden-lg hidden-md">
-			    <div className="navbar-header col-sm-6 col-xs-6">
+				<div className="row">
+			    <div className="navbar-header">
 			     	<a className="navbar-brand" href="/">{/*logowhite.png*/}
                     	<img src="/img/logowhite.png" alt="img1" className="logoImg"/>
                     {/*<img src="/img/iAssureIT/Advanced-Technologies-Training-Academy.png" alt="img1" className="logoImg"/>*/}
 			      	</a>
 			    </div>
-			    <div className="col-sm-6 col-xs-6">
-				    <div className="">
+			    <div className="">
+				    <div className="row">
 				    	<a href="/">
-				      		<div className="col-sm-4 col-xs-4 hombtnmob">Home</div>
+				      		<div className="Hcmpbtnmobile">Home</div>
 	                    </a>
-				        <div className="col-sm-8 col-xs-8">
+				        <div className="">
 					      	<a href="/contactuspage">
-					      		<div className="hombtnmob">Join Us</div>
+					      		<div className="h2cmpbtnmobile">Join Us</div>
 					      	</a>
 				        </div>
 				    </div>  
+			    </div>
 			    </div>
 			</div>
 			</div>

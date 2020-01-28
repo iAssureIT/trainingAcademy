@@ -131,6 +131,75 @@ export default class SpacialFeatures extends React.Component {
 			
 					</div>
 				</div>
+			{/*=========================================================================================*/}
+				<div className="col-xs-12 col-sm-12 hidden-lg hidden-md">
+					<div className="mtop25">
+					  	
+						<div className="col-lg-12">
+							<div className="text-center">
+								{/*<div>ALL IVY SCHOOL, ALL THE TIME</div>*/}
+								<div className="ocTitle newocTitle">Special Features of This Program</div>
+							</div>
+						</div>
+						<div className="col-lg-12 col-md-12 mainfeaturediv1 ">
+						 	<div className="col-lg-4 col-md-12">
+							 {
+			                	data && data.length > 0 ?
+					      		data.map((data, index)=>{
+		                	   return(
+								    <div className="col-lg-12 ht285">
+										<div className=" col-lg-10 col-md-12 eachdiv">
+											<div className="col-lg-12">
+												<h3 className="featuretitle featuretitleleft ">{data.featureTitle}</h3>
+											</div> 
+											<div className="">
+												<p className="featuretext">{data.featureText}</p>
+											</div>
+										</div>
+										<div className="col-lg-2 iconcircle">
+											<img src="/img/laptop.png" className="featureicon"/>
+											{/*<i className="fa fa-certificate featureicon" aria-hidden="true"></i>*/}
+										</div>
+									</div>	
+								
+								);
+		                   	  })
+					      		:
+					      		null
+		                     }
+	                     	</div>
+	                    <div className="col-lg-4">
+	                        <img src="/img/block4.png" className=""/>
+	                    </div>
+	                    <div className="col-lg-4 col-md-12">
+						 {
+		                	data1 && data1.length > 0 ?
+				      		data1.map((data1, index)=>{
+	                	   return(
+							    <div className="col-lg-12 ht210">
+								    <div className="col-lg-2 iconcircle">
+								    	<img src="/img/laptop.png" className="featureicon"/>
+								    </div>
+									<div className=" col-lg-10 col-md-12 eachdiv ">
+										<div className="col-lg-12 NOpadding">
+											<h3 className="featuretitle text-left col-lg-9 NOpadding">{data1.featureTitle}</h3>
+										</div> 
+										<div className="">
+											<p className="text-left featuretext">{data1.featureText}</p>
+										</div>
+									</div>
+	                            </div>
+							
+							);
+	                   	  })
+				      		:
+				      		null
+	                     }
+	                     </div>
+						</div>
+			
+					</div>
+				</div>
 			</div>	
 
 		);

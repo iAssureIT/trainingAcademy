@@ -52,7 +52,7 @@ export default class OurCources extends React.Component {
 								
 							},
 							{
-								blogDate:"Duration - 4.5 Months",
+								blogDate:"Duration-4.5 Months",
 								blogTitle:"Web Fullstack Course",
 								blogPara:"Web Technologies + Frontend Frameworks + Backend Programming",
 								bloggerImg:"/img/6pgrm.png",
@@ -218,9 +218,6 @@ export default class OurCources extends React.Component {
 								<div>SUPER-30</div>
 								<div className="ocTitle">FULLSTACK DEVELOPER PROGRAM</div>
 
-								<div className="col-lg-2 col-lg-offset-5 ">
-									<div className="col-lg-offset-9  col-lg-6 ocLine"></div>
-								</div>
 								<div className="col-xs-12 col-sm-12 newdiv">
 									<div className="col-xs-12 col-sm-12">
 										<div className="">
@@ -253,29 +250,76 @@ export default class OurCources extends React.Component {
 							</div>
 						</div>
 						<div className="col-xs-12 col-sm-12">
-							<div className="col-xs-12 col-sm-12">
+						<div className="col-lg-12 maincourceblockDiv">
+						 <div className="ocTitle txt2c offeredTitle text-center">courses offered</div>
+							<div className="col-lg-12 courceblockDiv1">
 							{
 		                		data && data.length > 0 ?
 				      				data.map((data, index)=>{
 	                					return(
-						          			<div className="col-xs-12 col-sm-12 Allblog">
-					          					<div className="All1blog1">
-					          						<div className="ohide">
-														<img className="img-responsive AllblogImgB" src={data.bloggerImg} alt="Bannerpng"/>
-													</div>
-												<div className="OCBlockline">
+						          			<div className="col-lg-3 Allblog ">
+						          			 <div className="col-lg-12 courceblockDiv NOpadding">
+						          			  <div className="col-lg-12 courceDiv NOpadding"> 
+						          			   <img className="img-responsive blockimg1 " src={data.bloggerImg} alt="Bannerpng"/>
+						          			  {/*<div className="col-lg-6 ">
+						          			   
+						          			   <div className="col-lg-6">
+						          			    <img className="img-responsive smallimg1 " src={data.smallimg} alt="smallimg"/>
+						          			   </div>
+						          			  </div>*/}
+						          			  </div>
+						          			  <div className="col-lg-12 All1blog1">
+					          					 <div className="ohide">	
 												 </div>
-													<p className="ocDate p10 mtop20 graycolor">{data.blogDate}</p>
-													<h4 className="ocpTitle p10"><b>{data.blogTitle}</b></h4>
-													<p className="oc2Para p10 graycolor">{data.blogPara}</p>
+													<p className="ocDate p10 mtop20 text-center ">{data.blogDate}</p>
+													<h4 className="ocpTitle courcetitle p10">{data.blogTitle}</h4>
+													<p className="oc2Para p10 courcepara">{data.blogPara}</p>
+												</div>
+												<div className="col-lg-12 coursebtndiv NOpadding">
+												 {/*<button className="col-lg-offset-4 coursebtn "><i className="fa fa-chevron-circle-right courcearrow"></i>know more</button>*/}
+												</div>
+												<div className="col-lg-12 bottomline NOpadding">
 												</div>
 						          			</div>
+						          		</div>	
 						          			);
 	                					})
 	                				:
 	                				null
 		                		}
 		                	</div>
+                            <div className=" col-lg-12 courceblockDiv1">
+                           {/*  <div className=" col-md-2"></div>*/}
+							{
+		                		data1 && data1.length > 0 ?
+				      				data1.map((data1, index)=>{
+	                					return(
+						          			<div className="col-lg-4 Allblog ">
+						          			 <div className="col-lg-12 courceblockDiv NOpadding">
+						          			  <div className="col-lg-12 courceDiv NOpadding"> 
+						          			   <img className="img-responsive blockimg1 " src={data1.bloggerImg} alt="Bannerpng"/>
+						          			  </div>
+						          			  <div className="col-lg-12 All1blog1mobile">
+					          					 <div className="ohide">	
+												 </div>
+													<p className="ocDate p10 mtop20 ">{data1.blogDate}</p>
+													<h4 className="ocpTitle courcetitle p10">{data1.blogTitle}</h4>
+													<p className="oc2Para p10 courcepara">{data1.blogPara}</p>
+												</div>
+												<div className="col-lg-12  NOpadding">
+												 {/*<button className="col-lg-offset-4 coursebtn "><i className="fa fa-chevron-circle-right courcearrow"></i>know more</button>*/}
+												</div>
+												<div className="col-lg-12 bottomline NOpadding">
+												</div>
+						          			</div>
+						          		</div>	
+						          			);
+	                					})
+	                				:
+	                				null
+		                		}
+		                	</div>	
+						</div>
 
 						</div>
 						{/*<div className="col-xs-12 col-sm-12">

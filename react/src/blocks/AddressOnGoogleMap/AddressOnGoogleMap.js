@@ -19,42 +19,41 @@ export default class AddressOnGoogleMap extends React.Component {
 
 	render() {
 		return (
-			<div className="mapWrap">
-			<h2 className="text-center">Our Loction</h2>
-			<div className="gmapwrapper">
-				<div class="demogmap_canvas  hidden-xs hidden-sm">
-					
-					{/*<div class="mapcontainer" id="mapcontainer">
-					  <img src="/images/demomap.png" alt="Avatar" class="image" style={{width:"100%"}}/>
-					  <div class="middle">
-					    <div class="text">Click here to view Map</div>
-					    
-					  </div>
-					</div>*/}
-					<div class="mapouter" id="mapouter">
-						<div class="gmap_canvas">
-							<iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=iAssureIT%20hadapsar&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-							</iframe>
-							
+			<div>
+				<div className="mapWrap  hidden-xs hidden-sm">
+					<h2 className="text-center">Our Loction</h2>
+					<div className="gmapwrapper">
+						<div class="demogmap_canvas ">
+
+							<div class="mapouter" id="mapouter">
+								<div class="gmap_canvas">
+									<iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=iAssureIT%20hadapsar&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+									</iframe>
+									
+								</div>
+							</div>
 						</div>
 					</div>
-					
+
 				</div>
-			{/*mobile view*/}
-				<div className="demogmap_canvasxs  hidden-lg hidden-md">
-					
-					
-					<div className="mapouterxs" id="mapouterxs">
-						<div className="gmap_canvas">
-							<iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=iAssureIT%20hadapsar&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-							</iframe>
+					{/*mobile view*/}
+				<div className="hidden-lg hidden-md">
+					<h2 className="text-center">Our Loction</h2>
+					<div className="gmapwrapper">
+						<div className="demogmap_canvasxs">
+							<div className="mapouterxs" id="mapouterxs">
+								<div className="gmap_canvas">
+									<iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=iAssureIT%20hadapsar&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+									</iframe>
+									
+								</div>
+							</div>
 							
 						</div>
 					</div>
-					
+						
 				</div>
 				
-			</div>
 			</div>
 		);
 	}

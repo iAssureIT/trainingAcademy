@@ -34,12 +34,14 @@ return (
 				<div className="col-xs-12 col-sm-12">
 					<div className="col-xs-12 col-sm-12">
 
-						<div className="whtcolr btitle1mobile"><span className="super30txt">Super-30</span> <br/>Fullstack Developer<br/>Training Program </div>
+						<div className="whtcolr btitle1mobile">
+							<span className="super30txtmobile">Super-30</span> <br/>Fullstack Developer<br/>Training Program 
+						</div>
 						<div className="btitle2mobile whtcolr">This is India's one of the most beautifully crafted Fullstack developer training program.
-						This course is created as per the IT Industry's current requirement & hottest Technologies.
+							This course is created as per the IT Industry's current requirement & hottest Technologies.
 						</div>
 						{/*<div className="bannerbtn">VIEW OUR COURSES</div>*/}
-						</div>
+					</div>
 					<div className="col-xs-12 col-sm-12">
 						<img src="/img/side03.png" className="side1imgMobile" alt="side1img"/>
 					</div>

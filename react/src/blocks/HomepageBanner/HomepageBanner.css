@@ -74,7 +74,7 @@
 
 .HomepageBannermobile{
 
-	height: auto;
+	height: 1005px;
 	
 	/*opacity: 0.5;*/
 	background-color:#283593;
@@ -84,8 +84,8 @@
 
 }
 .side1imgMobile{
-	margin-top: 25px;
-	margin-left: 2%;
+	margin-top: 50px;
+	/*margin-left: 2%;*/
 	height: 290px;
 	width: 100%;
 }
@@ -110,6 +110,12 @@
 	text-transform: uppercase;
 	font-weight: 800;
 	font-size: 90px;
+	letter-spacing: 6px;
+}
+.super30txtmobile{
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 47px;
 	letter-spacing: 6px;
 }
 .super30txt1{

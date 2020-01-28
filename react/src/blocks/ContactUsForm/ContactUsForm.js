@@ -77,13 +77,13 @@ handleChange(event){
 Submit(event){
     event.preventDefault();
     // var adminEmail = this.getAdminEmail();  //Get email id from company settings. Write API for that.
-    var adminEmail = "ashish.chavan@iassureit.com";
+    var adminEmail = "info@iassureit.com";
 
     const formValues1 = {
         "email"         : this.state.email ,
         "subject"       : "Your Query/Feedback is sent successfully to www.iassureit.com!",
         "text"          : "", 
-        "html"          : 'Dear' + this.state.name + ', <br/><br/>'+
+        "mail"          : 'Dear' + this.state.name + ', <br/><br/>'+
                           
                           "<b>Your Email: </b>"  + this.state.email + '<br/><br/>'+
                           "Your following message has been successfully delivered to the admin! We will get back to you shortly. <br/> <br/> " + 
@@ -112,7 +112,7 @@ Submit(event){
         "email"         : adminEmail ,
         "subject"       : "New query/feedback arrived from Website!",
         "text"          : "",
-        "html"          : 'Dear Admin, <br/>'+
+        "mail"          : 'Dear Admin, <br/>'+
                           "Following new query/feedback came from website! <br/> <br/> " + 
                           "============================  <br/> <br/> " + 
                           "<b>Client Name: </b>"   + this.state.name + '<br/>'+

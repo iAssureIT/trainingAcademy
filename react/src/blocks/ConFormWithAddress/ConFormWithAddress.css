@@ -80,3 +80,13 @@ margin-top: 5%;
     transition: 2s;
 
 }
+
+
+/*========================mobile ==========================================*/
+
+.ContactWrapmobile{
+    padding: 00px 0px 0px;
+    position: relative;
+    height: 925px;
+    /*background-color: #eee;*/
+}
