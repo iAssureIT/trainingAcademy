@@ -74,7 +74,15 @@
 	background-color: #353e92;
 }
 
-.bboxc1wrap{
+.bboxc1wrapmobile{
+	height: 290px;
+	width: 247px;
+	border-radius: 10px;
+	margin: 0px 0px 40px 50px;
+	cursor: pointer;
+	background-image: url("/img/block1.jpg");
+	background-size: 100% 100%;
+}.bboxc1wrap{
 	height: 290px;
 	width: 247px;
 	border-radius: 10px;
@@ -236,7 +244,7 @@
 }
 .c1box1Mobile{
     position: relative;
-        height: 2545px;
+        height: 2400px;
     padding: 50px 5px 5px 5px;
 
 }

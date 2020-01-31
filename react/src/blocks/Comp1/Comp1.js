@@ -95,14 +95,13 @@ export default class Comp1 extends React.Component {
 					</div>
 					
 				</div>
-				<div className="col-xs-12 col-sm-12 hidden-lg hidden-md">
-					<div className="col-xs-12 col-sm-12 c1box1Mobile">
+			{/* mobile view*/}
+				<div className="col-xs-12 col-sm-12 hidden-lg hidden-md nopadding">
+					<div className="col-xs-12 col-sm-12 c1box1Mobile nopadding">
 						<div className="col-xs-12 col-sm-12 part1box1mobile nopadding">
-							<div className="row"> 
+							<div className=""> 
 								<div className="col-xs-12 col-sm-12">
-								
-								
-									<div className="bboxc1wrap">
+									<div className="bboxc1wrapmobile">
 										<div className="bboxc1">
 											<div className="contentbboxc1">
 									            <div className="titlebboxc1">
@@ -113,7 +112,7 @@ export default class Comp1 extends React.Component {
 									        </div>
 										</div>
 									</div>
-									<div className="bboxc1wrap">
+									<div className="bboxc1wrapmobile">
 										<div className="bboxc2">
 											<div className="contentbboxc1">
 									            <div className="titlebboxc1">
@@ -125,7 +124,7 @@ export default class Comp1 extends React.Component {
 										</div>
 									</div>
 								
-										<div className="bboxc1wrap">
+										<div className="bboxc1wrapmobile">
 											<div className="bboxc3">
 												<div className="contentbboxc1">
 										            <div className="titlebboxc1">
@@ -136,7 +135,7 @@ export default class Comp1 extends React.Component {
 										        </div>
 											</div>
 										</div>
-										<div className="bboxc1wrap">
+										<div className="bboxc1wrapmobile">
 											<div className="bboxc4">
 											
 												<div className="contentbboxc1">
@@ -154,8 +153,8 @@ export default class Comp1 extends React.Component {
 						
 						</div>
 						<div className="col-xs-12 col-sm-12 ">
-							<div className="text1para1mobile">
-								<div>
+							<div className="text1para1mobile col-xs-12 col-sm-12">
+								<div className="col-xs-12 col-sm-12">
 									<div className="txt1c"></div>
 									<div className="txt2c">Are you looking for a Job in IT Industry?</div>
 									<br/>

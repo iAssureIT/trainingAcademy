@@ -32,13 +32,13 @@ export default class Comp2 extends React.Component {
 				</div>
 			{/*m*/}
 				<div className="col-xs-12 col-sm-12 hidden-lg hidden-md CBannerAHMobile">
-					<div className=" col-xs-12 col-sm-12">
-						<div className=" col-xs-12 col-sm-12 c2part2box1Mobile">
+					<div className=" col-xs-12 col-sm-12 ">
+						<div className=" col-xs-12 col-sm-12 c2part2box1Mobile nopadding">
 							<div className="c2text1para1mobile">
 								<div>
 									{/*<div className="c2txt1c">ALL IVY SCHOOL, ALL THE TIME</div>*/}
 									<div className="c2txt2c">Who is a Fullstack Developer?</div>
-									<p className="parac2linectxt">A  FullStack Developer
+									<p className="parac2linectxtmobile">A  FullStack Developer
 									&nbsp;is the one who has expertise in  Web UI/UX Technologies, Frontend Frameworks, Backend Programming Languages & Database Technologies. One Fullstack developer is capable of executing the tasks of fronend developer &  backend developer. Fullstack developer has tremendous demand in IT Industry.</p>
 									
 									{/*<div className="c2cmpbtn pull-right">LEARN MORE</div>*/}

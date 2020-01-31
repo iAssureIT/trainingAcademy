@@ -31,11 +31,11 @@ return (
 		</div>
 		<div className="container-fluid HomepageBannermobile hidden-lg hidden-md" style={{padding:"0px"}}>
 			<div className="bg">
-				<div className="col-xs-12 col-sm-12">
+				<div className="col-xs-12 col-sm-12 nopadding">
 					<div className="col-xs-12 col-sm-12">
 
 						<div className="whtcolr btitle1mobile">
-							<span className="super30txtmobile">Super-30</span> <br/>Fullstack Developer<br/>Training Program 
+							<span className="super30txtmobile">Super-30</span> <br/>Fullstack Developer<br/><span className="super30txt2">Training Program</span>
 						</div>
 						<div className="btitle2mobile whtcolr">This is India's one of the most beautifully crafted Fullstack developer training program.
 							This course is created as per the IT Industry's current requirement & hottest Technologies.

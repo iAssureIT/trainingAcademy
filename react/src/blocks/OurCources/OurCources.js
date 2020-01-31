@@ -210,24 +210,24 @@ export default class OurCources extends React.Component {
 */}
 					</div>					
 				</div>
-			{/*=====*/}
+			{/*==                                      mobile                                            ===*/}
 			<div className="col-xs-12 col-sm-12 hidden-lg hidden-md ocWrapmobile">
 					<div className="mtop65">
-						<div className="col-xs-12 col-sm-12 ">
+						<div className="col-xs-12 col-sm-12 nopadding">
 							<div className="text-center">
 								<div>SUPER-30</div>
 								<div className="ocTitle">FULLSTACK DEVELOPER PROGRAM</div>
 
-								<div className="col-xs-12 col-sm-12 newdiv">
-									<div className="col-xs-12 col-sm-12">
+								<div className="col-xs-12 col-sm-12 nopadding">
+									<div className="col-xs-12 col-sm-12 nopadding">
 										<div className="">
 											<div className="">
-												<img src="/img/ocb1.png" alt="img1" className="ocb1Imgmobile"/>
+												<img src="/img/ocb3.png" alt="img1" className="ocb1Imgmobile"/>
 												
 											</div>
 										</div>
 									</div>
-									<div className="col-xs-12 col-sm-12">
+									<div className="col-xs-12 col-sm-12 ">
 										<div className="octext1para1mobile">
 											<div className="col-xs-12 col-sm-12">
 												{/*<div className="txt2c">Start Investing in You</div>*/}
@@ -249,10 +249,10 @@ export default class OurCources extends React.Component {
 
 							</div>
 						</div>
-						<div className="col-xs-12 col-sm-12">
-						<div className="col-lg-12 maincourceblockDiv">
+						<div className="col-xs-12 col-sm-12 nopadding">
+						<div className="col-xs-12 maincourceblockDiv nopadding">
 						 <div className="ocTitle txt2c offeredTitle text-center">courses offered</div>
-							<div className="col-lg-12 courceblockDiv1">
+							<div className="col-xs-12 courceblockDiv1">
 							{
 		                		data && data.length > 0 ?
 				      				data.map((data, index)=>{

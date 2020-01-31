@@ -54,6 +54,13 @@
     color: #fff;
     line-height: 1.6;
 }
+.parac2linectxtmobile{
+    /*margin: 5px 0px;*/
+    padding-top: 10px;
+    font-weight: 100;
+    color: #fff;
+    line-height: 1.6;
+}
 .c2cmpbtn{
 	height: 50px;
 	background-color:#4e58b2;
@@ -93,7 +100,7 @@
     padding-bottom: 5%;
 }
 .c2text1para1mobile{
-    padding: 140px 0px 0px 0px;
+    padding: 155px 0px 0px 0px;
 }
 .padd25{
     padding: 25px 0px;

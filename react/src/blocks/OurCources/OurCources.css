@@ -1,6 +1,9 @@
 .mtop65{
 	/*margin-top: 65px;*/
 }
+.nopadding{
+	padding: 0px;
+}
 .ocTitle{
 	color: #292929;
     line-height: 1.25;
@@ -242,7 +245,7 @@ margin-bottom: 20px;
 }
 .ocWrapmobile{
 	position: relative;
-	height: 3850px;
+	height: 4175px;
 	
 }
 .octext1para1mobile{
@@ -371,7 +374,7 @@ margin-bottom: 20px;
 .All1blog1mobile{
 	margin-top: 10px;
 	position: relative;
-	height: 203px;
+	height: 180px;
 	/*margin-bottom: 50px;*/
 	background-color: #fff;
 	padding: 0px 0px 10px 0px;

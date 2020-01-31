@@ -148,6 +148,10 @@ export default class SpacialFeatures extends React.Component {
 					      		data.map((data, index)=>{
 		                	   return(
 								    <div className="col-lg-12 ht285">
+								    	<div className="col-lg-2 iconcircle">
+											<img src="/img/laptop.png" className="featureicon"/>
+											{/*<i className="fa fa-certificate featureicon" aria-hidden="true"></i>*/}
+										</div>
 										<div className=" col-lg-10 col-md-12 eachdiv">
 											<div className="col-lg-12">
 												<h3 className="featuretitle featuretitleleft ">{data.featureTitle}</h3>
@@ -156,10 +160,7 @@ export default class SpacialFeatures extends React.Component {
 												<p className="featuretext">{data.featureText}</p>
 											</div>
 										</div>
-										<div className="col-lg-2 iconcircle">
-											<img src="/img/laptop.png" className="featureicon"/>
-											{/*<i className="fa fa-certificate featureicon" aria-hidden="true"></i>*/}
-										</div>
+										
 									</div>	
 								
 								);
