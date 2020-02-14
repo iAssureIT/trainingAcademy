@@ -30,7 +30,7 @@ class HomeCarousal extends Component {
 										If you want to become an expert developer, learn the things from highly 
 										experienced and expert trainer or coach.You will learn all these 
 										&nbsp;20 technologies from the IT industry’s one of the most experienced 
-										Technology Guru Mr <b>Ashish Naik</b>, who is an expert of more than 60 
+										Technology Guru Mr. <b>Ashish Naik</b>, who is an expert of more than 60 
 										different technologies.<br/>
 										</p>
 									</div>

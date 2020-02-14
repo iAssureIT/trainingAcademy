@@ -120,7 +120,7 @@
 	height: 290px;
 	width: 247px;
 	border-radius: 10px;
-	cursor: pointer;
+	/*cursor: pointer;*/
 	margin: 10px 0px 10px 0px;
 	background-image: url("/img/D.png");
 	background-size: 100% 100%;
@@ -140,7 +140,7 @@
 	height: 290px;
 	width: 247px;
 	border-radius: 10px;
-	cursor: pointer;
+	/*cursor: pointer;*/
 	margin: 10px 0px 10px 0px;
 	/*background-color: #ffbb33;*/
 	/*background: linear-gradient(45deg,#ff4200  0%,#ffc600 100%);*/
@@ -161,7 +161,7 @@
 	height: 290px;
 	width: 247px;
 	border-radius: 10px;
-	cursor: pointer;
+	/*cursor: pointer;*/
 	margin: 10px 0px 10px 0px;
 	/*background-color: #ff4444;*/
 	background-image: url("/img/B.png");
@@ -195,7 +195,7 @@
 	width: 247px;
 	border-radius: 10px;
 	margin: 0px 0px 40px 0px;
-	cursor: pointer;
+	/*cursor: pointer;*/
 	background-image: url("/img/block1.jpg");
 	background-size: 100% 100%;
 }
@@ -210,7 +210,7 @@
 	height: 290px;
 	width: 247px;
 	border-radius: 10px;
-	cursor: pointer;
+	/*cursor: pointer;*/
 	margin: 10px 0px 10px 0px;
 	/*background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff);;*/
 	background-image: url("/img/A.png");

@@ -14,7 +14,7 @@ export default class SpacialFeatures extends React.Component {
 
                             {
 								featureTitle:"Certificate of Completion",
-								featureText:"You need solution providers,thinkers,and ida generators,That's what iAssureIT does.Creativity is our DNA. ",
+								featureText:"You need solution providers,thinkers,and idea generators,That's what iAssureIT does.Creativity is our DNA. ",
 								
 							},	
 
@@ -46,7 +46,7 @@ export default class SpacialFeatures extends React.Component {
 							{
 
 								featureTitle:"Live Projects",
-								featureText:"Working on Live Projects is a rare ,Here in iAssure Advanced Technologies Academy,You will get to work on LIVE Projects.",
+								featureText:"Working on Live Projects is a rare,Here in iAssure Advanced Technologies Academy,You will get to work on LIVE Projects.",
                                 featureicon:"/img/laptop.png"
 							},	
 							

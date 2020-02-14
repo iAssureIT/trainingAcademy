@@ -88,7 +88,7 @@ class Footer extends Component {
                   <div className="footer-warp">
                     
                   <div className="copyright">
-                          Copyright &copy;<script>document.write(new Date().getFullYear());</script> 2019 iAssure International Technologies Pvt. Ltd  All rights reserved.
+                          Copyright &copy;<script>document.write(new Date().getFullYear());</script> 2020 iAssure International Technologies Pvt. Ltd  All rights reserved.
                       </div>
                   </div>
               </div>
