@@ -14,7 +14,7 @@ export default class SpacialFeatures extends React.Component {
 
                             {
 								featureTitle:"Certificate of Completion",
-								featureText:"You need solution providers,thinkers,and idea generators,That's what iAssureIT does.Creativity is our DNA. ",
+								featureText:"You need solution providers, thinkers, and idea generators, That's what iAssureIT does.Creativity is our DNA. ",
 								
 							},	
 
@@ -26,7 +26,7 @@ export default class SpacialFeatures extends React.Component {
 							},
 							{
 								featureTitle:"10% Referral Cashback",
-								featureText:"When your referred candidate enrolls,you get 10% cashback. If you refer 10 students, your  fees would be free.",
+								featureText:"When your referred candidate enrolls, you get 10% cashback. If you refer 10 students, your  fees would be free.",
 								
 							},
 						  ],
@@ -46,7 +46,7 @@ export default class SpacialFeatures extends React.Component {
 							{
 
 								featureTitle:"Live Projects",
-								featureText:"Working on Live Projects is a rare,Here in iAssure Advanced Technologies Academy,You will get to work on LIVE Projects.",
+								featureText:"Working on Live Projects is a rare, Here in iAssure Advanced Technologies Academy, You will get to work on LIVE Projects.",
                                 featureicon:"/img/laptop.png"
 							},	
 							
@@ -135,58 +135,56 @@ export default class SpacialFeatures extends React.Component {
 				<div className="col-xs-12 col-sm-12 hidden-lg hidden-md">
 					<div className="mtop25">
 					  	
-						<div className="col-lg-12">
+						<div className="col-xs-12 col-sm-12">
 							<div className="text-center">
 								{/*<div>ALL IVY SCHOOL, ALL THE TIME</div>*/}
 								<div className="ocTitle newocTitle">Special Features of This Program</div>
 							</div>
 						</div>
-						<div className="col-lg-12 col-md-12 mainfeaturediv1 ">
-						 	<div className="col-lg-4 col-md-12">
+						<div className="col-xs-12 col-sm-12">
+						 	<div className="col-xs-12 col-sm-12 NOpadding">
 							 {
 			                	data && data.length > 0 ?
 					      		data.map((data, index)=>{
 		                	   return(
-								    <div className="col-lg-12 ht285">
-								    	<div className="col-lg-2 iconcircle">
+								    <div className="col-xs-12 col-sm-12 ht185 NOpadding">
+								    	<div className="col-xs-4 col-sm-4 col-xs-offset-5 col-sm-offset-5 iconcircle">
 											<img src="/img/laptop.png" className="featureicon"/>
 											{/*<i className="fa fa-certificate featureicon" aria-hidden="true"></i>*/}
 										</div>
-										<div className=" col-lg-10 col-md-12 eachdiv">
-											<div className="col-lg-12">
+										<div className="col-xs-12 col-sm-12 eachdiv text-center">
+											<div className="col-xs-12 col-sm-12 NOpadding">
 												<h3 className="featuretitle featuretitleleft ">{data.featureTitle}</h3>
 											</div> 
 											<div className="">
-												<p className="featuretext">{data.featureText}</p>
+												<p className="featuretextmobile">{data.featureText}</p>
 											</div>
 										</div>
-										
 									</div>	
-								
 								);
 		                   	  })
 					      		:
 					      		null
 		                     }
 	                     	</div>
-	                    <div className="col-lg-4">
+	                    <div className="col-xs-12 col-sm-12">
 	                        <img src="/img/block4.png" className=""/>
 	                    </div>
-	                    <div className="col-lg-4 col-md-12">
+	                    <div className="col-xs-12 col-sm-12 NOpadding">
 						 {
 		                	data1 && data1.length > 0 ?
 				      		data1.map((data1, index)=>{
 	                	   return(
-							    <div className="col-lg-12 ht210">
-								    <div className="col-lg-2 iconcircle">
+							    <div className="col-xs-12 col-sm-12 ht185 NOpadding">
+								    <div className="col-xs-4 col-sm-4 col-xs-offset-5 col-sm-offset-5 iconcircle">
 								    	<img src="/img/laptop.png" className="featureicon"/>
 								    </div>
-									<div className=" col-lg-10 col-md-12 eachdiv ">
-										<div className="col-lg-12 NOpadding">
-											<h3 className="featuretitle text-left col-lg-9 NOpadding">{data1.featureTitle}</h3>
+									<div className="col-xs-12 col-sm-12 eachdiv text-center">
+										<div className="col-xs-12 col-sm-12 NOpadding">
+											<h3 className="featuretitle  col-lg-9 NOpadding">{data1.featureTitle}</h3>
 										</div> 
 										<div className="">
-											<p className="text-left featuretext">{data1.featureText}</p>
+											<p className="featuretextmobile">{data1.featureText}</p>
 										</div>
 									</div>
 	                            </div>

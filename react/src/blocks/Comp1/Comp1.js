@@ -158,11 +158,11 @@ export default class Comp1 extends React.Component {
 									<div className="txt1c"></div>
 									<div className="txt2c">Are you looking for a Job in IT Industry?</div>
 									<br/>
-									<p className="secondpara">IT Industry is changing rapidly with the introduction of new cutting edge
+									<p className="secondparamobile">IT Industry is changing rapidly with the introduction of new cutting edge
 									 technologies every year.  IT Companies are becoming very selective in their approach
 									     during recruitment. Only highly skilled students are entering the IT Industry.</p>
 									     <br/>
-									<p className="secondpara ">Most of the students are wasting their hard-earned money and valuable time after
+									<p className="secondparamobile ">Most of the students are wasting their hard-earned money and valuable time after
 									 graduation, in learning some old technologies which are no more in demand in market. 
 									 Now the time has come to be very selective in what kind of training program you are 
 									 joining. Invest your valuable time, money & energy in something more appropriate IT 

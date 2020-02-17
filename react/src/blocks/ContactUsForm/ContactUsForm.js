@@ -1,14 +1,15 @@
 import React from 'react';
 import './ContactUsForm.css';
-
-import axios 				from 'axios';
+import $                           from 'jquery';
+import jQuery                      from 'jquery';
+import axios 				               from 'axios';
 import Swal from 'sweetalert';
-
+import validate               from 'jquery-validation';
 axios.defaults.baseURL = '';
 axios.defaults.headers.post['Content-Type'] = 'application/json';
 
 
-const formValid = formerrors=>{
+/*const formValid = formerrors=>{
   console.log("formerrors",formerrors);
   let valid = true;
   Object.values(formerrors).forEach(val=>{
@@ -20,7 +21,7 @@ const formValid = formerrors=>{
 const clientnameRegex = RegExp(/^[A-za-z']+( [A-Za-z']+)*$/);
 const emailRegex = RegExp (/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/);
 
-
+*/
 
 export default class ContactUsForm extends React.Component {
 
@@ -41,41 +42,73 @@ export default class ContactUsForm extends React.Component {
       };
         this.handleChange = this.handleChange.bind(this);
 	}
+componentDidMount(){
+    $.validator.addMethod("emailRegex", function(value, element, regexpr) {        
+      return regexpr.test(value);
+    }, "Please enter valid Email Id");
 
+    $("#ContactUsForm").validate({
+      rules: {
+        formname: {
+          required: true,
+        }, 
+        formemail: {
+          required: true,
+          emailRegex: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+
+        },
+        subject: {
+          required: true,
+        }, 
+        message: {
+          required: true,
+        }, 
+      },
+      errorPlacement: function(error, element) {
+        if (element.attr("name") == "formname"){
+          error.insertAfter("#formname");
+        }
+        if (element.attr("name") == "formemail"){
+          error.insertAfter("#formemail");
+        }
+        /*if (element.attr("name") == "subject"){
+          error.insertAfter("#subject");
+        }
+        if (element.attr("name") == "message"){
+          error.insertAfter("#message");
+        }*/
+      }
+    });
+}
 handleChange(event){
       event.preventDefault();
       const datatype = event.target.getAttribute('data-text');
-        const {name,value} = event.target;
-        const formerrors = this.state.formerrors;
-/*      console.log("datatype",datatype);
-*/      switch (datatype){
+      const {name,value} = event.target;
+      const formerrors = this.state.formerrors;
+     /*  switch (datatype){
+        case 'clientName' : 
+             formerrors.clientName = clientnameRegex.test(value)? '' : "Please enter valid name";
+             break;
 
-
-      case 'clientName' : 
-           formerrors.clientName = clientnameRegex.test(value)? '' : "Please enter valid name";
-           break;
-
-        case 'clientEmail' : 
-          formerrors.clientEmail = emailRegex.test(value)? '' : "Please enter valid mail address";
-          break;
-
-      
-            
-      default :
-      break;
-
-      }
+          case 'clientEmail' : 
+            formerrors.clientEmail = emailRegex.test(value)? '' : "Please enter valid mail address";
+            break;
+        default :
+        break;
+      }*/
       this.setState({ 
       	formerrors,
         [name]:value,
-        "name"         : this.refs.name.value,
-      "email"      : this.refs.email.value,
-      "Subject"      : this.refs.Subject.value,
-      "message"          : this.refs.message.value,
+        "name"          : this.refs.name.value,
+        "email"         : this.refs.email.value,
+        "Subject"       : this.refs.Subject.value,
+        "message"       : this.refs.message.value,
       } );
     }
 Submit(event){
     event.preventDefault();
+    if($('#ContactUsForm').valid()){
+
     // var adminEmail = this.getAdminEmail();  //Get email id from company settings. Write API for that.
     var adminEmail = "info@iassureit.com";
 
@@ -144,42 +177,36 @@ Submit(event){
                 this.refs.email.value = "";
                 this.refs.Subject.value = "";
                 this.refs.message.value = "";
+              }
     }
 	render() {
 		const {formerrors} = this.state;
 		return (
 			<div className="container-fluid nopadding" >
 				<div className="col-lg-12 col-md-12 p49">
-							<form className="">
-								<div className="col-lg-12 col-md-12 col-xs-12 col-sm-12 bt30 nopadding">
-									{/*<div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">*/}
-										{/*<label class="col-md-4 col-lg-4 col-xs-4 col-sm-4 nopadding">Your Name</label>*/}
-										<input className="form-control" name="from" type="text" ref="name" placeholder="Your name" value={this.state.name} onChange={this.handleChange.bind(this)}/>
-									{/*</div>*/}
+							<form className="" id="ContactUsForm">
+								<div className="col-lg-12 col-md-12 col-xs-12 col-sm-12 bt30 nopadding" >
+									<div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding" id="formname">
+										<input className="form-control" name="formname" type="text" ref="name" placeholder="Your name" value={this.state.name} onChange={this.handleChange.bind(this)}/>
+									</div>
 								</div>
-								{/*<div className="col-lg-8 col-md-8 col-xs-12 col-sm-12  row">*/}
+								<div className="col-lg-12 col-md-8 col-xs-12 col-sm-12 nopadding">
+									 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 bt30 nopadding" id="formemail">
+										<input className="form-control" name="formemail" type="email" data-text="clientEmail" placeholder="Your@email.com" ref="email" value={this.state.email} onChange={this.handleChange.bind(this)}/>
+									 </div>
+                </div>
 									<div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 bt30 nopadding">
-										{/*<label class="col-md-12 col-lg-12 col-xs-12 col-sm-12 nopadding">Your Email address</label>*/}
-										<input className="form-control" name="from" type="email" data-text="clientEmail" placeholder="Your@email.com" ref="email" value={this.state.email} onChange={this.handleChange.bind(this)}/>
-										{
-                      this.state.formerrors.clientEmail &&(
-				              <span className="text-danger">{formerrors.clientEmail}</span> 
-				              )
-                    }
-									</div>
-									<div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 bt30 nopadding">
-										{/*<label class="col-md-12 col-lg-12 col-xs-12 col-sm-12 nopadding">Phone No</label>*/}
-										<input className="form-control" name="from" type="text" placeholder="Subject" ref="Subject" value={this.state.Subject} onChange={this.handleChange.bind(this)} />
-									</div>
+                     <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 bt30 nopadding" id="subject">
+										  <input className="form-control" name="subject" type="text" placeholder="Subject" ref="Subject" value={this.state.Subject} onChange={this.handleChange.bind(this)} />
+								    </div>
+                </div>
 								<div className="col-lg-12 col-md-12 col-xs-12 col-sm-12  bt30 nopadding">
-									{/*<div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">*/}
-										{/*<label class="col-md-12 col-lg-12 col-xs-12 col-sm-12 nopadding">Message</label>*/}
-								          <textarea className="form-control" name="message" placeholder="How can we help?" rows="6"ref="message" value={this.state.message} onChange={this.handleChange.bind(this)} ></textarea>      
-									{/*</div>*/}
+									<div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding " id="message" >
+								      <textarea className="form-control" name="message" placeholder="How can we help?" rows="6" ref="message" value={this.state.message} onChange={this.handleChange.bind(this)} ></textarea>      
+									</div>
 								</div>
 								<div className="col-lg-12 col-md-12 col-xs-12 col-sm-12 nopadding bt40">
 								
-										{/*<button  className="sbtn col-lg-3 col-lg-offset-5" >Send Request</button>*/}
                     <button type="button" className="col-lg-3 cusfcmpbtn col-lg-offset-9" onClick={this.Submit.bind(this)}>Send Message</button>
 									
 								</div>

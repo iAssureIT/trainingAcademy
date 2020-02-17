@@ -242,6 +242,12 @@
     color: #333;
     margin-right: 15px;
   }
+.featuretextmobile{
+    line-height: 23px;
+    font-size: 18px;
+    color: #333;
+    margin-right: 15px;
+  }
   .textboxposition{
     margin-top: 20px;
   }
@@ -269,10 +275,17 @@
   .iconcircle{
     height: 50px;
     width: 50px;
+    margin-bottom: 5px;
     border-radius: 100px;
     background-color: #376bff;
   }
   .featureicon{
     margin-top: 10px;
     height: 32px;
+  }
+
+  .ht185{
+    height: 185px;
+    margin: 7px 0px;
+    overflow: hidden;
   }

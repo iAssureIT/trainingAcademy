@@ -4,9 +4,15 @@
 	/*background-color: #ccc;	*/
 }
 .caroualWrapmobile{
-	height: 1045px;
+	height: 885px;
 	/*background-color: #eee;*/
 }
 .mar25all{
 	margin: 25px 0px;
+}
+
+.textmobilepara p{
+	line-height: 1.6;
+	color: #666;
+
 }

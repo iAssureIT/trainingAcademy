@@ -245,12 +245,17 @@ margin-bottom: 20px;
 }
 .ocWrapmobile{
 	position: relative;
-	height: 4175px;
+	height: 4141px;
 	
 }
 .octext1para1mobile{
 	padding: 30px 0px 0px 0px;
 	text-align: left;
+}
+.octext1para1mobile p{
+	line-height: 1.6;
+    font-size: 19px;
+    color: #666;
 }
 .ocb1Imgmobile{
 	margin: 40px 0px 0px 0px;

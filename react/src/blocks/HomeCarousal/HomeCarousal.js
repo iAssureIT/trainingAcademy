@@ -49,14 +49,14 @@ class HomeCarousal extends Component {
 							</div>
 							<div className="col-sm-12 col-xs-12">
 								<div className="">
-									<div className="">
+									<div className="textmobilepara">
 										
 										<div className="txt2c">Learn from Highly Experienced IITian</div>
 										<p>If you learn from an average trainer, you become average developer. 
 										If you want to become an expert developer, learn the things from highly 
 										experienced and expert trainer or coach.<br/>You will learn all these 
 										20 technologies from the IT industry’s one of the most experienced 
-										Technology Guru Mr Ashish Naik, who is an expert of more than 60 
+										Technology Guru Mr. <b>Ashish Naik</b>, who is an expert of more than 60 
 										different technologies.<br/>
 										</p>
 									</div>

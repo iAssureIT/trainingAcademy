@@ -59,7 +59,7 @@ class Footer extends Component {
                           <li><a href="#">Privacy</a></li>
                       </ul>*/}
                   <div className="copyright">
-                          Copyright &copy;<script>document.write(new Date().getFullYear());</script> 2019 iAssure International Technologies Pvt. Ltd <div className="pull-right pright">All rights reserved.</div>
+                          Copyright &copy;<script>document.write(new Date().getFullYear());</script> 2020 iAssure International Technologies Pvt. Ltd <div className="pull-right pright">All rights reserved.</div>
                       </div>
                   </div>
               </div>

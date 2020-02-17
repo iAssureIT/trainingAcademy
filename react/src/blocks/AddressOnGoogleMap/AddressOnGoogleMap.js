@@ -38,7 +38,7 @@ export default class AddressOnGoogleMap extends React.Component {
 				</div>
 					{/*mobile view*/}
 				<div className="hidden-lg hidden-md">
-					<h2 className="text-center">Our Loction</h2>
+					<h2 className="text-center">Our Location</h2>
 					<div className="gmapwrapper">
 						<div className="demogmap_canvasxs">
 							<div className="mapouterxs" id="mapouterxs">
