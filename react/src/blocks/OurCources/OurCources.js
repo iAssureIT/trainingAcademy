@@ -97,11 +97,11 @@ export default class OurCources extends React.Component {
 											<div className="col-lg-12 paradown">
 												{/*<div className="txt2c">Start Investing in You</div>*/}
 												<p>Full-Stack Developer means the one who is expert in Frontend Technologies,
-													Backend Technologies and Database. Today, in IT Industry, there is a huge
+													Backend Technologies and Database.Today, in IT Industry, there is a huge
 													demand for Full-Stack developer.<br/>
 													This training program is definitely India’s the most in-depth and the only
 													program which covers the hottest technologies of IT industry.<br/>This program is&nbsp;
-													designed to make you 100% job ready as per IT Industry’s demand. So you get
+													designed to make you 100% job ready as per IT Industry’s demand.So you get
 													handsome job instantly.
 												</p>
 											</div>
@@ -213,7 +213,7 @@ export default class OurCources extends React.Component {
 			{/*==                                      mobile                                            ===*/}
 			<div className="col-xs-12 col-sm-12 hidden-lg hidden-md ocWrapmobile">
 					<div className="mtop65">
-						<div className="col-xs-12 col-sm-12 nopadding">
+						<div className="col-xs-12  col-sm-10 col-sm-offset-1  nopadding">
 							<div className="text-center">
 								<div>SUPER-30</div>
 								<div className="ocTitle">FULLSTACK DEVELOPER PROGRAM</div>
@@ -227,16 +227,16 @@ export default class OurCources extends React.Component {
 											</div>
 										</div>
 									</div>
-									<div className="col-xs-12 col-sm-12 ">
+									<div className="col-xs-12 col-sm-12">
 										<div className="octext1para1mobile">
 											<div className="col-xs-12 col-sm-12">
 												{/*<div className="txt2c">Start Investing in You</div>*/}
 												<p>Full-Stack Developer means the one who is expert in Frontend Technologies,
-													Backend Technologies and Database. Today, in IT Industry, there is a huge
+													Backend Technologies and Database.Today, in IT Industry, there is a huge
 													demand for Full-Stack developer.
 													This training program is definitely India’s the most in-depth and the only
-													program which covers the hottest technologies of IT industry. This program is
-													designed to make you 100% job ready as per IT Industry’s demand. So you get
+													program which covers the hottest technologies of IT industry.This program is
+													designed to make you 100% job ready as per IT Industry’s demand.So you get
 													handsome job instantly.
 												</p>
 											</div>
@@ -257,10 +257,10 @@ export default class OurCources extends React.Component {
 		                		data && data.length > 0 ?
 				      				data.map((data, index)=>{
 	                					return(
-						          			<div className="col-xs-12 Allblog ">
-						          			 <div className="col-xs-12 col-sm-12 courceblockDiv NOpadding">
-						          			  <div className="col-xs-12 col-sm-12 courceDiv NOpadding"> 
-						          			   <img className="img-responsive blockimg1 " src={data.bloggerImg} alt="Bannerpng"/>
+						          			<div className="col-xs-12  col-sm-12 Allblog ">
+						          			 <div className="col-xs-12 col-sm-6 col-sm-offset-3 courceblockDiv NOpadding">
+						          			  <div className="col-xs-12 courceDiv NOpadding"> 
+						          			   <img className="img-responsive blockimg1 " src={data.bloggerImg} alt="Bannerpng" width="100%"/>
 						          			  {/*<div className="col-lg-6 ">
 						          			   
 						          			   <div className="col-lg-6">
@@ -295,7 +295,7 @@ export default class OurCources extends React.Component {
 				      				data1.map((data1, index)=>{
 	                					return(
 						          			<div className="col-xs-12 Allblog ">
-						          			 <div className="col-xs-12 col-sm-12 courceblockDiv NOpadding ">
+						          			 <div className="col-xs-12 col-sm-6 col-sm-offset-3 courceblockDiv NOpadding ">
 						          			  <div className="col-xs-12 col-sm-12 courceDiv NOpadding"> 
 						          			   <img className="img-responsive blockimg1 " src={data1.bloggerImg} alt="Bannerpng"/>
 						          			  </div>

@@ -100,7 +100,7 @@ export default class Comp1 extends React.Component {
 					<div className="col-xs-12 col-sm-12 c1box1Mobile nopadding">
 						<div className="col-xs-12 col-sm-12 part1box1mobile nopadding">
 							<div className=""> 
-								<div className="col-xs-12 col-sm-12">
+								<div className="col-xs-12 col-sm-6 col-sm-offset-3">
 									<div className="bboxc1wrapmobile">
 										<div className="bboxc1">
 											<div className="contentbboxc1">
@@ -123,7 +123,8 @@ export default class Comp1 extends React.Component {
 									        </div>
 										</div>
 									</div>
-								
+								</div>
+								<div className="col-xs-12 col-sm-6 col-sm-offset-3">
 										<div className="bboxc1wrapmobile">
 											<div className="bboxc3">
 												<div className="contentbboxc1">
@@ -153,7 +154,7 @@ export default class Comp1 extends React.Component {
 						
 						</div>
 						<div className="col-xs-12 col-sm-12 ">
-							<div className="text1para1mobile col-xs-12 col-sm-12">
+							<div className="text1para1mobile col-xs-12 col-sm-8 col-sm-offset-2">
 								<div className="col-xs-12 col-sm-12">
 									<div className="txt1c"></div>
 									<div className="txt2c">Are you looking for a Job in IT Industry?</div>

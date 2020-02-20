@@ -8,8 +8,9 @@ import ContactUsForm      		from "../../blocks/ContactUsForm/ContactUsForm.js";
 import Footer      			    from "../../blocks/Footer/Footer.js";
 import Header      			    from "../../blocks/Header/Header.js";
 
+import $ from 'jquery';
+// import './ContactUs.css';
 
-				
 
 
 
@@ -17,10 +18,13 @@ export default class ContactUs extends React.Component {
 	constructor(props) {
 		super(props);
 	}
+componentDidMount(){
 
+}
 	render() {
 		return (
 			<div className="container-fluid" style={{padding:"0px"}}>
+				
 				<Header/>
 				<ContactUsBanner/>
 				{/*<AddressCUspage/>*/}

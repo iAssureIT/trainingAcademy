@@ -116,7 +116,7 @@ Submit(event){
         "email"         : this.state.email ,
         "subject"       : "Your Query/Feedback is sent successfully to www.iassureit.com!",
         "text"          : "", 
-        "mail"          : 'Dear' + this.state.name + ', <br/><br/>'+
+        "mail"          : 'Dear ' + this.state.name + ', <br/><br/>'+
                           
                           "<b>Your Email: </b>"  + this.state.email + '<br/><br/>'+
                           "Your following message has been successfully delivered to the admin! We will get back to you shortly. <br/> <br/> " + 
@@ -183,25 +183,25 @@ Submit(event){
 		const {formerrors} = this.state;
 		return (
 			<div className="container-fluid nopadding" >
-				<div className="col-lg-12 col-md-12 p49">
+				<div className="col-lg-12 col-md-12 col-xs-12 col-sm-12 p49">
 							<form className="" id="ContactUsForm">
-								<div className="col-lg-12 col-md-12 col-xs-12 col-sm-12 bt30 nopadding" >
-									<div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding" id="formname">
+								<div className="col-lg-12 col-md-12 col-xs-12 col-sm-12  nopadding" >
+									<div className="col-lg-12 col-md-12 col-sm-12 col-xs-12  bt30 nopadding" id="formname">
 										<input className="form-control" name="formname" type="text" ref="name" placeholder="Your name" value={this.state.name} onChange={this.handleChange.bind(this)}/>
 									</div>
 								</div>
-								<div className="col-lg-12 col-md-8 col-xs-12 col-sm-12 nopadding">
+								<div className="col-lg-12 col-md-12 col-xs-12 col-sm-12 nopadding">
 									 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 bt30 nopadding" id="formemail">
 										<input className="form-control" name="formemail" type="email" data-text="clientEmail" placeholder="Your@email.com" ref="email" value={this.state.email} onChange={this.handleChange.bind(this)}/>
 									 </div>
                 </div>
-									<div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 bt30 nopadding">
+									<div className="col-lg-12 col-md-12 col-sm-12 col-xs-12  nopadding">
                      <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 bt30 nopadding" id="subject">
 										  <input className="form-control" name="subject" type="text" placeholder="Subject" ref="Subject" value={this.state.Subject} onChange={this.handleChange.bind(this)} />
 								    </div>
                 </div>
-								<div className="col-lg-12 col-md-12 col-xs-12 col-sm-12  bt30 nopadding">
-									<div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding " id="message" >
+								<div className="col-lg-12 col-md-12 col-xs-12 col-sm-12   nopadding">
+									<div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 bt30 nopadding " id="message" >
 								      <textarea className="form-control" name="message" placeholder="How can we help?" rows="6" ref="message" value={this.state.message} onChange={this.handleChange.bind(this)} ></textarea>      
 									</div>
 								</div>

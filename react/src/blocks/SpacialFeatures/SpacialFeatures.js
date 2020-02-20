@@ -135,66 +135,66 @@ export default class SpacialFeatures extends React.Component {
 				<div className="col-xs-12 col-sm-12 hidden-lg hidden-md">
 					<div className="mtop25">
 					  	
-						<div className="col-xs-12 col-sm-12">
+						<div className="col-xs-12  col-sm-10 col-sm-offset-1">
 							<div className="text-center">
 								{/*<div>ALL IVY SCHOOL, ALL THE TIME</div>*/}
 								<div className="ocTitle newocTitle">Special Features of This Program</div>
 							</div>
-						</div>
-						<div className="col-xs-12 col-sm-12">
-						 	<div className="col-xs-12 col-sm-12 NOpadding">
+							</div>
+							<div className="col-xs-12 col-sm-8 col-sm-offset-2">
+							 	<div className="col-xs-12 col-sm-12 NOpadding">
+								 {
+				                	data && data.length > 0 ?
+						      		data.map((data, index)=>{
+			                	   return(
+									    <div className="col-xs-12 col-sm-12 ht185 NOpadding">
+									    	<div className="col-xs-4 col-sm-4 col-xs-offset-5 col-sm-offset-5 iconcircle">
+												<img src="/img/laptop.png" className="featureicon"/>
+												{/*<i className="fa fa-certificate featureicon" aria-hidden="true"></i>*/}
+											</div>
+											<div className="col-xs-12 col-sm-12 eachdiv text-center">
+												<div className="col-xs-12 col-sm-12 NOpadding">
+													<h3 className="featuretitle featuretitleleft ">{data.featureTitle}</h3>
+												</div> 
+												<div className="">
+													<p className="featuretextmobile">{data.featureText}</p>
+												</div>
+											</div>
+										</div>	
+									);
+			                   	  })
+						      		:
+						      		null
+			                     }
+		                     	</div>
+			                    <div className="col-xs-12 col-sm-12">
+			                        <img src="/img/block4.png" className=""/>
+			                    </div>
+		                    <div className="col-xs-12 col-sm-12 NOpadding">
 							 {
-			                	data && data.length > 0 ?
-					      		data.map((data, index)=>{
+			                	data1 && data1.length > 0 ?
+					      		data1.map((data1, index)=>{
 		                	   return(
 								    <div className="col-xs-12 col-sm-12 ht185 NOpadding">
-								    	<div className="col-xs-4 col-sm-4 col-xs-offset-5 col-sm-offset-5 iconcircle">
-											<img src="/img/laptop.png" className="featureicon"/>
-											{/*<i className="fa fa-certificate featureicon" aria-hidden="true"></i>*/}
-										</div>
+									    <div className="col-xs-4 col-sm-4 col-xs-offset-5 col-sm-offset-5 iconcircle">
+									    	<img src="/img/laptop.png" className="featureicon"/>
+									    </div>
 										<div className="col-xs-12 col-sm-12 eachdiv text-center">
 											<div className="col-xs-12 col-sm-12 NOpadding">
-												<h3 className="featuretitle featuretitleleft ">{data.featureTitle}</h3>
+												<h3 className="featuretitle  col-lg-9 NOpadding">{data1.featureTitle}</h3>
 											</div> 
 											<div className="">
-												<p className="featuretextmobile">{data.featureText}</p>
+												<p className="featuretextmobile">{data1.featureText}</p>
 											</div>
 										</div>
-									</div>	
+		                            </div>
+								
 								);
 		                   	  })
 					      		:
 					      		null
 		                     }
-	                     	</div>
-	                    <div className="col-xs-12 col-sm-12">
-	                        <img src="/img/block4.png" className=""/>
-	                    </div>
-	                    <div className="col-xs-12 col-sm-12 NOpadding">
-						 {
-		                	data1 && data1.length > 0 ?
-				      		data1.map((data1, index)=>{
-	                	   return(
-							    <div className="col-xs-12 col-sm-12 ht185 NOpadding">
-								    <div className="col-xs-4 col-sm-4 col-xs-offset-5 col-sm-offset-5 iconcircle">
-								    	<img src="/img/laptop.png" className="featureicon"/>
-								    </div>
-									<div className="col-xs-12 col-sm-12 eachdiv text-center">
-										<div className="col-xs-12 col-sm-12 NOpadding">
-											<h3 className="featuretitle  col-lg-9 NOpadding">{data1.featureTitle}</h3>
-										</div> 
-										<div className="">
-											<p className="featuretextmobile">{data1.featureText}</p>
-										</div>
-									</div>
-	                            </div>
-							
-							);
-	                   	  })
-				      		:
-				      		null
-	                     }
-	                     </div>
+		                     </div>
 						</div>
 			
 					</div>

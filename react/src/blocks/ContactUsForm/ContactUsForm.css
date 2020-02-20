@@ -48,3 +48,12 @@
 .nopadding{
     padding: 0px;
 }
+.lable{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    position: relative !important;
+    top: -9px !important;
+    /* margin-top: -9px; */
+    font-weight: 700;
+}

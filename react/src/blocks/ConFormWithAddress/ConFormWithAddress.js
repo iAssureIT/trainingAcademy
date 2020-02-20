@@ -102,13 +102,13 @@ export default class ConFormWithAddress extends React.Component {
 
             	<div className="ContactWrapmobile hidden-lg hidden-md">
 	                <div className="">
-	                    <div className="col-md-12 col-lg-12">
+	                    <div className="col-xs-12 col-sm-12">
 	                        <div className="section-title">
 	                           
 	                        </div>
 	                    </div>
-	               		<div className="col-lg-12 col-md-12 formwrap">
-	               			<div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 lg4">
+	               		<div className="formwrap">
+	               			<div className="col-sm-5 col-xs-12 lg4">
 	               				<div className="col-lg-12 h133" id="LocationBox">
 	               					<div className="row">
 	               						<div className="col-xs-3">
@@ -163,7 +163,7 @@ export default class ConFormWithAddress extends React.Component {
 	               					</div>
 	               				</div>
 	               			</div>
-	               			<div className="col-xs-12 col-sm-12 lg8">
+	               			<div className="col-xs-12 col-sm-7 lg8">
 	               				<div className="col-xs-12 col-sm-12 h460 nopadding">
 	               					<ContactUsForm/>
 	               				</div>

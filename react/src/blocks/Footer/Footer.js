@@ -34,7 +34,7 @@ class Footer extends Component {
                   <div className="f1CourseRegBoxa">
                     <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12">
                       <div className="cboxtxt">
-                      Start mastering your Skills.
+                      Start Mastering Your Skills.
                       </div>
                     </div>
                     <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12">
@@ -68,9 +68,9 @@ class Footer extends Component {
             <div className="col-sm-12 col-xs-12 hidden-lg hidden-md nopadd">
               <div className="col-sm-12 col-xs-12 nopadd">
                   <div className="f1CourseRegBoxaMobile">
-                    <div className="col-sm-12 col-xs-12">
+                    <div className="col-sm-10 col-sm-offset-1 col-xs-12">
                       <div className="cboxtxtmobile">
-                      Start mastering your courses! Try now for free
+                      Start Mastering Your courses !
                       </div>
                     </div>
                     <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12">

@@ -32,7 +32,7 @@ return (
 		<div className="container-fluid HomepageBannermobile hidden-lg hidden-md" style={{padding:"0px"}}>
 			<div className="bg">
 				<div className="col-xs-12 col-sm-12 nopadding">
-					<div className="col-xs-12 col-sm-12">
+					<div className="col-xs-12 col-sm-10 col-sm-offset-1">
 
 						<div className="whtcolr btitle1mobile">
 							<span className="super30txtmobile">Super-30</span> <br/>Fullstack Developer<br/><span className="super30txt2">Training Program</span>
@@ -42,7 +42,7 @@ return (
 						</div>
 						{/*<div className="bannerbtn">VIEW OUR COURSES</div>*/}
 					</div>
-					<div className="col-xs-12 col-sm-12">
+					<div className="col-xs-12 col-sm-10 col-sm-offset-1">
 						<img src="/img/side03.png" className="side1imgMobile" alt="side1img"/>
 					</div>
 				</div>
